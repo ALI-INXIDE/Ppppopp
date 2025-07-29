@@ -1,8 +1,8 @@
 {
-  "name": "ALI-MD",
-  "description": "Javascript WhatsApp bot made by ali",
+  "name": "ADEEL-MD",
+  "description": "Javascript WhatsApp bot made by ADEEL",
   "logo": "https://files.catbox.moe/6ku0eo.jpg",
-  "keywords": ["ALI-MD"],
+  "keywords": ["ADEEL-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -17,7 +17,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𓆩ု᪳𝐀ɭīī 𝐌Ɗှ᪳𓆪"
+      "value": "𓆩ADEEL 𝐌Ɗ𓆪"
     }, 
       
     "PREFIX": {
@@ -90,14 +90,14 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "𓆩ု᪳𝐀ɭīī 𝐌Ɗှ᪳𓆪"
+      "value": "𓆩ADEEL MD𓆪"
 
       }, 
 
     "DESCRIPTION": {
       "description": "Type here the bot description name.",
       "required": false,
-      "value": "© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀"
+      "value": "© BY ADEEL-md⎯꯭̽💀"
 
       }, 
     

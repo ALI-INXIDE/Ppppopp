@@ -1,5 +1,5 @@
 {
-  "name": "ALI-MD",
+  "name": "ADEEL-MD",
   "version": "5.0.0",
   "description": "NOT THE BEST BOT IN THE UNIVERSE, BUT ENJOYMENT US PROMISING",
   "main": "index.js",
@@ -8,9 +8,9 @@
     "npm": ">=10.x"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ALI-MD",
-    "stop": "pm2 stop ALI-MD",
-    "restart": "pm2 restart ALI-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ADEEL-MD",
+    "stop": "pm2 stop ADEEL-MD",
+    "restart": "pm2 restart ADEEL-MD"
   },
   "dependencies": {
     "baileys": "github:EdderBot02/bail",
