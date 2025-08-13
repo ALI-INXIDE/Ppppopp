@@ -1,7 +1,7 @@
-const { File } = require("megajs"),
-const { https } = require("follow-redirects"),
-const unzipper = require("unzipper"),
-const { gmd, config, getBuffer, monospace, sleep, commands } = require('../lib'), 
+const { File } = require("megajs");
+const { https } = require("follow-redirects");
+const unzipper = require("unzipper");
+const { gmd, config, getBuffer, monospace, sleep, commands } = require('../lib');
       { BOT_PIC: botPic, 
        BOT_NAME: botName, 
        MODE: botMode, 
