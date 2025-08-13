@@ -1,4 +1,4 @@
-const { gmd, config, getBuffer, monospace, sleep, commands } = require('../gift'), 
+const { gmd, config, getBuffer, monospace, sleep, commands } = require('../lib'), 
       { BOT_PIC: botPic, 
        BOT_NAME: botName, 
        MODE: botMode, 
