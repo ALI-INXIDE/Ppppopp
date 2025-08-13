@@ -13,8 +13,30 @@ const { exec } = require("child_process"),
       MODE: botMode, 
       VERSION: version,
       PREFIX: prefix, 
+      TIME_ZONE: tz } = config, 
+    moment = require("moment-timezone"),
     more = String.fromCharCode(8206),
     readmore = more.repeat(4001);
+
+const byteToKB = 1 / 1024;
+const byteToMB = byteToKB / 1024;
+const byteToGB = byteToMB / 1024;
+
+function formatBytes(bytes) {
+    if (bytes >= Math.pow(1024, 3)) {
+        return (bytes * byteToGB).toFixed(2) + " GB";
+    } else if (bytes >= Math.pow(1024, 2)) {
+        return (bytes * byteToMB).toFixed(2) + " MB";
+    } else if (bytes >= 1024) {
+        return (bytes * byteToKB).toFixed(2) + " KB";
+    } else {
+        return bytes.toFixed(2) + " bytes";
+    }
+}
+
+const totalMemoryBytes = os.totalmem();
+const freeMemoryBytes = os.freemem();
+const ram = `${formatBytes(freeMemoryBytes)}/${formatBytes(totalMemoryBytes)}`;
 
 gmd({
     pattern: "allvar",
