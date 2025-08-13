@@ -1,3 +1,6 @@
+const { File } = require("megajs");
+const { https } = require("follow-redirects");
+const unzipper = require("unzipper");
 const { gmd, config, getBuffer, monospace, sleep, commands } = require('../lib'), 
       { BOT_PIC: botPic, 
        BOT_NAME: botName, 
@@ -9,6 +12,10 @@ const { gmd, config, getBuffer, monospace, sleep, commands } = require('../lib')
        OWNER_NUMBER: waid } = config, 
       { totalmem: totalMemoryBytes, 
       freemem: freeMemoryBytes } = require('os'), 
+      path = require("path"),
+      fs = require("fs"),
+      axios = require("axios"),
+      AdmZip = require("adm-zip");
       fs = require('fs'), 
       axios = require('axios'), 
       moment = require('moment-timezone'), 
