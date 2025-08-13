@@ -13,7 +13,6 @@ const { exec } = require("child_process"),
       MODE: botMode, 
       VERSION: version,
       PREFIX: prefix, 
-    moment = require("moment-timezone"),
     more = String.fromCharCode(8206),
     readmore = more.repeat(4001);
 
