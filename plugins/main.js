@@ -136,7 +136,7 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
 ╰───────────────────⊷${readmore}\n`;
 
         const formatCategory = (category, gmds) => {
-    const title = `\`『 *${monospace(category.toUpperCase())}* 』\`\n╭───────────────────⊷\n`;
+    const title = `\`『 ${monospace(category.toUpperCase())} 』\`\n╭───────────────────⊷\n`;
     const body = gmds.map(gmd => `*┋ ⬡ ${smallCaps(gmd)}*`).join('\n');
     const footer = `╰───────────────────⊷`;
     return `${title}${body}\n${footer}`;
