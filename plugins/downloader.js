@@ -65,13 +65,18 @@ gmd({
 },
 async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, pushname, reply }) => {
     try {
-       let gift = {
-    key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
-    message: {
-      contactMessage: {
-        displayName: `� GlobalTechInfo`,
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'ALI-MD'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
-      }
+        // Contact-style quote
+        let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
             }
         };
         function formatUptime(seconds) {
@@ -125,7 +130,7 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
 ╰───────────────────⊷${readmore}\n`;
 
         const formatCategory = (category, gmds) => {
-    const title = `\`『 *${monospace(category.toUpperCase())}* 』\`\n╭───────────────────⊷\n`;
+    const title = `\`『 ${monospace(category.toUpperCase())} 』\`\n╭───────────────────⊷\n`;
     const body = gmds.map(gmd => `*┋ ⬡ ${smallCaps(gmd)}*`).join('\n');
     const footer = `╰───────────────────⊷`;
     return `${title}${body}\n${footer}`;
@@ -157,7 +162,64 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
         reply(`${e}`);
     }
 });
+gmd({
+    pattern: "ping",
+    alias: ["speed","pong"],
+    desc: "Check Bot's Response Speed.",
+    category: "general",
+    react: "⚡",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, isOwner, reply }) => {
+    try {
+        const startTime = Date.now(); // Start timer
 
+        // Contact-style quote
+        let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+            }
+        };
+
+        // Do a small async task so ping isn't 0 ms
+        await new Promise(resolve => setTimeout(resolve, 50));
+
+        // Random emoji
+        const emojis = ['🎯','🔥','🔮','🌩️','👻','🍁','🐍','🎋','🎐','🪸','📍','👑','🌀','🪄','🪀','🪂','⚡️','🚀','🏎️','🚁','🌀','📟','🎲','✨'];
+        const randomEmojix = emojis[Math.floor(Math.random() * emojis.length)];
+
+        // Calculate ping after delay
+        const ping = Date.now() - startTime;
+
+        // Send final ping message
+        await Gifted.sendMessage(from, {
+            text: `*𝐏๏፝֟ƞ̽g: ${ping} 𝐌ʂ ${randomEmojix}*`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: false,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363420122180789@newsletter',
+                    newsletterName: "ALI-MF",
+                    serverMessageId: 143
+                }
+            }
+        }, { quoted: gift });
+
+        await m.react("✅");
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
+});
 gmd({
     pattern: "list",
     alias: ["listmenu"],
@@ -176,12 +238,8 @@ async (Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender,
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
-                        m.sender.split("@")[0]
-                    }:${
-                        m.sender.split("@")[0]
-                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
         };
@@ -249,7 +307,7 @@ async (Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender,
           }
         }
       };
-      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+      await Gifted.sendMessage(from, giftedMess, { quoted: gift });
 await m.react("✅");
     } catch (e) {
         console.error(e);
@@ -276,12 +334,8 @@ async (Gifted, mek, m, { from, quoted, sender, pushname, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
-                        m.sender.split("@")[0]
-                    }:${
-                        m.sender.split("@")[0]
-                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
         };
@@ -354,7 +408,7 @@ async (Gifted, mek, m, { from, quoted, sender, pushname, reply }) => {
           }
         }
       };
-      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+      await Gifted.sendMessage(from, giftedMess, { quoted: gift });
       await m.react("✅");
     } catch (e) {
         console.error(e);
@@ -425,12 +479,8 @@ const response = await axios.get(global.giftedApiRepo);
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
-                        m.sender.split("@")[0]
-                    }:${
-                        m.sender.split("@")[0]
-                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
         };
@@ -448,7 +498,7 @@ const response = await axios.get(global.giftedApiRepo);
           }
         }
       };
-      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+      await Gifted.sendMessage(from, giftedMess, { quoted: gift });
 await m.react("✅");
 }catch(e){
 console.log(e)
@@ -456,49 +506,6 @@ reply(`${e}`)
 }
 })
 
-
-
-gmd({
-    pattern: "ping",
-    alias: ["speed","pong"],use: '.ping',
-    desc: "Check bot's response time.",
-    category: "general",
-    react: "⚡",
-    filename: __filename
-},
-async (Gifted, mek, m, { from, quoted, sender, reply }) => {
-    try {
-        const start = new Date().getTime();
-
-        const reactionEmojis = ['🔥', '⚡', '🚀', '💨', '🎯', '🎉', '🌟', '💥', '🕐', '👑', '💸', '🍹', '🧸', '🔹'];
-        const textEmojis = ['💎', '🏆', '⚡️', '🚀', '🎶', '🌠', '🌀', '🔱', '🛡️', '✨'];
-
-        const reactionEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
-        let textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
-
-        // Ensure reaction and text emojis are different
-        while (textEmoji === reactionEmoji) {
-            textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
-        }
-
-        // Send reaction using Gifted.sendMessage()
-        await Gifted.sendMessage(from, {
-            react: { text: textEmoji, key: mek.key }
-        });
-
-        const end = new Date().getTime();
-        const responseTime = (end - start) / 1000;
-
-        const text = `*${reactionEmoji} 𝐏๏፝֟ƞ̽g: ${responseTime.toFixed(2)} 𝐌ʂ*`;
-
-        await Gifted.sendMessage(from, {
-            text}, { quoted: mek });
-
-    } catch (e) {
-        console.error("Error in ping command:", e);
-        reply(`An error occurred: ${e.message}`);
-    }
-})
 
 gmd({
   pattern: "owner",
@@ -509,7 +516,6 @@ gmd({
 },
 async(Gifted, mek, m,{from, quoted, isOwner, reply}) => {
 try{
-if (!isOwner) return reply("*Owner Only Command*");
 const vcard = 'BEGIN:VCARD\n'
           + 'VERSION:3.0\n' 
           + `FN:${config.OWNER_NAME}\n` 
@@ -523,7 +529,7 @@ const vcard = 'BEGIN:VCARD\n'
           displayName, 
           contacts: [{ vcard }] 
       }
-  }, { quoted: mek }
+  }, { quoted: gift }
 );
 await m.react("✅");
 }catch(e){
@@ -558,12 +564,8 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
-                        m.sender.split("@")[0]
-                    }:${
-                        m.sender.split("@")[0]
-                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
         };
@@ -592,7 +594,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
           }
         }
       };
-      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+      await Gifted.sendMessage(from, giftedMess, { quoted: gift });
       await m.react("✅"); 
     } catch (e) {
         console.log(e)
@@ -622,12 +624,8 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
-                        m.sender.split("@")[0]
-                    }:${
-                        m.sender.split("@")[0]
-                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
         };
@@ -653,7 +651,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         }
       }
     };
-    await Gifted.sendMessage(from, giftedMess, { quoted: mek }); 
+    await Gifted.sendMessage(from, giftedMess, { quoted: gift }); 
     await m.react("✅"); 
 } catch (e) {
         console.log(e)
@@ -684,12 +682,8 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
-                        m.sender.split("@")[0]
-                    }:${
-                        m.sender.split("@")[0]
-                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
         };
@@ -706,7 +700,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         }
       }
     };
-    await Gifted.sendMessage(from, giftedMess, { quoted: mek}); 
+    await Gifted.sendMessage(from, giftedMess, { quoted: gift}); 
     await m.react("✅"); 
 } catch (e) {
         console.log(e)
