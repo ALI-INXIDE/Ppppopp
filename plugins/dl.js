@@ -119,3 +119,49 @@ gmd({
     await Gifted.sendMessage(from, { react: { text: '❌', key: m.key } });
   }
 });
+gmd({ 
+    pattern: "play", 
+    alias: ["yta", "audio"], 
+    react: "🎧", 
+    desc: "Download YouTube song", 
+    category: "download", 
+    use: '.song <query>', 
+    filename: __filename 
+}, async (Gifted, mek, m, { from, sender, reply, q }) => { 
+    try {
+        if (!q) return reply("*𝐏ℓєα𝐬֟፝є 𝐏ʀ๏νιɖє 𝐀 𝐒๏ƞ͛g 𝐍αмє..*");
+
+        const yt = await ytsearch(q);
+        if (!yt.results.length) return reply("No results found!");
+
+        const song = yt.results[0];
+        const apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(song.url)}`;
+        
+        const res = await fetch(apiUrl);
+        const data = await res.json();
+
+        if (!data?.result?.downloadUrl) return reply("Download failed. Try again later.");
+
+    await Gifted.sendMessage(from, {
+    audio: { url: data.result.downloadUrl },
+    mimetype: "audio/mpeg",
+    fileName: `${song.title}.mp3`,
+    contextInfo: {
+        externalAdReply: {
+            title: song.title.length > 25 ? `${song.title.substring(0, 22)}...` : song.title,
+            body: "⇆  ||◁◁ㅤ ❚❚ ㅤ▷▷||ㅤ ⇆",
+            mediaType: 1,
+            thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
+            sourceUrl: 'https://youtube.com/watch?v=OMoU0Pfibc4',
+            mediaUrl: 'https://youtube.com/watch?v=OMoU0Pfibc4',
+            showAdAttribution: true,
+            renderLargerThumbnail: false
+        }
+    }
+}, { quoted: mek });
+
+    } catch (error) {
+        console.error(error);
+        reply("An error occurred. Please try again.");
+    }
+});
