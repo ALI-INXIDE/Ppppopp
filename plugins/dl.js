@@ -6,6 +6,7 @@ const { gmd, config, commands, fetchJson, getBuffer, GiftedApkDl } = require('..
       GIFTED_DLS = require('gifted-dls'), 
       gifted = new GIFTED_DLS();
       yts = require('yt-search');
+ytsearch  = require('@dark-yasiya/yt-dl.js');
 
                     
 gmd({
