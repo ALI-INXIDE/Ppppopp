@@ -147,11 +147,11 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
             newsletterJid: '120363318387454868@newsletter',
                         newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
             serverMessageId: 143
-                }
-            }
-        }, { quoted: gift });
-
-        await m.react("✅");
+          }
+        }
+      };
+      await Gifted.sendMessage(from, giftedMess, { quoted: gift });
+      await m.react("✅");
     } catch (e) {
         console.log(e);
         reply(`${e}`);
