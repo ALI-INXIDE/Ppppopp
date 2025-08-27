@@ -165,7 +165,7 @@ gmd({
         reply("An error occurred. Please try again.");
     }
 });
-cmd({ 
+gmd({ 
     pattern: "sg", 
     alias: ["ytdl3", "song"], 
     react: "🎶", 
