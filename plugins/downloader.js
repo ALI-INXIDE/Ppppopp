@@ -1,242 +1,746 @@
-const { gmd, config, commands, fetchJson, getBuffer, GiftedApkDl } = require('../lib'), 
-      { PREFIX: prefix } = config, 
-      axios = require('axios'),
-      fs = require('fs'),
-      ffmpeg = require('fluent-ffmpeg'),
-      GIFTED_DLS = require('gifted-dls'), 
-      gifted = new GIFTED_DLS();
-      yts = require('yt-search');
+const { gmd, config, getBuffer, monospace, sleep, commands } = require('../lib'), 
+      { BOT_PIC: botPic, 
+       BOT_NAME: botName, 
+       MODE: botMode, 
+       VERSION: version,
+       PREFIX: prefix, 
+       TIME_ZONE: tz, 
+       OWNER_NAME: displayName, 
+       OWNER_NUMBER: waid } = config, 
+      { totalmem: totalMemoryBytes, 
+      freemem: freeMemoryBytes } = require('os'), 
+      fs = require('fs'), 
+      axios = require('axios'), 
+      moment = require('moment-timezone'), 
+      more = String.fromCharCode(8206), 
+      readmore = more.repeat(4001);
 
-                    
+const byteToKB = 1 / 1024;
+const byteToMB = byteToKB / 1024;
+const byteToGB = byteToMB / 1024;
+
+function formatBytes(bytes) {
+  if (bytes >= Math.pow(1024, 3)) {
+    return (bytes * byteToGB).toFixed(2) + ' GB';
+  } else if (bytes >= Math.pow(1024, 2)) {
+    return (bytes * byteToMB).toFixed(2) + ' MB';
+  } else if (bytes >= 1024) {
+    return (bytes * byteToKB).toFixed(2) + ' KB';
+  } else {
+    return bytes.toFixed(2) + ' bytes';
+  }
+    }
+const ram = `${formatBytes(freeMemoryBytes)}/${formatBytes(totalMemoryBytes)}`;
+
+
+function smallCaps(text) {
+
+  const smallCapsMap = {
+
+    a: 'ᴀ', b: 'ʙ', c: 'ᴄ', d: 'ᴅ', e: 'ᴇ', f: 'ғ',
+
+    g: 'ɢ', h: 'ʜ', i: 'ɪ', j: 'ᴊ', k: 'ᴋ', l: 'ʟ',
+
+    m: 'ᴍ', n: 'ɴ', o: 'ᴏ', p: 'ᴘ', q: 'ǫ', r: 'ʀ',
+
+    s: 's', t: 'ᴛ', u: 'ᴜ', v: 'ᴠ', w: 'ᴡ', x: 'x',
+
+    y: 'ʏ', z: 'ᴢ'
+
+  };
+
+  return text.toLowerCase().split('').map(c => smallCapsMap[c] || c).join('');
+
+}
+
+
+
 gmd({
-  pattern: "video",
-  alias: ["ytmp4", "videodl", "videodoc", "ytmp4doc", "ytmp4dl"],
-  desc: "Download Youtube Videos(mp4)",
-  category: "downloader",
-  react: "📽",
+    pattern: "menu",
+    alias: ["help", "helpmenu"],
+    desc: "Shows Bot Menu List",
+    react: "🪀",
+    category: "general",
+    filename: __filename
+},
+async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, pushname, reply }) => {
+    try {
+       let header = {
+    key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
+    message: {
+      contactMessage: {
+        displayName: `� GlobalTechInfo`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'ALI-MD'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+      },
+    },
+  }
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        const now = new Date();
+        const date = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+        }).format(now);
+
+        const time = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        }).format(now);
+
+        const uptime = formatUptime(process.uptime());
+        const totalCommands = commands.filter((command) => command.pattern).length;
+
+        const categorized = commands.reduce((menu, gmd) => {
+            if (gmd.pattern && !gmd.dontAddCommandList) {
+                if (!menu[gmd.category]) menu[gmd.category] = [];
+                menu[gmd.category].push(gmd.pattern);
+            }
+            return menu;
+        }, {});
+   
+                let header = `
+╭┈───〔 *${monospace(botName)}* 〕┈───⊷
+│ 🫟 *ᴍᴏᴅᴇ* : ${monospace(botMode)}
+│ 🪄 *ᴘʀᴇғɪx* : ${monospace(prefix)}
+│ 🇦🇱 *ᴜsᴇʀ* : ${monospace(pushname)}
+│ ⛲ *ᴘʟᴜɢɪɴs* : ${monospace(totalCommands.toString())}
+│ 🎐 *ᴠᴇʀsɪᴏɴ* : ${monospace(version)}
+│ 🎗️ *ᴛɪᴍᴇ ɴᴏᴡ* : ${monospace(time)}
+│ 📆 *ᴅᴀᴛᴇ ᴛᴏᴅᴀʏ* : ${monospace(date)}
+│ 🌏 *ᴛɪᴍᴇ ᴢᴏɴᴇ* : ${monospace(tz)}
+│ 🏓 *sᴇʀᴠᴇʀ* : ${monospace(ram)}
+╰───────────────────⊷${readmore}\n`;
+
+        const formatCategory = (category, gmds) => {
+    const title = `\`『 *${monospace(category.toUpperCase())}* 』\`\n╭───────────────────⊷\n`;
+    const body = gmds.map(gmd => `*┋ ⬡ ${smallCaps(gmd)}*`).join('\n');
+    const footer = `╰───────────────────⊷`;
+    return `${title}${body}\n${footer}`;
+};
+
+        let menu = header;
+        for (const [category, gmds] of Object.entries(categorized)) {
+            menu += formatCategory(category, gmds) + '\n';
+        }
+        
+    const giftedMess = {
+        image: { url: botPic },
+        caption: menu.trim(),
+        contextInfo: {
+          mentionedJid: [m.sender],
+          forwardingScore: 5,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+            serverMessageId: 143
+          }
+        }
+      };
+      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+      await m.react("✅");
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
+});
+
+gmd({
+    pattern: "list",
+    alias: ["listmenu"],
+    desc: "Show All Commands and their Usage",
+    react: "📜",
+    category: "general",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, pushname, reply }) => {
+    try {
+      let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
+                        m.sender.split("@")[0]
+                    }:${
+                        m.sender.split("@")[0]
+                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+            }
+        };
+
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        const now = new Date();
+        const date = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+        }).format(now);
+
+        const time = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        }).format(now);
+
+        const uptime = formatUptime(process.uptime());
+        const totalCommands = commands.filter((command) => command.pattern).length;
+
+        let list =  `
+╭┈───〔 *${monospace(botName)}* 〕┈───⊷
+│ 🫟 *ᴍᴏᴅᴇ* : ${monospace(botMode)}
+│ 🪄 *ᴘʀᴇғɪx* : ${monospace(prefix)}
+│ 🇦🇱 *ᴜsᴇʀ* : ${monospace(pushname)}
+│ ⛲ *ᴘʟᴜɢɪɴs* : ${monospace(totalCommands.toString())}
+│ 🎐 *ᴠᴇʀsɪᴏɴ* : ${monospace(version)}
+│ ⏰ *ᴜᴘᴛɪᴍᴇ* : ${monospace(uptime)}
+│ 🎗️ *ᴛɪᴍᴇ ɴᴏᴡ* : ${monospace(time)}
+│ 📆 *ᴅᴀᴛᴇ ᴛᴏᴅᴀʏ* : ${monospace(date)}
+│ 🌏 *ᴛɪᴍᴇ ᴢᴏɴᴇ* : ${monospace(tz)}
+│ 🏓 *sᴇʀᴠᴇʀ* : ${monospace(ram)}
+╰───────────────────⊷${readmore}\n`;
+
+        commands.forEach((gmd, index) => {
+            if (gmd.pattern && gmd.desc) {
+                list += `*${index + 1} ${monospace(gmd.pattern)}*\n  ${gmd.desc}\n`;
+            }
+        });
+
+        const giftedMess = {
+        image: { url: botPic },
+        caption: list.trim(),
+        contextInfo: {
+          mentionedJid: [m.sender],
+          forwardingScore: 5,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+            serverMessageId: 143
+          }
+        }
+      };
+      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+await m.react("✅");
+    } catch (e) {
+        console.error(e);
+        reply(`${e}`);
+    }
+});
+
+
+gmd({
+    pattern: "menus",
+    alias: ["allmenu", "listmenu"],
+    desc: "Display Bot's Uptime, Date, Time, and Other Stats",
+    react: "📜",
+    category: "general",
+    filename: __filename,
+}, 
+async (Gifted, mek, m, { from, quoted, sender, pushname, reply }) => {
+    try {
+      let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
+                        m.sender.split("@")[0]
+                    }:${
+                        m.sender.split("@")[0]
+                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+            }
+        };
+        
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        const now = new Date();
+        const date = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+        }).format(now);
+
+        const time = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true,
+        }).format(now);
+
+        const uptime = formatUptime(process.uptime());
+        const memoryUsed = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2);
+        const memoryTotal = (process.memoryUsage().heapTotal / 1024 / 1024).toFixed(2);
+
+        let menus = `
+*🦄 Uᴘᴛɪᴍᴇ :* ${monospace(uptime)}
+*🍁 Dᴀᴛᴇ Tᴏᴅᴀʏ:* ${monospace(date)}
+*🎗 Tɪᴍᴇ Nᴏᴡ:* ${monospace(time)}
+
+➮Fᴏᴜɴᴅᴇʀ - Ali Tech
+➮Usᴇʀ - ${monospace(pushname)}
+➮Nᴜᴍ - ${monospace(waid)} 
+➮Mᴇᴍᴏʀʏ - ${monospace(ram)}
+
+*🧑‍💻 :* ${monospace(botName)} Iꜱ Aᴠᴀɪʟᴀʙʟᴇ
+
+╭──❰ *ALL MENU* ❱
+│🎀 Lɪꜱᴛ
+│🎀 Cᴀᴛᴇɢᴏʀʏ
+│🎀 Hᴇʟᴘ
+│🎀 Aʟɪᴠᴇ
+│🎀 Uᴘᴛɪᴍᴇ
+│🎀 Wᴇᴀᴛʜᴇʀ
+│🎀 Lɪɴᴋ
+│🎀 Cᴘᴜ
+│🎀 Rᴇᴘᴏꜱɪᴛᴏʀʏ
+╰─────────────⦁`;
+
+      const giftedMess = {
+        image: { url: botPic },
+        caption: menus.trim(),
+        contextInfo: {
+          mentionedJid: [m.sender],
+          forwardingScore: 5,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363318387454868@newsletter',
+             newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+            serverMessageId: 143
+          }
+        }
+      };
+      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+      await m.react("✅");
+    } catch (e) {
+        console.error(e);
+        reply(`${e}`);
+    }
+});
+
+
+gmd({
+    pattern: "report",
+    alias: ["request"],
+    react: '💫',
+    desc: "Request New Features.",
+    category: "owner",
+    use: '.request',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+const reportedMessages = {};
+const devlopernumber = '923197521693';
+try{
+const isCreator = [botNumber, config.OWNER_NUMBER + '@s.whatsapp.net'].includes(sender);
+  if (!isOwner) return reply("*Owner Only Command*");
+  if (!q) return reply(`Example: ${prefix}request hi dev downloaders commands are not working`);
+    const messageId = mek.key.id;
+    if (reportedMessages[messageId]) {
+        return reply("This report has already been forwarded to the owner. Please wait for a response.");
+    }
+    reportedMessages[messageId] = true;
+    const textt = `*| REQUEST/REPORT |*`;
+    const teks1 = `\n\n*User*: @${sender.split("@")[0]}\n*Request:* ${q}`;
+    const teks2 = `\n\n*Hi ${pushname}, your request has been forwarded to my Owners.*\n*Please wait...*`;
+    Gifted.sendMessage(devlopernumber + "@s.whatsapp.net", {
+        text: textt + teks1,
+        mentions: [m.sender],
+    }, {
+        quoted: mek,
+    });
+    reply("Tʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ʏᴏᴜʀ ʀᴇᴘᴏʀᴛ. Iᴛ ʜᴀs ʙᴇᴇɴ ꜰᴏʀᴡᴀʀᴅᴇᴅ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ. Pʟᴇᴀsᴇ ᴡᴀɪᴛ ꜰᴏʀ ᴀ ʀᴇsᴘᴏɴsᴇ.");
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+
+  gmd({
+    pattern: "repo",
+    alias: ["sc", "script", "botrepo"],
+    desc: "Repo/Script of the Bot",
+    category: "general",
+    react: "🌟",
+    filename: __filename
+},
+
+async(Gifted, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+const response = await axios.get(global.giftedApiRepo);
+    const repoData = response.data;
+    const { full_name, name, forks_count, stargazers_count, created_at, updated_at, owner } = repoData;
+    const messageText = `╭─────────────────⳹\n│ *🎗️ ɴᴀᴍᴇ:* ALI-MD\n│ *⭐ sᴛᴀʀs:* 254\n│ *🧩 ғᴏʀᴋs:* 1226\n│ *🧮 ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:* 3/14/2025\n│ *📮 ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* 8/5/2025\n│ *👑 ᴏᴡɴᴇʀ:* ALI INXIDE\n╰─────────────────⳹\n*ʀᴇᴘᴏ ʟɪɴᴋ:* https://github.com/itx-alii-raza/ALI-MD\n\n*sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*`;
+    let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
+                        m.sender.split("@")[0]
+                    }:${
+                        m.sender.split("@")[0]
+                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+            }
+        };
+    const giftedMess = {
+        image: { url: botPic },
+        caption: messageText,
+        contextInfo: {
+          mentionedJid: [m.sender],
+          forwardingScore: 5,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363318387454868@newsletter',
+             newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+            serverMessageId: 143
+          }
+        }
+      };
+      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+await m.react("✅");
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
+
+
+
+gmd({
+    pattern: "ping",
+    alias: ["speed","pong"],use: '.ping',
+    desc: "Check bot's response time.",
+    category: "general",
+    react: "⚡",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, sender, reply }) => {
+    try {
+        const start = new Date().getTime();
+
+        const reactionEmojis = ['🔥', '⚡', '🚀', '💨', '🎯', '🎉', '🌟', '💥', '🕐', '👑', '💸', '🍹', '🧸', '🔹'];
+        const textEmojis = ['💎', '🏆', '⚡️', '🚀', '🎶', '🌠', '🌀', '🔱', '🛡️', '✨'];
+
+        const reactionEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
+        let textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
+
+        // Ensure reaction and text emojis are different
+        while (textEmoji === reactionEmoji) {
+            textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
+        }
+
+        // Send reaction using Gifted.sendMessage()
+        await Gifted.sendMessage(from, {
+            react: { text: textEmoji, key: mek.key }
+        });
+
+        const end = new Date().getTime();
+        const responseTime = (end - start) / 1000;
+
+        const text = `*${reactionEmoji} 𝐏๏፝֟ƞ̽g: ${responseTime.toFixed(2)} 𝐌ʂ*`;
+
+        await Gifted.sendMessage(from, {
+            text}, { quoted: mek });
+
+    } catch (e) {
+        console.error("Error in ping command:", e);
+        reply(`An error occurred: ${e.message}`);
+    }
+})
+
+gmd({
+  pattern: "owner",
+  desc: "Shows Owner the Bot",
+  category: "owner",
+  react: "👑",
   filename: __filename
 },
-async (Gifted, mek, m, { from, q, reply }) => {
-  try {
-    if (!q) return reply(`Please provide a YouTube video name or URL!\n\n*Example:*\n${prefix}video Alan Walker - Faded\n${prefix}video https://youtu.be/example`);
+async(Gifted, mek, m,{from, quoted, isOwner, reply}) => {
+try{
+if (!isOwner) return reply("*Owner Only Command*");
+const vcard = 'BEGIN:VCARD\n'
+          + 'VERSION:3.0\n' 
+          + `FN:${config.OWNER_NAME}\n` 
+          + 'ORG:ALI-INXIDE;\n' 
+          + `TEL;type=CELL;type=VOICE;waid=${config.OWNER_NUMBER}:${config.OWNER_NUMBER}\n`
+          + 'END:VCARD';
+  await Gifted.sendMessage(
+  from,
+  { 
+      contacts: { 
+          displayName, 
+          contacts: [{ vcard }] 
+      }
+  }, { quoted: mek }
+);
+await m.react("✅");
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
 
-    let videoUrl, title, thumbnail, duration, views, author;
-    let downloadUrl;
 
-    if (q.startsWith("https://youtu")) {
-      const downloadData = await fetchJson(`${global.api}/download/ytmp4?apikey=${global.myName}&url=${encodeURIComponent(q)}`);
-      if (!downloadData || !downloadData.result) return reply("❌ Failed to download video.");
-      downloadUrl = downloadData.result.download_url;
-      title = downloadData.result.title;
-      thumbnail = downloadData.result.thumbnail;
-      duration = downloadData.result.duration;
-      views = downloadData.result.views;
-      author = downloadData.result.author || "Unknown";
-    } else {
-      const searchData = await fetchJson(`${global.api}/search/yts?apikey=${global.myName}&query=${encodeURIComponent(q)}`);
-      if (!searchData || !searchData.results || !searchData.results[0]) return reply("❌ No results found for that video name.");
-      const result = searchData.results[0];
-      videoUrl = result.url;
-      title = result.title;
-      thumbnail = result.thumbnail;
-      duration = result.timestamp;
-      views = result.views;
-      author = result.author.name;
-      const downloadData = await fetchJson(`${global.api}/download/ytmp4?apikey=${global.myName}&url=${encodeURIComponent(videoUrl)}`);
-      if (!downloadData || !downloadData.result) return reply("❌ Failed to fetch video from search.");
-      downloadUrl = downloadData.result.download_url;
-    }
-
-    const buffer = await getBuffer(downloadUrl);
-
-    const infoMess = {
-      image: { url: thumbnail },
-      caption: `\`「 VIDEO DOWNLOADER 」\`
-╭─────────────────⳹
-│🎬 *ᴛɪᴛʟᴇ:* ${title}
-│📺 *ǫᴜᴀʟɪᴛʏ:* mp4 (720p)
-│⏳ *ᴅᴜʀᴀᴛɪᴏɴ:* ${duration}
-│👁 *ᴠɪᴇᴡs:* ${views}
-│🎙 *ᴀʀᴛɪsᴛ:* ${author}
-╰─────────────────⳹
-
-*ʀᴇᴘʟʏ ᴡɪᴛʜ:*
-
-*𝟷 ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ 🎥*
-*𝟸 ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴅᴏᴄᴜᴍᴇɴᴛ 📄*
-
-╭───────────────┄┈┈  
-│ ${global.footer}
-╰───────────────┄┈┈`,
-      
-
-    await Gifted.sendMessage(from, {
-            video: buffer,
-            fileName: `${title}.mp4`,
-            mimetype: "video/mp4",
-            contextInfo: {
-              externalAdReply: {
-                title: title,
-                body: 'ᴘσωєʀє∂ ву αℓι м∂',
-                thumbnailUrl: thumbnail,
-                sourceUrl: videoUrl || q,
-                mediaType: 1
-              }
+gmd({
+    pattern: "test",
+    desc: "Check Bot's Status",
+    category: "general",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const audioUrls = [
+        'https://files.catbox.moe/nfnb5k.mp3',
+        'https://files.catbox.moe/u8mlc9.mp4',
+        'https://files.catbox.moe/c0p5t8.mp3',
+        'https://files.catbox.moe/s41x34.mp3',
+        'https://files.catbox.moe/rys34d.mp3'
+      ];
+      const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
+        let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
+                        m.sender.split("@")[0]
+                    }:${
+                        m.sender.split("@")[0]
+                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
             }
-          }, { quoted: msg });
-
-  } catch (err) {
-    console.error("Video downloader error:", err);
-    reply("❌ Something went wrong. Try again later.");
-  }
-});
+        };
+        const buffer = await getBuffer(randomAudioUrl);
+        const giftedMess = {
+        audio: buffer,
+        mimetype: 'audio/mpeg',
+        ptt: true,
+        waveform: [1000, 0, 1000, 0, 1000, 0, 1000],
+        contextInfo: {
+        mentionedJid: [m.sender], 
+          forwardingScore: 0,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+           newsletterJid: '120363318387454868@newsletter',
+           newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+           serverMessageId: 143
+           }, 
+          externalAdReply: {
+            title: "𝐀𝐋𝐈 𝐌𝐃 𝐈𝐒 𝐀𝐂𝐓𝐈𝐕𝐄",
+            body: `ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ ᴛᴇᴄʜ `,
+            thumbnailUrl: botPic,
+            sourceUrl: `https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h`,
+            mediaType: 5,
+            renderLargerThumbnail: false
+          }
+        }
+      };
+      await Gifted.sendMessage(from, giftedMess, { quoted: mek });
+      await m.react("✅"); 
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
 
 gmd({
-  pattern: "fbdl",
-  alias: ["facebook", "fb"],
-  react: '⏰',
-  desc: "Download videos from Facebook.",
-  category: "download",
-  use: ".fbdl <Facebook video URL>",
-  filename: __filename
-}, async (Gifted, mek, m, { from, reply, args }) => {
-  try {
-    // Check if the user provided a Facebook video URL
-    const fbUrl = args[0];
-    if (!fbUrl || !fbUrl.includes("facebook.com")) {
-      return reply('*𝐏ℓєαʂє 𝐏ɼ๏νιɖє 𝐀 fb҇ 𝐕ιɖє๏ ๏ɼ ɼєєℓ 𝐔ɼℓ..*');
-    }
-
-    // Add a reaction to indicate processing
-    await Gifted.sendMessage(from, { react: { text: '⏳', key: m.key } });
-
-    // Prepare the API URL
-    const apiUrl = `https://apis.davidcyriltech.my.id/facebook2?url=${encodeURIComponent(fbUrl)}`;
-
-    // Call the API using GET
-    const response = await axios.get(apiUrl);
-
-    // Check if the API response is valid
-    if (!response.data || !response.data.status || !response.data.video) {
-      return reply('❌ Unable to fetch the video. Please check the URL and try again.');
-    }
-
-    // Extract the video details
-    const { title, thumbnail, downloads } = response.data.video;
-
-    // Get the highest quality download link (HD or SD)
-    const downloadLink = downloads.find(d => d.quality === "HD")?.downloadUrl || downloads[0].downloadUrl;
-
-    // Inform the user that the video is being downloaded
-   // await reply('```Downloading video... Please wait.📥```');
-
-    // Download the video
-    const videoResponse = await axios.get(downloadLink, { responseType: 'arraybuffer' });
-    if (!videoResponse.data) {
-      return reply('❌ Failed to download the video. Please try again later.');
-    }
-
-    // Prepare the video buffer
-    const videoBuffer = Buffer.from(videoResponse.data, 'binary');
-
-    // Send the video with details
-    await Gifted.sendMessage(from, {
-      video: videoBuffer,
-      caption: `*🎡 fв νι∂єσ ∂σωиℓσα∂є∂*\n> *© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽🐍*`,
+    pattern: "alive",
+    desc: "Check Bot's Status.",
+    category: "general",
+    react: "⏱️",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+  const uptimeSeconds = process.uptime();
+  const days = Math.floor(uptimeSeconds / (24 * 3600));
+  const hours = Math.floor((uptimeSeconds % (24 * 3600)) / 3600);
+  const minutes = Math.floor((uptimeSeconds % 3600) / 60);
+  const seconds = Math.floor(uptimeSeconds % 60);
+    try {
+        let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
+                        m.sender.split("@")[0]
+                    }:${
+                        m.sender.split("@")[0]
+                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+            }
+        };
+    const giftedMess = {
+      image: { url: botPic },
+      caption: `
+\`「 BOT UPTIME INFO: 」\`
+*╭─────────────────⳹*
+*│❍ ${days} Day(s)*
+*│❍ ${hours} Hour(s)*
+*│❍ ${minutes} Minute(s)*
+*│❍ ${seconds} Second(s)*
+*╰─────────────────⳹*
+      `,
       contextInfo: {
         mentionedJid: [m.sender],
-        forwardingScore: 999,
-        isForwarded: false,
+        forwardingScore: 5,
+        isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: '『 𝐀ɭīī 𝐌Ɗ 𝐅𝐁 𝐃𝐋 』',
+          newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
           serverMessageId: 143
         }
       }
-    }, { quoted: mek });
+    };
+    await Gifted.sendMessage(from, giftedMess, { quoted: mek }); 
+    await m.react("✅"); 
+} catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
 
-    // Add a reaction to indicate success
-    await Gifted.sendMessage(from, { react: { text: '✅', key: m.key } });
-  } catch (error) {
-    console.error('Error downloading video:', error);
-    reply('❌ Unable to download the video. Please try again later.');
-
-    // Add a reaction to indicate failure
-    await Gifted.sendMessage(from, { react: { text: '❌', key: m.key } });
-  }
-});
-
-        
 gmd({
-  pattern: "tiktok",
-  alias: ["ttdl", "tiktokdl","tt"],
-  react: '⏰',
-  desc: "Download TikTok videos.",
-  category: "download",
-  use: ".tiktok <TikTok video URL>",
-  filename: __filename
-}, async (Gifted, mek, m, { from, reply, args }) => {
-  try {
-    // Check if the user provided a TikTok video URL
-    const tiktokUrl = args[0];
-    if (!tiktokUrl || !tiktokUrl.includes("tiktok.com")) {
-      return reply('Please provide a valid TikTok video URL. Example: `.tiktok https://tiktok.com/...`');
-    }
-
-    // Add a reaction to indicate processing
-    await Gifted.sendMessage(from, { react: { text: '⏳', key: m.key } });
-
-    // Prepare the API URL
-    const apiUrl = `https://api.nexoracle.com/downloader/tiktok-nowm?apikey=free_key@maher_apis&url=${encodeURIComponent(tiktokUrl)}`;
-
-    // Call the API using GET
-    const response = await axios.get(apiUrl);
-
-    // Check if the API response is valid
-    if (!response.data || response.data.status !== 200 || !response.data.result) {
-      return reply('❌ Unable to fetch the video. Please check the URL and try again.');
-    }
-
-    // Extract the video details
-    const { title, thumbnail, author, metrics, url } = response.data.result;
-
-    // Inform the user that the video is being downloaded
-   // await reply(`📥 *Downloading TikTok video by @${author.username}... Please wait.*`);
-
-    // Download the video
-    const videoResponse = await axios.get(url, { responseType: 'arraybuffer' });
-    if (!videoResponse.data) {
-      return reply('❌ Failed to download the video. Please try again later.');
-    }
-
-    // Prepare the video buffer
-    const videoBuffer = Buffer.from(videoResponse.data, 'binary');
-
-    // Send the video with details
-    await Gifted.sendMessage(from, {
-      video: videoBuffer,
-      caption: `*🎐 тιктσк ∂σωиℓσα∂є∂*\n` +
-        `> *© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽🐍*`,
+    pattern: "runtime",
+    alias: ["uptime"],
+    desc: "Check Bot's Server Runtime.",
+    category: "general",
+    react: "⏱️",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+  const uptimeSeconds = process.uptime();
+  const days = Math.floor(uptimeSeconds / (24 * 3600));
+  const hours = Math.floor((uptimeSeconds % (24 * 3600)) / 3600);
+  const minutes = Math.floor((uptimeSeconds % 3600) / 60);
+  const seconds = Math.floor(uptimeSeconds % 60);
+    try {
+    let gift = {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: `𝐀𝐋𝐈 𝐓𝐄𝐂𝐇`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${
+                        m.sender.split("@")[0]
+                    }:${
+                        m.sender.split("@")[0]
+                    }\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+            }
+        };
+    const giftedMess = {
+      text: `*Bot Has Been Up For: ${days}d ${hours}h ${minutes}m ${seconds}s*`,
       contextInfo: {
         mentionedJid: [m.sender],
-        forwardingScore: 999,
-        isForwarded: false,
+        forwardingScore: 5,
+        isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: '『 𝐀ɭīī 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ 』',
+          newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
           serverMessageId: 143
         }
       }
-    }, { quoted: mek });
-
-    // Add a reaction to indicate success
-    await Gifted.sendMessage(from, { react: { text: '✅', key: m.key } });
-  } catch (error) {
-    console.error('Error downloading TikTok video:', error);
-    reply('❌ Unable to download the video. Please try again later.');
-
-    // Add a reaction to indicate failure
-    await Gifted.sendMessage(from, { react: { text: '❌', key: m.key } });
-  }
+    };
+    await Gifted.sendMessage(from, giftedMess, { quoted: mek}); 
+    await m.react("✅"); 
+} catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+ 
+gmd({
+    pattern: "uptime2",
+    alias: ["runtime2"],
+    desc: "Check Bot's Server Runtime.",
+    category: "general",
+    react: "⚡",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const uptimeSeconds = process.uptime();
+        const days = Math.floor(uptimeSeconds / (24 * 3600));
+        const hours = Math.floor((uptimeSeconds % (24 * 3600)) / 3600);
+        const minutes = Math.floor((uptimeSeconds % 3600) / 60);
+        const seconds = Math.floor(uptimeSeconds % 60);
+        const message = await Gifted.sendMessage(from, 
+            { text: '*Connecting Server...*' }, 
+            { quoted: mek });
+        const text =  `*Bot Has Been Up For: _${days}d ${hours}h ${minutes}m ${seconds}s_*`;
+        await Gifted.sendMessage(from, {
+            text: text,
+            edit: message.key }, 
+            { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
 });
-
+     
