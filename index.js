@@ -402,20 +402,7 @@ const isReact = m.message.reactionMessage ? true : false;
 // --- ANTI-LINK HANDLER (Place this after isGroup, isAdmins, isBotAdmins are set) ---
 if (isGroup && !isAdmins && isBotAdmins) {
     let cleanBody = body.replace(/[\s\u200b-\u200d\uFEFF]/g, '').toLowerCase();
-    const urlRegex = [ /https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/g,
-      /https?:\/\/(?:api\.whatsapp\.com|wa\.me)\/\S+/g,
-      /wa\.me\/\S+/g,
-      /https?:\/\/(?:t\.me|telegram\.me)\/\S+/g,
-      /https?:\/\/(?:www\.)?\.com\/\S+/g,
-      /https?:\/\/(?:www\.)?twitter\.com\/\S+/g,
-      /https?:\/\/(?:www\.)?linkedin\.com\/\S+/g,
-      /https?:\/\/(?:whatsapp\.com|channel\.me)\/\S+/g,
-      /https?:\/\/(?:www\.)?reddit\.com\/\S+/g,
-      /https?:\/\/(?:www\.)?discord\.com\/\S+/g,
-      /https?:\/\/(?:www\.)?twitch\.tv\/\S+/g,
-      /https?:\/\/(?:www\.)?vimeo\.com\/\S+/g,
-      /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/g,
-      /https?:\/\/(?:www\.)?medium\.com\/\S+/g ];
+    const urlRegex = /(https?:whatsapp\/\/[^\s]+)/g;
     if (urlRegex.test(cleanBody)) {
         if (!global.userWarnings) global.userWarnings = {};
         let userWarnings = global.userWarnings;
