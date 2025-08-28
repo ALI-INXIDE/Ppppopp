@@ -31,7 +31,7 @@ const express = require("express"),
       os = require('os'), 
       qrcode = require('qrcode-terminal'), 
       util = require('util'), 
-      config = require('./set'),
+      config = require('./config'),
       fromBuffer = require("buffer"),
       axios = require('axios'), 
       mime = require('mime-types'),
@@ -140,9 +140,9 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 ConnectGiftedToWA()
 }
 } else if (connection === 'open') {
- fs.readdirSync("./mayel/").forEach((plugin) => {
+ fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
-require("./mayel/" + plugin); 
+require("./plugins/" + plugin); 
 }
 });
 console.log('Plugins Synced ✅');
