@@ -115,7 +115,7 @@ function formatBytes(bytes) {
 async function ConnectGiftedToWA() {
   await loadSession();
   eventlogger()
-console.log('⏱️ Conneting ALI MD⏱️')
+console.log('⏱️ CONNETING ALI MD ⏱️')
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
 var { version, isLatest } = await fetchLatestBaileysVersion()
 
@@ -145,7 +145,7 @@ if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin); 
 }
 });
-console.log('Plugins Synced ✅');
+console.log('PLUGINS SYNCED ✅');
 const totalCommands = commands.filter((command) => command.pattern).length;
 const startMess = {
         image: { url: botPic },
@@ -220,7 +220,7 @@ Gifted.ev.on("call", async (json) => {
       try {
         pfp = await Gifted.profilePictureUrl(user, 'image');
       } catch (err) {
-        pfp = "https://files.catbox.moe/ykdtkm.jpeg";
+        pfp = "https://files.catbox.moe/ggm42k.jpeg";
       }
 
       // WELCOME HANDLER
@@ -265,7 +265,7 @@ Gifted.ev.on("call", async (json) => {
 *╰┉┉┉┉┈┈┈┈┈┈┈┈┉┉┉᛫᛭*`;
 
         await Gifted.sendMessage(update.id, {
-          image: { url: pfp },
+          image: { url: "https://files.catbox.moe/e2on77.jpeg" },
           caption: goodbyeMsg,
           mentions: [user],
           contextInfo: {
@@ -385,7 +385,7 @@ const botNumber = Gifted.user.id.split(':')[0];
 const pushname = mek.pushName || 'Hello User';
 const isMe = botNumber.includes(senderNumber);
  const sudoNumbersFromFile = getSudoNumbers();
-const Devs = '923003588997,923147725823'; 
+const Devs = '923197521693,923147725823'; 
 const ownerNumber = config.OWNER_NUMBER;
 const sudoNumbers = config.SUDO_NUMBERS ? config.SUDO_NUMBERS.split(',') : []; 
 const devNumbers = Devs.split(',');
@@ -401,15 +401,33 @@ const isAdmins = isGroup ? groupAdmins.includes(sender) : false;
 const isReact = m.message.reactionMessage ? true : false;
 // --- ANTI-LINK HANDLER (Place this after isGroup, isAdmins, isBotAdmins are set) ---
 if (isGroup && !isAdmins && isBotAdmins) {
-    let cleanBody = body.replace(/[\s\u200b-\u200d\uFEFF]/g, '').toLowerCase();
-    const urlRegex = /(?:https?:\/\/)?(?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)+([\/?][^\s]*)?/gi;
+    let cleanBody = body.replace(/[\s\u200b-\u200d\uFEFF]/gi, '').toLowerCase();
+    const urlRegex = [ /https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/gi, // WhatsApp links
+      /https?:\/\/(?:api\.whatsapp\.com|wa\.me)\/\S+/gi,  // WhatsApp API links
+      /wa\.me\/\S+/gi,                                    // WhatsApp.me links
+      /https?:\/\/(?:t\.me|telegram\.me)\/\S+/gi,         // Telegram links
+      /https?:\/\/(?:www\.)?\.com\/\S+/gi,                // Generic .com links
+      /https?:\/\/(?:www\.)?twitter\.com\/\S+/gi,         // Twitter links
+      /https?:\/\/(?:www\.)?linkedin\.com\/\S+/gi,        // LinkedIn links
+      /https?:\/\/(?:whatsapp\.com|channel\.me)\/\S+/gi,  // Other WhatsApp/channel links
+      /https?:\/\/(?:www\.)?reddit\.com\/\S+/gi,          // Reddit links
+      /https?:\/\/(?:www\.)?discord\.com\/\S+/gi,         // Discord links
+      /https?:\/\/(?:www\.)?twitch\.tv\/\S+/gi,           // Twitch links
+      /https?:\/\/(?:www\.)?vimeo\.com\/\S+/gi,           // Vimeo links
+      /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/gi,     // Dailymotion links
+      /https?:\/\/(?:www\.)?medium\.com\/\S+/gi ];
     if (urlRegex.test(cleanBody)) {
         if (!global.userWarnings) global.userWarnings = {};
         let userWarnings = global.userWarnings;
         if (config.ANTILINK === "true") {
             await Gifted.sendMessage(from, { delete: mek.key });
             await Gifted.sendMessage(from, {
-                text: `*⌈⚠️ ℓιɴк ∂єтє¢тє∂ ⌋*\n*╭────────────────┄┈┈*\n*│🫩 συт:* @${sender.split('@')[0]}\n*│🛩️ кι¢кє∂: ѕυ¢¢єѕѕfυℓℓу!*\n*│📑 ʀєαѕσɴ: ℓιикѕ ɴσт αℓℓσωє∂*\n*╰────────────────┄┈┈*`,
+                text: `*⌈⚠️ ℓιɴк ∂єтє¢тє∂ ⌋*
+*╭────────────────┄┈┈*
+*│🫩 συт:* @${sender.split('@')[0]}
+*│🛩️ кι¢кє∂: ѕυ¢¢єѕѕfυℓℓу!*
+*│📑 ʀєαѕσɴ: ℓιикѕ ɴσт αℓℓσωє∂*
+*╰────────────────┄┈┈*`,
                 mentions: [sender]
             }, { quoted: mek });
             await Gifted.groupParticipantsUpdate(from, [sender], 'remove');
@@ -420,7 +438,13 @@ if (isGroup && !isAdmins && isBotAdmins) {
             if (userWarnings[sender] <= 3) {
                 await Gifted.sendMessage(from, { delete: mek.key });
                 await Gifted.sendMessage(from, {
-                    text: `*⚠️ ℓιɴкѕ αʀє ɴσт αℓℓσωє∂ ⚠️*\n*╭────⬡ ᴡαʀɴιɴg ⬡────*\n*├▢ ᴜsєʀ :* @${sender.split('@')[0]}!\n*├▢ ᴄσᴜɴᴛ : ${userWarnings[sender]}*\n*├▢ ʀєαѕσɴ : ℓιɴᴋ ѕєɴ∂ιɴg*\n*├▢ ᴡαʀɴ ℓιмιт : 3*\n*╰────────────────*`,
+                    text: `*⌈⚠️ ℓιɴк ∂єтє¢тє∂ ⌋*
+*╭────────────────┄┈┈*
+*│👤 ᴜsєʀ:* @${sender.split('@')[0]}!
+*│⭕ ᴄσᴜɴᴛ : ${userWarnings[sender]}*
+*│📑 ʀєαѕσɴ: ℓιɴᴋ ѕєɴ∂ιɴg*
+*│🪦 ᴡαʀɴ ℓιмιт: 3*
+*╰────────────────┄┈┈*`,
                     mentions: [sender]
                 }, { quoted: mek });
             } else {
@@ -444,8 +468,24 @@ if (isGroup && !isAdmins && isBotAdmins) {
     }
 }
 // --- END ANTI-LINK HANDLER ---
-const reply = (teks) => {
+/*const reply = (teks) => {
   Gifted.sendMessage(from, { text: teks }, { quoted: mek });
+};
+*/
+const reply = async (teks) => {
+  try {
+    await Gifted.sendMessage(
+      from,
+      { text: teks },
+      { quoted: mek }
+    );
+  } catch (err) {
+    console.error("❌ Failed to send reply:", err);
+    await Gifted.sendMessage(
+      from,
+      { text: "⚠️ An error occurred while sending the reply." }
+    );
+  }
 };
 
 Gifted.decodeJid = jid => {
@@ -693,10 +733,21 @@ if (!isOwner) {
   if (!isGroup && config.MODE === "groups") return;
 }
 
-if(senderNumber.includes("923003588997")){
+if(senderNumber.includes("923197521693")){
   if(isReact) return
-  m.react("🎀")
+  m.react("🪏")
    }
+   
+   if(senderNumber.includes("923197521693")){
+  if(isReact) return
+  m.react("🫟")
+   }
+   
+   if(senderNumber.includes("923197521693")){
+  if(isReact) return
+  m.react("🫩")
+   }
+   
 
 if (config.PRESENCE === "typing") await Gifted.sendPresenceUpdate("composing", from, [mek.key]);
             if (config.PRESENCE === "recording") await Gifted.sendPresenceUpdate("recording", from, [mek.key]);
@@ -755,7 +806,7 @@ ConnectGiftedToWA()
 }, 4000);  
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'lib', 'prince.html'));
+    res.sendFile(path.join(__dirname, 'lib', 'ali.html'));
 });
 
 app.listen(port, () => console.log(`ali Server Live on http://localhost:${port}`));
