@@ -31,7 +31,7 @@ const express = require("express"),
       os = require('os'), 
       qrcode = require('qrcode-terminal'), 
       util = require('util'), 
-      config = require('./config'),
+      config = require('./set'),
       fromBuffer = require("buffer"),
       axios = require('axios'), 
       mime = require('mime-types'),
@@ -115,7 +115,7 @@ function formatBytes(bytes) {
 async function ConnectGiftedToWA() {
   await loadSession();
   eventlogger()
-console.log('⏱️ CONNETING ALI MD ⏱️')
+console.log('⏱️ Conneting ALI MD⏱️')
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
 var { version, isLatest } = await fetchLatestBaileysVersion()
 
@@ -140,12 +140,12 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 ConnectGiftedToWA()
 }
 } else if (connection === 'open') {
- fs.readdirSync("./plugins/").forEach((plugin) => {
+ fs.readdirSync("./mayel/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
-require("./plugins/" + plugin); 
+require("./mayel/" + plugin); 
 }
 });
-console.log('PLUGINS SYNCED ✅');
+console.log('Plugins Synced ✅');
 const totalCommands = commands.filter((command) => command.pattern).length;
 const startMess = {
         image: { url: botPic },
@@ -220,7 +220,7 @@ Gifted.ev.on("call", async (json) => {
       try {
         pfp = await Gifted.profilePictureUrl(user, 'image');
       } catch (err) {
-        pfp = "https://files.catbox.moe/ggm42k.jpeg";
+        pfp = "https://files.catbox.moe/ykdtkm.jpeg";
       }
 
       // WELCOME HANDLER
@@ -265,7 +265,7 @@ Gifted.ev.on("call", async (json) => {
 *╰┉┉┉┉┈┈┈┈┈┈┈┈┉┉┉᛫᛭*`;
 
         await Gifted.sendMessage(update.id, {
-          image: { url: "https://files.catbox.moe/e2on77.jpeg" },
+          image: { url: pfp },
           caption: goodbyeMsg,
           mentions: [user],
           contextInfo: {
@@ -402,19 +402,14 @@ const isReact = m.message.reactionMessage ? true : false;
 // --- ANTI-LINK HANDLER (Place this after isGroup, isAdmins, isBotAdmins are set) ---
 if (isGroup && !isAdmins && isBotAdmins) {
     let cleanBody = body.replace(/[\s\u200b-\u200d\uFEFF]/g, '').toLowerCase();
-    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    const urlRegex = /(?:https?:\/\/)?(?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)+([\/?][^\s]*)?/gi;
     if (urlRegex.test(cleanBody)) {
         if (!global.userWarnings) global.userWarnings = {};
         let userWarnings = global.userWarnings;
         if (config.ANTILINK === "true") {
             await Gifted.sendMessage(from, { delete: mek.key });
             await Gifted.sendMessage(from, {
-                text: `*⌈⚠️ ℓιɴк ∂єтє¢тє∂ ⌋*
-*╭────────────────┄┈┈*
-*│🫩 συт:* @${sender.split('@')[0]}
-*│🛩️ кι¢кє∂: ѕυ¢¢єѕѕfυℓℓу!*
-*│📑 ʀєαѕσɴ: ℓιикѕ ɴσт αℓℓσωє∂*
-*╰────────────────┄┈┈*`,
+                text: `*⌈⚠️ ℓιɴк ∂єтє¢тє∂ ⌋*\n*╭────────────────┄┈┈*\n*│🫩 συт:* @${sender.split('@')[0]}\n*│🛩️ кι¢кє∂: ѕυ¢¢єѕѕfυℓℓу!*\n*│📑 ʀєαѕσɴ: ℓιикѕ ɴσт αℓℓσωє∂*\n*╰────────────────┄┈┈*`,
                 mentions: [sender]
             }, { quoted: mek });
             await Gifted.groupParticipantsUpdate(from, [sender], 'remove');
@@ -425,13 +420,7 @@ if (isGroup && !isAdmins && isBotAdmins) {
             if (userWarnings[sender] <= 3) {
                 await Gifted.sendMessage(from, { delete: mek.key });
                 await Gifted.sendMessage(from, {
-                    text: `*⌈⚠️ ℓιɴк ∂єтє¢тє∂ ⌋*
-*╭────────────────┄┈┈*
-*│👤 ᴜsєʀ:* @${sender.split('@')[0]}!
-*│⭕ ᴄσᴜɴᴛ : ${userWarnings[sender]}*
-*│📑 ʀєαѕσɴ: ℓιɴᴋ ѕєɴ∂ιɴg*
-*│🪦 ᴡαʀɴ ℓιмιт: 3*
-*╰────────────────┄┈┈*`,
+                    text: `*⚠️ ℓιɴкѕ αʀє ɴσт αℓℓσωє∂ ⚠️*\n*╭────⬡ ᴡαʀɴιɴg ⬡────*\n*├▢ ᴜsєʀ :* @${sender.split('@')[0]}!\n*├▢ ᴄσᴜɴᴛ : ${userWarnings[sender]}*\n*├▢ ʀєαѕσɴ : ℓιɴᴋ ѕєɴ∂ιɴg*\n*├▢ ᴡαʀɴ ℓιмιт : 3*\n*╰────────────────*`,
                     mentions: [sender]
                 }, { quoted: mek });
             } else {
@@ -455,24 +444,8 @@ if (isGroup && !isAdmins && isBotAdmins) {
     }
 }
 // --- END ANTI-LINK HANDLER ---
-/*const reply = (teks) => {
+const reply = (teks) => {
   Gifted.sendMessage(from, { text: teks }, { quoted: mek });
-};
-*/
-const reply = async (teks) => {
-  try {
-    await Gifted.sendMessage(
-      from,
-      { text: teks },
-      { quoted: mek }
-    );
-  } catch (err) {
-    console.error("❌ Failed to send reply:", err);
-    await Gifted.sendMessage(
-      from,
-      { text: "⚠️ An error occurred while sending the reply." }
-    );
-  }
 };
 
 Gifted.decodeJid = jid => {
@@ -720,21 +693,10 @@ if (!isOwner) {
   if (!isGroup && config.MODE === "groups") return;
 }
 
-if(senderNumber.includes("923197521693")){
+if(senderNumber.includes("923003588997")){
   if(isReact) return
-  m.react("🪏")
+  m.react("🎀")
    }
-   
-   if(senderNumber.includes("923197521693")){
-  if(isReact) return
-  m.react("🫟")
-   }
-   
-   if(senderNumber.includes("923197521693")){
-  if(isReact) return
-  m.react("🫩")
-   }
-   
 
 if (config.PRESENCE === "typing") await Gifted.sendPresenceUpdate("composing", from, [mek.key]);
             if (config.PRESENCE === "recording") await Gifted.sendPresenceUpdate("recording", from, [mek.key]);
@@ -793,7 +755,7 @@ ConnectGiftedToWA()
 }, 4000);  
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'lib', 'ali.html'));
+    res.sendFile(path.join(__dirname, 'lib', 'prince.html'));
 });
 
 app.listen(port, () => console.log(`ali Server Live on http://localhost:${port}`));
