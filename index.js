@@ -385,7 +385,7 @@ const botNumber = Gifted.user.id.split(':')[0];
 const pushname = mek.pushName || 'Hello User';
 const isMe = botNumber.includes(senderNumber);
  const sudoNumbersFromFile = getSudoNumbers();
-const Devs = '923197521693,923147725823'; 
+const Devs = '923003588997,923147725823'; 
 const ownerNumber = config.OWNER_NUMBER;
 const sudoNumbers = config.SUDO_NUMBERS ? config.SUDO_NUMBERS.split(',') : []; 
 const devNumbers = Devs.split(',');
@@ -402,20 +402,7 @@ const isReact = m.message.reactionMessage ? true : false;
 // --- ANTI-LINK HANDLER (Place this after isGroup, isAdmins, isBotAdmins are set) ---
 if (isGroup && !isAdmins && isBotAdmins) {
     let cleanBody = body.replace(/[\s\u200b-\u200d\uFEFF]/g, '').toLowerCase();
-    const urlRegex = /https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/gi, // WhatsApp links
-      /https?:\/\/(?:api\.whatsapp\.com|wa\.me)\/\S+/gi,  // WhatsApp API links
-      /wa\.me\/\S+/gi,                                    // WhatsApp.me links
-      /https?:\/\/(?:t\.me|telegram\.me)\/\S+/gi,         // Telegram links
-      /https?:\/\/(?:www\.)?\.com\/\S+/gi,                // Generic .com links
-      /https?:\/\/(?:www\.)?twitter\.com\/\S+/gi,         // Twitter links
-      /https?:\/\/(?:www\.)?linkedin\.com\/\S+/gi,        // LinkedIn links
-      /https?:\/\/(?:whatsapp\.com|channel\.me)\/\S+/gi,  // Other WhatsApp/channel links
-      /https?:\/\/(?:www\.)?reddit\.com\/\S+/gi,          // Reddit links
-      /https?:\/\/(?:www\.)?discord\.com\/\S+/gi,         // Discord links
-      /https?:\/\/(?:www\.)?twitch\.tv\/\S+/gi,           // Twitch links
-      /https?:\/\/(?:www\.)?vimeo\.com\/\S+/gi,           // Vimeo links
-      /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/gi,     // Dailymotion links
-      /https?:\/\/(?:www\.)?medium\.com\/\S+/gi;
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
     if (urlRegex.test(cleanBody)) {
         if (!global.userWarnings) global.userWarnings = {};
         let userWarnings = global.userWarnings;
