@@ -57,7 +57,7 @@ function smallCaps(text) {
 
 gmd({
     pattern: "menu",
-    alias: ["help", "helpmenu"],
+    alias: ["help", "bot"],
     desc: "Shows Bot Menu List",
     react: "🪀",
     category: "general",
@@ -74,7 +74,7 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -117,7 +117,7 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
         }, {});
    
                 let header = `
-╭┈───〔 *${monospace(botName)}* 〕┈───⊷
+╭┈──〔 *${monospace(botName)}* 〕┈──⊷
 │ 🫟 *ᴍᴏᴅᴇ* : ${monospace(botMode)}
 │ 🪄 *ᴘʀᴇғɪx* : ${monospace(prefix)}
 │ 🇦🇱 *ᴜsᴇʀ* : ${monospace(pushname)}
@@ -183,7 +183,7 @@ async (Gifted, mek, m, { from, quoted, isOwner, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -238,7 +238,7 @@ async (Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender,
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -334,7 +334,7 @@ async (Gifted, mek, m, { from, quoted, sender, pushname, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -479,7 +479,7 @@ const response = await axios.get(global.giftedApiRepo);
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -564,7 +564,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -624,7 +624,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -682,7 +682,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `☄︎-𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°💀🇦🇱`,
+                    displayName: `𝐀ɭīī-𝐌𝐃°🚩`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
