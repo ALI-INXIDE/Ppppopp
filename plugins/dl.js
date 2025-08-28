@@ -6,7 +6,7 @@ const { gmd, config, commands, fetchJson, getBuffer, GiftedApkDl } = require('..
       GIFTED_DLS = require('gifted-dls'), 
       gifted = new GIFTED_DLS();
       yts = require('yt-search');
-ytsearch  = require('@dark-yasiya/yt-dl.js');
+     fetch = require('node-fetch');
 
                     
 gmd({
@@ -120,96 +120,74 @@ gmd({
     await Gifted.sendMessage(from, { react: { text: '❌', key: m.key } });
   }
 });
-gmd({ 
-    pattern: "play", 
-    alias: ["yta", "audio"], 
-    react: "🎧", 
-    desc: "Download YouTube song", 
-    category: "download", 
-    use: '.song <query>', 
-    filename: __filename 
-}, async (Gifted, mek, m, { from, sender, reply, q }) => { 
+gmd({
+    pattern: "play",
+    alias: ['ytsong', 'song'],
+    react: "🎵",
+    desc: "Download audio from YouTube",
+    category: "download",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, q, reply, sender }) => {
+    if (!q) return reply("*❌ Please provide a song title or YouTube URL*");
+
     try {
-        if (!q) return reply("*𝐏ℓєα𝐬֟፝є 𝐏ʀ๏νιɖє 𝐀 𝐒๏ƞ͛g 𝐍αмє..*");
+        const search = await yts(q);
+        const video = search.videos[0];
+        if (!video) return reply("*❌ No results found*");
 
-        const yt = await ytsearch(q);
-        if (!yt.results.length) return reply("No results found!");
+        const messageContext = {
+            ...newsletterContext,
+            mentionedJid: [sender]
+        };
 
-        const song = yt.results[0];
-        const apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(song.url)}`;
-        
-        const res = await fetch(apiUrl);
-        const data = await res.json();
+        const infoMsg = `
+╔═══〘 🎧 𝙈𝙋𝟛 𝘿𝙇 〙═══╗
 
-        if (!data?.result?.downloadUrl) return reply("Download failed. Try again later.");
+⫸ 🎵 *Title:* ${video.title}
+⫸ 👤 *Channel:* ${video.author.name}
+⫸ ⏱️ *Duration:* ${video.timestamp}
+⫸ 👁️ *Views:* ${video.views.toLocaleString()} views
 
-    await Gifted.sendMessage(from, {
-    audio: { url: data.result.downloadUrl },
-    mimetype: "audio/mpeg",
-    fileName: `${song.title}.mp3`,
-    contextInfo: {
-        externalAdReply: {
-            title: song.title.length > 25 ? `${song.title.substring(0, 22)}...` : song.title,
-            body: "⇆  ||◁◁ㅤ ❚❚ ㅤ▷▷||ㅤ ⇆",
-            mediaType: 1,
-            thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://youtube.com/watch?v=OMoU0Pfibc4',
-            mediaUrl: 'https://youtube.com/watch?v=OMoU0Pfibc4',
-            showAdAttribution: true,
-            renderLargerThumbnail: false
-        }
-    }
-}, { quoted: mek });
+╚══ ⸨ 𝙃𝘼𝙉𝙎 𝘽𝙔𝙏𝙀 𝙈𝘿 ⸩ ═══╝`.trim();
 
-    } catch (error) {
-        console.error(error);
-        reply("An error occurred. Please try again.");
-    }
-});
-gmd({ 
-    pattern: "sg", 
-    alias: ["ytdl3", "song"], 
-    react: "🎶", 
-    desc: "Download YouTube song", 
-    category: "main", 
-    use: '.song < Yt url or Name >', 
-    filename: __filename 
-}, async (Gifted, mek, m, { from, prefix, quoted, q, reply }) => { 
-    try { 
-        if (!q) return await reply("*𝐏ℓєαʂє 𝐏ɼ๏νιɖє 𝐀 𝐘ʈ 𝐔ɼℓ ๏ɼ 𝐒๏ƞ͛g 𝐍αмє.*");
-        
-        const yt = await ytsearch(q);
-        if (yt.results.length < 1) return reply("No results found!");
-        
-        let yts = yt.results[0];  
-        let apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(yts.url)}`;
-        
-        let response = await fetch(apiUrl);
-        let data = await response.json();
-        
-        if (data.status !== 200 || !data.success || !data.result.downloadUrl) {
-            return reply("Failed to fetch the audio. Please try again later.");
-        }
-        
-        let ytmsg = `*PLAYING: ${yts.title}*`;
-        
-        
-        // Send thumbnail with caption
-        await Gifted.sendMessage(from, { 
-            image: { url: yts.thumbnail }, 
-            caption: ytmsg,  
+        await Gifted.sendMessage(from, {
+            image: { url: video.thumbnail },
+            caption: infoMsg,
+            contextInfo: messageContext
         }, { quoted: mek });
 
-        // Send the audio directly
-        await Gifted.sendMessage(from, { 
-            audio: { url: data.result.downloadUrl }, 
-            mimetype: "audio/mpeg", 
-            fileName: `${yts.title}.mp3`, 
+        // New API Call
+        const api = `https://itzpire.com/download/youtube/v2?url=${encodeURIComponent(video.url)}`;
+        const res = await fetch(api);
+        const json = await res.json();
+
+        if (!json.status || json.status !== 'success' || !json.data?.downloadUrl) {
+            return reply("*❌ Failed to get audio download link*");
+        }
+
+        const title = video.title;
+
+        // Send MP3 as audio message
+        await Gifted.sendMessage(from, {
+            audio: { url: json.data.downloadUrl },
+            mimetype: 'audio/mp4',
+            fileName: `${title}.mp3`,
+            ptt: false,
+            contextInfo: messageContext
         }, { quoted: mek });
-        
-    } catch (e) {
-        console.log(e);
-        reply("An error occurred. Please try again later.");
+
+        // Send as document too
+        await Gifted.sendMessage(from, {
+            document: { url: json.data.downloadUrl },
+            mimetype: 'audio/mp4',
+            fileName: `${title}.mp3`,
+            caption: "*📁 HANS BYTE MD*",
+            contextInfo: messageContext
+        }, { quoted: mek });
+
+    } catch (err) {
+        console.error("Audio Error:", err);
+        return reply(`*❌ Error:* ${err.message}`);
     }
-});
-          
+});          
