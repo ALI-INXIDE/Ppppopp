@@ -402,20 +402,7 @@ const isReact = m.message.reactionMessage ? true : false;
 // --- ANTI-LINK HANDLER (Place this after isGroup, isAdmins, isBotAdmins are set) ---
 if (isGroup && !isAdmins && isBotAdmins) {
     let cleanBody = body.replace(/[\s\u200b-\u200d\uFEFF]/g, '').toLowerCase();
-    const urlRegex = [/https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/g, // WhatsApp links
-      /https?:\/\/(?:api\.whatsapp\.com|wa\.me)\/\S+/g,  // WhatsApp API links
-      /wa\.me\/\S+/g,                                    // WhatsApp.me links
-      /https?:\/\/(?:t\.me|telegram\.me)\/\S+/g,         // Telegram links
-      /https?:\/\/(?:www\.)?\.com\/\S+/g,                // Generic .com links
-      /https?:\/\/(?:www\.)?twitter\.com\/\S+/g,         // Twitter links
-      /https?:\/\/(?:www\.)?linkedin\.com\/\S+/g,        // LinkedIn links
-      /https?:\/\/(?:whatsapp\.com|channel\.me)\/\S+/g,  // Other WhatsApp/channel links
-      /https?:\/\/(?:www\.)?reddit\.com\/\S+/g,          // Reddit links
-      /https?:\/\/(?:www\.)?discord\.com\/\S+/g,         // Discord links
-      /https?:\/\/(?:www\.)?twitch\.tv\/\S+/g,           // Twitch links
-      /https?:\/\/(?:www\.)?vimeo\.com\/\S+/g,           // Vimeo links
-      /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/g,     // Dailymotion links
-      /https?:\/\/(?:www\.)?medium\.com\/\S+/gi];
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
     if (urlRegex.test(cleanBody)) {
         if (!global.userWarnings) global.userWarnings = {};
         let userWarnings = global.userWarnings;
