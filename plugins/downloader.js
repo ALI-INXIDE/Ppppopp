@@ -74,7 +74,7 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°🇦🇱`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -150,7 +150,7 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363318387454868@newsletter',
-                        newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                        newsletterName: config.BOT_NAME,
             serverMessageId: 143
           }
         }
@@ -183,7 +183,7 @@ async (Gifted, mek, m, { from, quoted, isOwner, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī-𝐌𝐃°🐍`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -238,7 +238,7 @@ async (Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender,
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°🇦🇱`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -302,7 +302,7 @@ async (Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363318387454868@newsletter',
-                        newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                        newsletterName: "-𝐀ɭīī 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°💀🇦🇱",
             serverMessageId: 143
           }
         }
@@ -334,7 +334,7 @@ async (Gifted, mek, m, { from, quoted, sender, pushname, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°🇦🇱`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -403,7 +403,7 @@ async (Gifted, mek, m, { from, quoted, sender, pushname, reply }) => {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363318387454868@newsletter',
-             newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+             newsletterName: "-𝐀ɭīī 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°💀🇦🇱",
             serverMessageId: 143
           }
         }
@@ -479,7 +479,7 @@ const response = await axios.get(global.giftedApiRepo);
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°🇦🇱`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -493,7 +493,7 @@ const response = await axios.get(global.giftedApiRepo);
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363318387454868@newsletter',
-             newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+             newsletterName: "-𝐀ɭīī 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°💀🇦🇱",
             serverMessageId: 143
           }
         }
@@ -564,7 +564,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°🇦🇱`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -581,7 +581,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
            newsletterJid: '120363318387454868@newsletter',
-           newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+           newsletterName: "-𝐀ɭīī 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°💀🇦🇱",
            serverMessageId: 143
            }, 
           externalAdReply: {
@@ -624,7 +624,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°🇦🇱`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -646,7 +646,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+          newsletterName: "-𝐀ɭīī 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°💀🇦🇱",
           serverMessageId: 143
         }
       }
@@ -682,7 +682,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
             },
             message: {
                 contactMessage: {
-                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓°🇦🇱`,
+                    displayName: `𝐀ɭīī 𝐌𝐃 𝐁❍𝐓-〄`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GIFTED'\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
                 }
             }
@@ -695,7 +695,7 @@ async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: "𝅄𝐀𝐋𝐈 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+          newsletterName: "-𝐀ɭīī 𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°💀🇦🇱",
           serverMessageId: 143
         }
       }
