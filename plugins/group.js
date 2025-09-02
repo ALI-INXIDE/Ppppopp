@@ -1,4 +1,4 @@
-const { gmd, sleep, config, getBuffer, commands } = require('../lib'), 
+const { gmd, sleep, monospace, config, getBuffer, commands } = require('../lib'), 
       { WA_DEFAULT_EPHEMERAL, 
        jidNormalizedUser, 
        generateWAMessageFromContent, 
