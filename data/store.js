@@ -2,7 +2,7 @@ const { isJidBroadcast, isJidGroup, isJidNewsletter } = require('@whiskeysockets
 const fs = require('fs/promises')
 const path = require('path')
 const { DataTypes } = require('sequelize');
-const { DATABASE } = require('../lib/deldatabase');
+const { DATABASE } = require('../lib/database');
 const storeDir = path.join(process.cwd(), 'store');
 
 const readJSON = async (file) => {
