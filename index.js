@@ -73,8 +73,7 @@ const {
       commands,
       doReact,
       giftedmd,
-      eventlogger, 
-      saveMessage,
+      eventlogger,
       loadSession,
     getSudoNumbers,
       downloadMediaMessage
