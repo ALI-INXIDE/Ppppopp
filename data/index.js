@@ -2,7 +2,7 @@ const { AntiDelDB,
     initializeAntiDeleteSettings,
     setAnti,
     getAnti,
-    getAllAntiDeleteSettings, } = require('./msgdel');
+    getAllAntiDeleteSettings, } = require('../lib/msgdel');
 const {
     saveContact,
     loadMessage,
