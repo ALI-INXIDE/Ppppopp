@@ -51,10 +51,7 @@ const {
       SUDO_NUMBERS } = config;
     const sudoNumbers = SUDO_NUMBERS && SUDO_NUMBERS.trim() ? SUDO_NUMBERS : "No Sudos set";
 
-const { AntiDelDB, initializeAntiDeleteSettings, setAnti, getAnti, getAllAntiDeleteSettings, saveContact, loadMessage, getName, getChatSummary, saveGroupMetadata, getGroupMetadata, saveMessageCount, getInactiveGroupMembers, getGroupMembersMessageCount, saveMessage } = require('./data');
-
-
-const { sms, downloadMediaMessage, AntiDelete } = require('./lib');
+const { AntiDelDB, initializeAntiDeleteSettings, setAnti, getAnti, getAllAntiDeleteSettings, saveContact, loadMessage, getName, getChatSummary, saveGroupMetadata, getGroupMetadata, saveMessageCount, getInactiveGroupMembers, getGroupMembersMessageCount, } = require('./data');
 
 const {
       GiftedAnticall,
@@ -65,6 +62,7 @@ const {
       getRandom,
       h2k,
       isUrl,
+      AntiDelete,
       Json,
       runtime,
       sleep,
@@ -72,8 +70,10 @@ const {
       emojis,
       commands,
       doReact,
+      sms,
       giftedmd,
-      eventlogger,
+      eventlogger, 
+      saveMessage,
       loadSession,
     getSudoNumbers,
       downloadMediaMessage
