@@ -51,6 +51,11 @@ const {
       SUDO_NUMBERS } = config;
     const sudoNumbers = SUDO_NUMBERS && SUDO_NUMBERS.trim() ? SUDO_NUMBERS : "No Sudos set";
 
+const { AntiDelDB, initializeAntiDeleteSettings, setAnti, getAnti, getAllAntiDeleteSettings, saveContact, loadMessage, getName, getChatSummary, saveGroupMetadata, getGroupMetadata, saveMessageCount, getInactiveGroupMembers, getGroupMembersMessageCount, saveMessage } = require('./data');
+
+
+const { sms, downloadMediaMessage, AntiDelete } = require('./lib');
+
 const {
       GiftedAnticall,
       GroupUpdate,
@@ -193,13 +198,14 @@ Gifted.ev.on('creds.update', saveCreds)
             });
         }
 
-      Gifted.ev.on("messages.update", async (updates) => {
-  try {
-    await GiftedAntidelete(updates, Gifted);
-  } catch (err) {
-    console.error("❌ Error in antidelete handler:", err);
-  }
-});
+      Gifted.ev.on('messages.update', async updates => {
+    for (const update of updates) {
+      if (update.update.message === null) {
+        console.log("Delete Detected:", JSON.stringify(update, null, 2));
+        await AntiDelete(Gifted, updates);
+      }
+    }
+  });
       
 Gifted.ev.on("call", async (json) => {
   await GiftedAnticall(json, Gifted);
