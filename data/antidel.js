@@ -1,4 +1,4 @@
-const { DATABASE } = require('../lib/deldatabase');
+const { DATABASE } = require('../lib/database');
 const { DataTypes } = require('sequelize');
 const config = require('../config');
 
