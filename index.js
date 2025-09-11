@@ -70,7 +70,6 @@ const {
 const {
       GiftedAnticall,
       GroupUpdate,
-      getBuffer,
       getGroupAdmins,
       GiftedAntidelete,
       getRandom,
