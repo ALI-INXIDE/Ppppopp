@@ -50,7 +50,7 @@ const {
       OWNER_NUMBER: ownerNumber,
       SUDO_NUMBERS } = config;
     const sudoNumbers = SUDO_NUMBERS && SUDO_NUMBERS.trim() ? SUDO_NUMBERS : "No Sudos set";
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
+
   const { 
         AntiDelDB, 
         initializeAntiDeleteSettings, 
