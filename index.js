@@ -71,7 +71,6 @@ const {
       GiftedAnticall,
       GroupUpdate,
       getGroupAdmins,
-      GiftedAntidelete,
       getRandom,
       h2k,
       isUrl,
@@ -84,7 +83,6 @@ const {
       doReact,
       giftedmd,
       eventlogger, 
-      saveMessage,
       loadSession,
     getSudoNumbers,
       downloadMediaMessage
