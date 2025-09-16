@@ -5,8 +5,8 @@ const { gmd, config, getBuffer, monospace, sleep, commands } = require('../lib')
        VERSION: version,
        PREFIX: prefix, 
        TIME_ZONE: tz, 
-       OWNER_NAME: displayName, 
-       OWNER_NUMBER: waid } = config, 
+       OWNER_NAMEE: displayName, 
+       OWNER_NUMBERR: waid } = config, 
       { totalmem: totalMemoryBytes, 
       freemem: freeMemoryBytes } = require('os'), 
       fs = require('fs'), 
@@ -207,8 +207,8 @@ async(Gifted, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, 
                 forwardingScore: 5,
                 isForwarded: false,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420122180789@newsletter',
-                    newsletterName: "ALI-MF",
+                    newsletterJid: '120363318387454868@newsletter',
+                    newsletterName: "ALI-MD",
                     serverMessageId: 143
                 }
             }
@@ -470,7 +470,7 @@ try{
 const response = await axios.get(global.giftedApiRepo);
     const repoData = response.data;
     const { full_name, name, forks_count, stargazers_count, created_at, updated_at, owner } = repoData;
-    const messageText = `╭─────────────────⳹\n│ *🎗️ ɴᴀᴍᴇ:* ALI-MD\n│ *⭐ sᴛᴀʀs:* 254\n│ *🧩 ғᴏʀᴋs:* 1226\n│ *🧮 ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:* 3/14/2025\n│ *📮 ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* 8/5/2025\n│ *👑 ᴏᴡɴᴇʀ:* ALI INXIDE\n╰─────────────────⳹\n*ʀᴇᴘᴏ ʟɪɴᴋ:* https://github.com/itx-alii-raza/ALI-MD\n\n*sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*`;
+    const messageText = `╭─────────────────⳹\n│ *🎗️ ɴᴀᴍᴇ:* ALI-MD\n│ *⭐ sᴛᴀʀs:* 254\n│ *🧩 ғᴏʀᴋs:* 1226\n│ *🧮 ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:* 3/14/2025\n│ *📮 ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* 8/5/2025\n│ *👑 ᴏᴡɴᴇʀ:* ALI INXIDE\n╰─────────────────⳹\n*ʀᴇᴘᴏ ʟɪɴᴋ:* https://github.com/ALI-INXIDE/ALI-MD`;
     let gift = {
             key: {
                 fromMe: false,
@@ -518,9 +518,9 @@ async(Gifted, mek, m,{from, quoted, isOwner, reply}) => {
 try{
 const vcard = 'BEGIN:VCARD\n'
           + 'VERSION:3.0\n' 
-          + `FN:${config.OWNER_NAME}\n` 
-          + 'ORG:ALI-INXIDE;\n' 
-          + `TEL;type=CELL;type=VOICE;waid=${config.OWNER_NUMBER}:${config.OWNER_NUMBER}\n`
+          + `FN:${config.OWNER_NAMEE}\n` 
+          + 'ORG:BOT-CREATER;\n' 
+          + `TEL;type=CELL;type=VOICE;waid=${config.OWNER_NUMBERR}:${config.OWNER_NUMBERR}\n`
           + 'END:VCARD';
   await Gifted.sendMessage(
   from,
