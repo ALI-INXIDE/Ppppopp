@@ -1,1 +1,244 @@
-const _0x54e940=_0x8e62;(function(_0x16b051,_0x569d1c){const _0x15af75=_0x8e62,_0x5c4f7a=_0x16b051();while(!![]){try{const _0x37759a=-parseInt(_0x15af75(0xa8))/0x1*(-parseInt(_0x15af75(0xc5))/0x2)+-parseInt(_0x15af75(0xc3))/0x3*(-parseInt(_0x15af75(0xb9))/0x4)+-parseInt(_0x15af75(0x9e))/0x5+-parseInt(_0x15af75(0xa1))/0x6*(parseInt(_0x15af75(0xb2))/0x7)+-parseInt(_0x15af75(0xc0))/0x8+parseInt(_0x15af75(0xa0))/0x9+-parseInt(_0x15af75(0xc2))/0xa;if(_0x37759a===_0x569d1c)break;else _0x5c4f7a['push'](_0x5c4f7a['shift']());}catch(_0x1b2916){_0x5c4f7a['push'](_0x5c4f7a['shift']());}}}(_0x28c3,0xd1d26));const {gmd,commands}=require(_0x54e940(0xdb)),axios=require(_0x54e940(0xd3));gmd({'pattern':'milf','react':'💫','desc':_0x54e940(0x97),'category':_0x54e940(0xaf),'use':_0x54e940(0xc4),'filename':__filename},async(_0x4ba51c,_0x35a9b3,_0x88f676,{from:_0x34270c,l:_0x573392,quoted:_0x2eda04,body:_0x13bf60,isCmd:_0x330047,command:_0x3001bf,args:_0x1679a0,q:_0x2a0967,isGroup:_0x18c4b9,sender:_0x1cbf9f,senderNumber:_0x3cad15,botNumber2:_0xd89959,botNumber:_0x54492a,pushname:_0x3369e4,isMe:_0x1a704f,isOwner:_0x54aeb5,groupMetadata:_0x3b965e,groupName:_0x2a9bed,participants:_0x1eace4,groupAdmins:_0x34dab2,isBotAdmins:_0x1993ff,isAdmins:_0x4eec08,reply:_0x155009})=>{const _0x1669a4=_0x54e940;try{if(!_0x54aeb5)return _0x155009(_0x1669a4(0xcf));let _0x3d550c=await axios[_0x1669a4(0xb1)](_0x1669a4(0xd2));await _0x4ba51c['sendMessage'](_0x34270c,{'image':{'url':_0x3d550c[_0x1669a4(0xae)][_0x1669a4(0xa2)][0x0][_0x1669a4(0x9a)]},'caption':'>\x20'+global[_0x1669a4(0xd7)]},{'quoted':_0x35a9b3}),await _0x88f676['react']('✅');}catch(_0x189d92){_0x155009(_0x189d92),console['log'](_0x189d92);}}),gmd({'pattern':_0x54e940(0xd6),'react':'💫','desc':'Download\x20Erotic\x20Anime\x20Images.','category':_0x54e940(0xaf),'use':'.loli','filename':__filename},async(_0x1ccdae,_0x541663,_0xf88f16,{from:_0x3e04ee,l:_0x24d8b6,quoted:_0x3eee7e,body:_0x13d9e6,isCmd:_0xded535,command:_0x47ad35,args:_0x5a99a1,q:_0x5c2f1e,isGroup:_0x209cdb,sender:_0x43f585,senderNumber:_0x479583,botNumber2:_0x33ff6f,botNumber:_0x57a9e7,pushname:_0xac1f1e,isMe:_0x2c5e2c,isOwner:_0x511e45,groupMetadata:_0x28e00a,groupName:_0x329a8a,participants:_0x3d85bc,groupAdmins:_0x433971,isBotAdmins:_0x195743,isAdmins:_0x570967,reply:_0x39c790})=>{const _0x19bece=_0x54e940;try{if(!_0x511e45)return _0x39c790(_0x19bece(0xcf));let _0x38f4d2=await axios[_0x19bece(0xb1)](_0x19bece(0xb0));await _0x1ccdae[_0x19bece(0xbd)](_0x3e04ee,{'image':{'url':_0x38f4d2[_0x19bece(0xae)][_0x19bece(0xa2)][0x0][_0x19bece(0x9a)]},'caption':'>\x20'+global[_0x19bece(0xd7)]},{'quoted':_0x541663}),await _0xf88f16[_0x19bece(0xc6)]('✅');}catch(_0x5cfbfd){_0x39c790(_0x5cfbfd),console[_0x19bece(0x98)](_0x5cfbfd);}}),gmd({'pattern':_0x54e940(0xc8),'react':'💫','desc':_0x54e940(0xda),'category':_0x54e940(0xaf),'use':_0x54e940(0xc4),'filename':__filename},async(_0x166b56,_0x190358,_0xae920,{from:_0x46d25d,l:_0x13a05d,quoted:_0xb7d453,body:_0x4fcdcd,isCmd:_0x3f3372,command:_0x2422c9,args:_0x4db6c5,q:_0x5ce9ca,isGroup:_0x33e9ae,sender:_0x438080,senderNumber:_0x21c0ef,botNumber2:_0x4abbd5,botNumber:_0x894802,pushname:_0xde59b,isMe:_0x4c500a,isOwner:_0x221c9a,groupMetadata:_0x2e89a7,groupName:_0x3e02e5,participants:_0x55be8d,groupAdmins:_0x4feb53,isBotAdmins:_0xfbaa91,isAdmins:_0x4a5583,reply:_0x64bba9})=>{const _0x459e1d=_0x54e940;try{if(!_0x221c9a)return _0x64bba9(_0x459e1d(0xcf));let _0x496ea3=await axios['get']('https://api.waifu.im/search/?included_tags=ecchi');await _0x166b56[_0x459e1d(0xbd)](_0x46d25d,{'image':{'url':_0x496ea3[_0x459e1d(0xae)][_0x459e1d(0xa2)][0x0][_0x459e1d(0x9a)]},'caption':'>\x20'+global[_0x459e1d(0xd7)]},{'quoted':_0x190358}),await _0xae920['react']('✅');}catch(_0x3725ad){_0x64bba9(_0x3725ad),console['log'](_0x3725ad);}}),gmd({'pattern':_0x54e940(0xb8),'react':'💫','desc':_0x54e940(0xd9),'category':_0x54e940(0xaf),'use':_0x54e940(0xc4),'filename':__filename},async(_0x34c9e3,_0x40f76a,_0x248445,{from:_0x212463,l:_0x218dc2,quoted:_0x303e50,body:_0x27c784,isCmd:_0x4622c0,command:_0xb578f,args:_0x2e9c44,q:_0x1cc948,isGroup:_0x5e17c3,sender:_0x470c81,senderNumber:_0x1c1b67,botNumber2:_0x2d79c8,botNumber:_0x1012a2,pushname:_0x41ef8f,isMe:_0x34ab3b,isOwner:_0xe2b213,groupMetadata:_0x14da0c,groupName:_0x366c7a,participants:_0x5ac49c,groupAdmins:_0x27b969,isBotAdmins:_0x306584,isAdmins:_0x58f2fc,reply:_0x2cecc5})=>{const _0xad7de7=_0x54e940;try{if(!_0xe2b213)return _0x2cecc5('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαи∂*');let _0x39b5a2=await axios[_0xad7de7(0xb1)](_0xad7de7(0xa7));await _0x34c9e3[_0xad7de7(0xbd)](_0x212463,{'image':{'url':_0x39b5a2[_0xad7de7(0xae)][_0xad7de7(0xa2)][0x0][_0xad7de7(0x9a)]},'caption':'>\x20'+global[_0xad7de7(0xd7)]},{'quoted':_0x40f76a}),await _0x248445[_0xad7de7(0xc6)]('✅');}catch(_0x45c5cb){_0x2cecc5(_0x45c5cb),console['log'](_0x45c5cb);}}),gmd({'pattern':'ranime','alias':[_0x54e940(0xb7)],'react':'💫','desc':_0x54e940(0xa4),'category':_0x54e940(0xaf),'use':_0x54e940(0xc4),'filename':__filename},async(_0x4cc4c3,_0x2dc587,_0x3c477a,{from:_0x5150ef,l:_0x3e920e,quoted:_0x4e8196,body:_0x10de1c,isCmd:_0x5ddadf,command:_0x434ea2,args:_0x1a808a,q:_0xcfd723,isGroup:_0x43d256,sender:_0x1947f9,senderNumber:_0x272df5,botNumber2:_0x59c83c,botNumber:_0x1d71e5,pushname:_0x5be93b,isMe:_0x1d82f0,isOwner:_0xd6d1bf,groupMetadata:_0x4b2a03,groupName:_0x307c8e,participants:_0x48b2fe,groupAdmins:_0x36792b,isBotAdmins:_0x230296,isAdmins:_0x185f90,reply:_0x562380})=>{const _0x48ad14=_0x54e940;try{const _0xc510d3=await axios[_0x48ad14(0xb1)](_0x48ad14(0xb3)),_0xcfbc33=_0xc510d3[_0x48ad14(0xae)][_0x48ad14(0xae)],_0x453fab=_0xcfbc33[_0x48ad14(0xa6)],_0x42db79=_0xcfbc33[_0x48ad14(0xd4)],_0x569a7a=_0xcfbc33[_0x48ad14(0xa2)][_0x48ad14(0xd5)][_0x48ad14(0xa9)],_0x4ba42a=_0xcfbc33['episodes'],_0x22b2ca=_0xcfbc33[_0x48ad14(0xd1)],_0x3adcbd=_0x48ad14(0xcd)+_0x453fab+_0x48ad14(0x9f)+_0x4ba42a+_0x48ad14(0xbe)+_0x22b2ca+'\x0a📝\x20Synopsis:\x20'+_0x42db79+_0x48ad14(0xb6)+_0xcfbc33['url']+_0x48ad14(0xa5)+global[_0x48ad14(0xba)],_0x56a53b={'image':{'url':_0x569a7a},'caption':_0x3adcbd,'contextInfo':{'mentionedJid':[_0x3c477a[_0x48ad14(0xcc)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363318387454868@newsletter','newsletterName':_0x48ad14(0xbb),'serverMessageId':0x8f}}};await _0x4cc4c3['sendMessage'](_0x5150ef,_0x56a53b,{'quoted':_0x2dc587}),await _0x3c477a[_0x48ad14(0xc6)]('✅');}catch(_0x2d5f1a){_0x562380(_0x2d5f1a),console[_0x48ad14(0x98)](_0x2d5f1a);}}),gmd({'pattern':'loli','alias':['imgloli'],'react':'💫','desc':_0x54e940(0xbc),'category':'anime','use':_0x54e940(0xc4),'filename':__filename},async(_0x3c3029,_0x4bf77a,_0xe4f617,{from:_0x2d6afa,l:_0x348293,quoted:_0x3b78f4,body:_0x573499,isCmd:_0x2e867c,command:_0x12ef64,args:_0x3fd3e6,q:_0x54ef39,isGroup:_0x3d3a28,sender:_0x491ab8,senderNumber:_0x111f3a,botNumber2:_0x193991,botNumber:_0x505eba,pushname:_0x3ac648,isMe:_0x4f5444,isOwner:_0x3822c0,groupMetadata:_0x439113,groupName:_0x42d1bb,participants:_0x5b162f,groupAdmins:_0x23ca9b,isBotAdmins:_0x1bf873,isAdmins:_0x4cc68a,reply:_0x180844})=>{const _0x5f2d73=_0x54e940;try{let _0x352876=await axios['get']('https://api.lolicon.app/setu/v2?num=1&r18=0&tag=lolicon');await _0x3c3029['sendMessage'](_0x2d6afa,{'image':{'url':_0x352876['data'][_0x5f2d73(0xae)][0x0][_0x5f2d73(0xa3)][_0x5f2d73(0x9d)]},'caption':'>\x20'+global[_0x5f2d73(0xd7)]},{'quoted':_0x4bf77a}),await _0xe4f617[_0x5f2d73(0xc6)]('✅');}catch(_0x412c68){_0x180844(_0x412c68),console[_0x5f2d73(0x98)](_0x412c68);}}),gmd({'pattern':_0x54e940(0x9c),'alias':[_0x54e940(0xce)],'react':'💫','desc':_0x54e940(0x9b),'category':'anime','use':_0x54e940(0xaa),'filename':__filename},async(_0x88fda4,_0x45c480,_0x3ae2ba,{from:_0x3c602f,l:_0x3c0eb8,quoted:_0x4716c3,body:_0x2501ba,isCmd:_0x51d141,command:_0x35fc93,args:_0x2f5482,q:_0x26afde,isGroup:_0x5bc170,sender:_0x56b534,senderNumber:_0x28ad7f,botNumber2:_0x3b9ab3,botNumber:_0xf08942,pushname:_0x2288d6,isMe:_0x13dbc5,isOwner:_0x1d3bac,groupMetadata:_0x4b1674,groupName:_0x48ea21,participants:_0x2bd681,groupAdmins:_0x564737,isBotAdmins:_0x2e1b8e,isAdmins:_0x17c80b,reply:_0x2a7c33})=>{const _0x15066e=_0x54e940;try{let _0x37417c=await axios[_0x15066e(0xb1)](_0x15066e(0xb5));await _0x88fda4[_0x15066e(0xbd)](_0x3c602f,{'image':{'url':_0x37417c[_0x15066e(0xae)]['url']},'caption':'>\x20'+global['footer']},{'quoted':_0x45c480}),await _0x3ae2ba[_0x15066e(0xc6)]('✅');}catch(_0x537594){_0x2a7c33(cants),console[_0x15066e(0x98)](_0x537594);}}),gmd({'pattern':_0x54e940(0xad),'alias':['imgneko'],'react':'💫','desc':_0x54e940(0xcb),'category':'anime','use':_0x54e940(0x99),'filename':__filename},async(_0x52c855,_0x5adce8,_0x38a77f,{from:_0x113cac,l:_0x2b3e0d,quoted:_0x1167b4,body:_0x1e58c8,isCmd:_0x554116,command:_0x3bc384,args:_0x46021c,q:_0x163ab3,isGroup:_0x4c01d2,sender:_0x4285e1,senderNumber:_0x37c8c8,botNumber2:_0x172b9a,botNumber:_0x1eb668,pushname:_0x4d6b97,isMe:_0x57f685,isOwner:_0x14073f,groupMetadata:_0x264851,groupName:_0x5dfc0c,participants:_0x5d963d,groupAdmins:_0x388e12,isBotAdmins:_0x5ce459,isAdmins:_0x39d437,reply:_0x16b3b3})=>{const _0xc95472=_0x54e940;try{let _0x3f50e2=await axios[_0xc95472(0xb1)]('https://api.waifu.pics/sfw/neko');await _0x52c855[_0xc95472(0xbd)](_0x113cac,{'image':{'url':_0x3f50e2[_0xc95472(0xae)][_0xc95472(0x9a)]},'caption':'>\x20'+global[_0xc95472(0xd7)]},{'quoted':_0x5adce8}),await _0x38a77f[_0xc95472(0xc6)]('✅');}catch(_0x1975c4){_0x16b3b3(_0x1975c4),console[_0xc95472(0x98)](_0x1975c4);}}),gmd({'pattern':_0x54e940(0xd0),'alias':[_0x54e940(0xca)],'react':'💫','desc':_0x54e940(0xd8),'category':'anime','use':'.megumin','filename':__filename},async(_0x47d9b5,_0x2b89ef,_0x549649,{from:_0x4498c8,l:_0x1799e8,quoted:_0x2ba944,body:_0x1d3e19,isCmd:_0x56fdfc,command:_0x267b5d,args:_0x464560,q:_0x3d7f73,isGroup:_0x474f0c,sender:_0x4b8bca,senderNumber:_0x46b38b,botNumber2:_0x575107,botNumber:_0x1e0624,pushname:_0x51ed0d,isMe:_0x206666,isOwner:_0x527272,groupMetadata:_0x1021cd,groupName:_0x1503a3,participants:_0x2f6e94,groupAdmins:_0x1266bb,isBotAdmins:_0x158e21,isAdmins:_0x2d5f9f,reply:_0x2ed6f0})=>{const _0x489041=_0x54e940;try{let _0x4d9ef3=await axios['get']('https://api.waifu.pics/sfw/megumin');await _0x47d9b5[_0x489041(0xbd)](_0x4498c8,{'image':{'url':_0x4d9ef3[_0x489041(0xae)]['url']},'caption':'>\x20'+global[_0x489041(0xd7)]},{'quoted':_0x2b89ef}),await _0x549649[_0x489041(0xc6)]('✅');}catch(_0x35fc53){_0x2ed6f0(_0x35fc53),console[_0x489041(0x98)](_0x35fc53);}}),gmd({'pattern':_0x54e940(0xc9),'alias':['imgmaid'],'react':'💫','desc':_0x54e940(0xc1),'category':'anime','use':_0x54e940(0xac),'filename':__filename},async(_0x58d81f,_0x2d5db2,_0x8dac40,{from:_0x143c09,l:_0x38ce6f,quoted:_0x52036f,body:_0x4d5006,isCmd:_0x1a9955,command:_0x1b24a0,args:_0x3dfb8e,q:_0x2478ea,isGroup:_0xa5c83b,sender:_0x1461f4,senderNumber:_0x1b10a9,botNumber2:_0x147d2e,botNumber:_0x2547f7,pushname:_0x2f02c7,isMe:_0x17a514,isOwner:_0x1b93bb,groupMetadata:_0x39dd84,groupName:_0x7e930e,participants:_0x13ad21,groupAdmins:_0x5cbbef,isBotAdmins:_0x1f725e,isAdmins:_0x1334ac,reply:_0x568946})=>{const _0x31b0bf=_0x54e940;try{let _0x191d0c=await axios[_0x31b0bf(0xb1)](_0x31b0bf(0xc7));await _0x58d81f['sendMessage'](_0x143c09,{'image':{'url':_0x191d0c[_0x31b0bf(0xae)][_0x31b0bf(0xa2)][0x0][_0x31b0bf(0x9a)]},'caption':'>\x20'+global[_0x31b0bf(0xd7)]},{'quoted':_0x2d5db2}),await _0x8dac40['react']('✅');}catch(_0x3f8701){_0x568946(_0x3f8701),console[_0x31b0bf(0x98)](_0x3f8701);}}),gmd({'pattern':_0x54e940(0xdc),'alias':[_0x54e940(0xb4)],'react':'💫','desc':_0x54e940(0xbf),'category':_0x54e940(0xaf),'use':_0x54e940(0xab),'filename':__filename},async(_0x9713f5,_0x1ff3f3,_0x584d71,{from:_0x5637ea,l:_0x1d5e91,quoted:_0x195d73,body:_0x303ca7,isCmd:_0x4691f2,command:_0x3bce27,args:_0x4ee33b,q:_0x4223a4,isGroup:_0x379296,sender:_0x444913,senderNumber:_0x1ddd2e,botNumber2:_0x458b5f,botNumber:_0xbeef4,pushname:_0x31ec79,isMe:_0x29551e,isOwner:_0x323e3b,groupMetadata:_0x2d8cdc,groupName:_0xb7fd2e,participants:_0x4c4340,groupAdmins:_0x569549,isBotAdmins:_0x229746,isAdmins:_0x385f05,reply:_0x1e20a6})=>{const _0x4875bf=_0x54e940;try{let _0x52f5ed=await axios[_0x4875bf(0xb1)]('https://api.waifu.pics/sfw/awoo');await _0x9713f5['sendMessage'](_0x5637ea,{'image':{'url':_0x52f5ed[_0x4875bf(0xae)][_0x4875bf(0x9a)]},'caption':'>\x20'+global[_0x4875bf(0xd7)]},{'quoted':_0x1ff3f3}),await _0x584d71[_0x4875bf(0xc6)]('✅');}catch(_0x206746){_0x1e20a6(_0x206746),console[_0x4875bf(0x98)](_0x206746);}});function _0x8e62(_0x6c7976,_0x32763d){const _0x28c348=_0x28c3();return _0x8e62=function(_0x8e6241,_0x42d1be){_0x8e6241=_0x8e6241-0x97;let _0x9f0ce=_0x28c348[_0x8e6241];return _0x9f0ce;},_0x8e62(_0x6c7976,_0x32763d);}function _0x28c3(){const _0x5e16c1=['awoo','Download\x20Milf\x20Anime\x20Images.','log','.neko','url','Download\x20Waifu\x20Anime\x20Images.','waifu','original','5750680gaTPBS','\x0a🎬\x20Épisodes:\x20','6803442RAMBXs','12YnqplN','images','urls','Download\x20Random\x20Anime\x20Images.','\x0a\x0a>\x20','title','https://api.waifu.im/search/?included_tags=ass','95HKDPhE','image_url','.waifu','.awoo','.maid','neko','data','anime','https://api.waifu.im/search/?included_tags=ero','get','452046tuzYje','https://api.jikan.moe/v4/random/anime','imgawoo','https://api.waifu.pics/sfw/waifu','\x0a🔗\x20URL:\x20','randomanime','ass','5257304APwfWI','caption','𝐀𝐋𝐈-𝐌𝐃\x20𝐒𝐔𝐏𝐏𝐎𝐑𝐓¬💸','Download\x20Loli\x20Anime\x20Images.','sendMessage','\x0a📡\x20Statut:\x20','Download\x20Awoo\x20Anime\x20Images.','5089096yKsbHe','Download\x20Maid\x20Anime\x20Images.','2798900TFMfxL','3pWJCtE','.loli','20726UaZuhD','react','https://api.waifu.im/search/?included_tags=maid','ecchi','maid','imgmegumin','Download\x20Neko\x20Anime\x20Images.','sender','📺\x20Titre:\x20','imgwaifu','*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαи∂*','megumin','status','https://api.waifu.im/search/?included_tags=milf','axios','synopsis','jpg','ero','footer','Download\x20Megumin\x20Anime\x20Images.','Download\x20Ass\x20Anime\x20Images.','Download\x20Echi\x20Anime\x20Images.','../lib'];_0x28c3=function(){return _0x5e16c1;};return _0x28c3();}
+const { gmd, commands } = require('../lib'), 
+      axios = require('axios');
+
+gmd({
+    pattern: "milf",
+    react: '💫',
+    desc: "Download Milf Anime Images.",
+    category: "anime",
+    use: '.loli',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+if (!isOwner) return reply("❌ You are not the owner!");
+let res = await axios.get('https://api.waifu.im/search/?included_tags=milf')
+await Gifted.sendMessage(from, { image: { url: res.data.images[0].url }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "ero",
+    react: '💫',
+    desc: "Download Erotic Anime Images.",
+    category: "anime",
+    use: '.loli',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+if (!isOwner) return reply("❌ You are not the owner!");
+let res = await axios.get('https://api.waifu.im/search/?included_tags=ero')
+await Gifted.sendMessage(from, { image: { url: res.data.images[0].url }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "ecchi",
+    react: '💫',
+    desc: "Download Echi Anime Images.",
+    category: "anime",
+    use: '.loli',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+if (!isOwner) return reply("❌ You are not the owner!");
+let res = await axios.get('https://api.waifu.im/search/?included_tags=ecchi')
+await Gifted.sendMessage(from, { image: { url: res.data.images[0].url }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "ass",
+    react: '💫',
+    desc: "Download Ass Anime Images.",
+    category: "anime",
+    use: '.loli',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+if (!isOwner) return reply("❌ You are not the owner!");
+let res = await axios.get('https://api.waifu.im/search/?included_tags=ass')
+await Gifted.sendMessage(from, { image: { url: res.data.images[0].url }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "ranime",
+    alias: ["randomanime"],
+    react: '💫',
+    desc: "Download Random Anime Images.",
+    category: "anime",
+    use: '.loli',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+const response = await axios.get('https://api.jikan.moe/v4/random/anime'); 
+const data = response.data.data;
+    const title = data.title;
+    const synopsis = data.synopsis;
+    const imageUrl = data.images.jpg.image_url; 
+    const episodes = data.episodes;
+    const status = data.status;
+    const message = `📺 Titre: ${title}\n🎬 Épisodes: ${episodes}\n📡 Statut: ${status}\n📝 Synopsis: ${synopsis}\n🔗 URL: ${data.url}\n\n> ${global.caption}`;
+      const infoMess = {
+        image: { url: imageUrl },
+        caption: message,
+        contextInfo: {
+          mentionedJid: [m.sender],
+          forwardingScore: 5,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363322606369079@newsletter',
+                        newsletterName: "PRINCE TECH",
+            serverMessageId: 143
+          }
+        }
+      };
+await Gifted.sendMessage(from, infoMess, { quoted: mek });
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+
+gmd({
+    pattern: "loli",
+    alias: ["imgloli"],
+    react: '💫',
+    desc: "Download Loli Anime Images.",
+    category: "anime",
+    use: '.loli',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let res = await axios.get('https://api.lolicon.app/setu/v2?num=1&r18=0&tag=lolicon')
+await Gifted.sendMessage(from, { image: { url: res.data.data[0].urls.original }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "waifu",
+    alias: ["imgwaifu"],
+    react: '💫',
+    desc: "Download Waifu Anime Images.",
+    category: "anime",
+    use: '.waifu',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let res = await axios.get('https://api.waifu.pics/sfw/waifu')
+await Gifted.sendMessage(from, { image: { url: res.data.url }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(cants)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "neko",
+    alias: ["imgneko"],
+    react: '💫',
+    desc: "Download Neko Anime Images.",
+    category: "anime",
+    use: '.neko',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let res = await axios.get('https://api.waifu.pics/sfw/neko')
+await Gifted.sendMessage(from, { image: { url: res.data.url  }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+  
+gmd({
+    pattern: "megumin",
+    alias: ["imgmegumin"],
+    react: '💫',
+    desc: "Download Megumin Anime Images.",
+    category: "anime",
+    use: '.megumin',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let res = await axios.get('https://api.waifu.pics/sfw/megumin')
+await Gifted.sendMessage(from, { image: { url: res.data.url }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "maid",
+    alias: ["imgmaid"],
+    react: '💫',
+    desc: "Download Maid Anime Images.",
+    category: "anime",
+    use: '.maid',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let res = await axios.get('https://api.waifu.im/search/?included_tags=maid')
+await Gifted.sendMessage(from, { image: { url: res.data.images[0].url  }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
+
+gmd({
+    pattern: "awoo",
+    alias: ["imgawoo"],
+    react: '💫',
+    desc: "Download Awoo Anime Images.",
+    category: "anime",
+    use: '.awoo',
+    filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let res = await axios.get('https://api.waifu.pics/sfw/awoo')
+await Gifted.sendMessage(from, { image: { url: res.data.url }, caption: `> ${global.footer}` }, { quoted: mek })
+await m.react("✅"); 
+} catch (e) {
+reply(e)
+console.log(e)
+}
+})
