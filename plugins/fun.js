@@ -1,1 +1,494 @@
-const _0x511ca9=_0x513d;(function(_0x465797,_0x457685){const _0x3e1dda=_0x513d,_0x48558f=_0x465797();while(!![]){try{const _0x2f9233=parseInt(_0x3e1dda(0x144))/0x1+parseInt(_0x3e1dda(0x154))/0x2*(parseInt(_0x3e1dda(0x13a))/0x3)+-parseInt(_0x3e1dda(0x14e))/0x4+-parseInt(_0x3e1dda(0x14c))/0x5+-parseInt(_0x3e1dda(0x17e))/0x6+-parseInt(_0x3e1dda(0x152))/0x7*(-parseInt(_0x3e1dda(0x19c))/0x8)+parseInt(_0x3e1dda(0x13b))/0x9*(parseInt(_0x3e1dda(0x185))/0xa);if(_0x2f9233===_0x457685)break;else _0x48558f['push'](_0x48558f['shift']());}catch(_0x2986c5){_0x48558f['push'](_0x48558f['shift']());}}}(_0x2525,0x75ac1));const {gmd,fetchJson}=require(_0x511ca9(0x189)),axios=require(_0x511ca9(0x14a));function _0x513d(_0x1d33e6,_0x22d9c5){const _0x252522=_0x2525();return _0x513d=function(_0x513dfb,_0x33a8c4){_0x513dfb=_0x513dfb-0x135;let _0x3949ca=_0x252522[_0x513dfb];return _0x3949ca;},_0x513d(_0x1d33e6,_0x22d9c5);}gmd({'pattern':'newyear','desc':_0x511ca9(0x13e),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x4257cb,_0x1384c6,_0x1ad814,{from:_0x2383b6,quoted:_0x3d32fe,body:_0x2b6300,isCmd:_0x26919f,command:_0x553828,args:_0x5e6678,q:_0xbe009e,isGroup:_0x2ff609,sender:_0x58d976,senderNumber:_0x310673,botNumber2:_0x39005a,botNumber:_0x3c5c29,pushname:_0x4eab91,isMe:_0x4cce36,isOwner:_0x4baf6d,groupMetadata:_0x16f973,groupName:_0xea555b,participants:_0x25df78,groupAdmins:_0x489d09,isBotAdmins:_0xe79e25,isAdmins:_0x290aa6,reply:_0x1b0e52})=>{const _0x2bc56b=_0x511ca9;try{const _0x2a4052=await fetchJson(global['api']+'/fun/newyear?apikey='+global[_0x2bc56b(0x181)]);await _0x4257cb[_0x2bc56b(0x16d)](_0x2383b6,{'text':_0x2a4052['result']},{'quoted':_0x1384c6}),await _0x1ad814[_0x2bc56b(0x139)]('✅');}catch(_0x40d041){console[_0x2bc56b(0x155)](_0x40d041),_0x1b0e52(_0x2bc56b(0x164)+_0x40d041[_0x2bc56b(0x194)]);}}),gmd({'pattern':'christmas','desc':_0x511ca9(0x18c),'category':'fun','react':'👓','filename':__filename},async(_0x3c983a,_0x285bd7,_0x422227,{from:_0x276dad,quoted:_0x4bd1ce,body:_0x3fffd7,isCmd:_0x3d6e3a,command:_0x213512,args:_0x29ada0,q:_0x58b81a,isGroup:_0x169a16,sender:_0x27f912,senderNumber:_0x17a261,botNumber2:_0x46adb8,botNumber:_0x63a200,pushname:_0x405c61,isMe:_0x45b2b1,isOwner:_0x3f3f9b,groupMetadata:_0xa742c4,groupName:_0x441b5c,participants:_0x51bb4f,groupAdmins:_0xb71fa3,isBotAdmins:_0x5a1966,isAdmins:_0x1d79b7,reply:_0x3f22ef})=>{const _0x210f14=_0x511ca9;try{const _0x4eda69=await fetchJson(global['api']+_0x210f14(0x158)+global[_0x210f14(0x181)]);await _0x3c983a['sendMessage'](_0x276dad,{'text':_0x4eda69[_0x210f14(0x163)]},{'quoted':_0x285bd7}),await _0x422227['react']('✅');}catch(_0x465237){console['log'](_0x465237),_0x3f22ef(_0x210f14(0x164)+_0x465237[_0x210f14(0x194)]);}}),gmd({'pattern':_0x511ca9(0x15e),'alias':[_0x511ca9(0x1a0),'valentinesday'],'desc':_0x511ca9(0x18f),'category':'fun','react':'👓','filename':__filename},async(_0x1610b7,_0x18d816,_0x4862bf,{from:_0x15c7ae,quoted:_0x3b38b0,body:_0x3c65f7,isCmd:_0x470e23,command:_0x2ae0de,args:_0x3d1e71,q:_0x135a67,isGroup:_0x3e00dc,sender:_0x5f8ba1,senderNumber:_0x2abca3,botNumber2:_0x543546,botNumber:_0x218913,pushname:_0x102eba,isMe:_0xa5d0fd,isOwner:_0x2ecbf4,groupMetadata:_0x30ead0,groupName:_0x17aa13,participants:_0x1f05c7,groupAdmins:_0x501d7b,isBotAdmins:_0x512a47,isAdmins:_0x25a17f,reply:_0x423b10})=>{const _0x43e2a7=_0x511ca9;try{const _0x2b1c1b=await fetchJson(global[_0x43e2a7(0x161)]+_0x43e2a7(0x192)+global[_0x43e2a7(0x181)]);await _0x1610b7['sendMessage'](_0x15c7ae,{'text':_0x2b1c1b['result']},{'quoted':_0x18d816}),await _0x4862bf['react']('✅');}catch(_0x529815){console[_0x43e2a7(0x155)](_0x529815),_0x423b10(_0x43e2a7(0x164)+_0x529815[_0x43e2a7(0x194)]);}}),gmd({'pattern':_0x511ca9(0x16b),'desc':'Fetch\x20GirlFriends\x20Day\x20Quotes/Wishes.','category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x24fadc,_0x554477,_0xb0cd4a,{from:_0x28b846,quoted:_0x4a90d5,body:_0x2dc700,isCmd:_0x34a6f4,command:_0x2e659d,args:_0x20790b,q:_0x26f438,isGroup:_0x396c76,sender:_0x58eaef,senderNumber:_0x1d8f57,botNumber2:_0x2853b9,botNumber:_0x3bdf16,pushname:_0x3a69fa,isMe:_0x5ee70a,isOwner:_0x4b2940,groupMetadata:_0x4e972a,groupName:_0x480689,participants:_0x2411ae,groupAdmins:_0x1c2a2d,isBotAdmins:_0x521c14,isAdmins:_0x488b04,reply:_0x2cbce9})=>{const _0x77dc87=_0x511ca9;try{const _0x3a4da2=await fetchJson(global[_0x77dc87(0x161)]+_0x77dc87(0x135)+global[_0x77dc87(0x181)]);await _0x24fadc[_0x77dc87(0x16d)](_0x28b846,{'text':_0x3a4da2[_0x77dc87(0x163)]},{'quoted':_0x554477}),await _0xb0cd4a[_0x77dc87(0x139)]('✅');}catch(_0xe2fcfe){console[_0x77dc87(0x155)](_0xe2fcfe),_0x2cbce9(_0x77dc87(0x164)+_0xe2fcfe[_0x77dc87(0x194)]);}}),gmd({'pattern':_0x511ca9(0x16a),'desc':_0x511ca9(0x137),'category':'fun','react':'👓','filename':__filename},async(_0x1f5d10,_0x549fe1,_0x4efdc8,{from:_0x3d3600,quoted:_0x134a09,body:_0x2b8e51,isCmd:_0x30b736,command:_0x589792,args:_0x155dff,q:_0x1a5f64,isGroup:_0x13d7ab,sender:_0x281863,senderNumber:_0x13181e,botNumber2:_0x3cd121,botNumber:_0x292a13,pushname:_0x5ed991,isMe:_0x60ff35,isOwner:_0xf0dcc7,groupMetadata:_0x321f0e,groupName:_0x125c6b,participants:_0x2a8eaa,groupAdmins:_0x4687b0,isBotAdmins:_0x5b5035,isAdmins:_0x44ce2a,reply:_0x2014b0})=>{const _0x2c2879=_0x511ca9;try{const _0x1c9d34=await fetchJson(global[_0x2c2879(0x161)]+_0x2c2879(0x182)+global[_0x2c2879(0x181)]);await _0x1f5d10[_0x2c2879(0x16d)](_0x3d3600,{'text':_0x1c9d34[_0x2c2879(0x163)]},{'quoted':_0x549fe1}),await _0x4efdc8[_0x2c2879(0x139)]('✅');}catch(_0x2cb656){console['log'](_0x2cb656),_0x2014b0('Error:\x20'+_0x2cb656['message']);}}),gmd({'pattern':_0x511ca9(0x173),'alias':[_0x511ca9(0x15a),_0x511ca9(0x178),_0x511ca9(0x146)],'desc':_0x511ca9(0x17f),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x2ad4d0,_0x431161,_0x52d464,{from:_0x339471,quoted:_0xc9958,body:_0x17b860,isCmd:_0x24a0fa,command:_0x4b63d4,args:_0x5ba18f,q:_0x5524dc,isGroup:_0x4578f3,sender:_0x469205,senderNumber:_0x4aefa2,botNumber2:_0x330815,botNumber:_0x5cad59,pushname:_0x2da35b,isMe:_0x16ec0f,isOwner:_0x301071,groupMetadata:_0x50e37b,groupName:_0x5ca126,participants:_0x1dcc6d,groupAdmins:_0x218b2c,isBotAdmins:_0x316ced,isAdmins:_0x281d0a,reply:_0x3160dd})=>{const _0x4fb9ea=_0x511ca9;try{const _0x3e8343=await fetchJson(global['api']+'/fun/pickupline?apikey='+global['myName']);await _0x2ad4d0['sendMessage'](_0x339471,{'text':_0x3e8343[_0x4fb9ea(0x163)]},{'quoted':_0x431161}),await _0x52d464[_0x4fb9ea(0x139)]('✅');}catch(_0x4ac536){console[_0x4fb9ea(0x155)](_0x4ac536),_0x3160dd(_0x4fb9ea(0x164)+_0x4ac536[_0x4fb9ea(0x194)]);}}),gmd({'pattern':_0x511ca9(0x15b),'desc':_0x511ca9(0x136),'category':'fun','react':'👓','filename':__filename},async(_0x3be2db,_0x3632c7,_0x1e0bb1,{from:_0x212074,quoted:_0xd72cea,body:_0x569e13,isCmd:_0x3ff23d,command:_0x1db662,args:_0x2285e9,q:_0x474859,isGroup:_0x2e924f,sender:_0x5b1f10,senderNumber:_0x4efcd6,botNumber2:_0x762c3e,botNumber:_0xfb7158,pushname:_0x359ebb,isMe:_0x505885,isOwner:_0x2638f1,groupMetadata:_0x53b8e8,groupName:_0x45c57d,participants:_0x3962e0,groupAdmins:_0x2c7030,isBotAdmins:_0x5eaac0,isAdmins:_0x542274,reply:_0x3c7c8b})=>{const _0x5fec3b=_0x511ca9;try{const _0x255914=await fetchJson(global[_0x5fec3b(0x161)]+_0x5fec3b(0x190)+global[_0x5fec3b(0x181)]);await _0x3be2db[_0x5fec3b(0x16d)](_0x212074,{'text':_0x255914['result']},{'quoted':_0x3632c7}),await _0x1e0bb1['react']('✅');}catch(_0x5e619c){console[_0x5fec3b(0x155)](_0x5e619c),_0x3c7c8b(_0x5fec3b(0x164)+_0x5e619c[_0x5fec3b(0x194)]);}}),gmd({'pattern':'mothersday','desc':_0x511ca9(0x17a),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x13fccc,_0x384ad7,_0x4888eb,{from:_0x9af5ec,quoted:_0x47bc6d,body:_0x2636fa,isCmd:_0x248199,command:_0x4edc33,args:_0xd97786,q:_0x39b726,isGroup:_0x33acea,sender:_0x4b6be5,senderNumber:_0x10b996,botNumber2:_0x3a1bc7,botNumber:_0x2e4b84,pushname:_0x47a1a9,isMe:_0x1f86a9,isOwner:_0x587218,groupMetadata:_0x302d45,groupName:_0x15fcf1,participants:_0x53a360,groupAdmins:_0x3470db,isBotAdmins:_0xe638f,isAdmins:_0x51e19f,reply:_0x559e47})=>{const _0x2b9cb2=_0x511ca9;try{const _0x62b029=await fetchJson(global[_0x2b9cb2(0x161)]+_0x2b9cb2(0x197)+global[_0x2b9cb2(0x181)]);await _0x13fccc[_0x2b9cb2(0x16d)](_0x9af5ec,{'text':_0x62b029[_0x2b9cb2(0x163)]},{'quoted':_0x384ad7}),await _0x4888eb[_0x2b9cb2(0x139)]('✅');}catch(_0x5d82eb){console[_0x2b9cb2(0x155)](_0x5d82eb),_0x559e47(_0x2b9cb2(0x164)+_0x5d82eb[_0x2b9cb2(0x194)]);}}),gmd({'pattern':_0x511ca9(0x148),'desc':_0x511ca9(0x160),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x5f140a,_0x5ccbc4,_0xf8102c,{from:_0x2fc9f7,quoted:_0x1796a4,body:_0x93b08f,isCmd:_0x2ebb61,command:_0x2d1785,args:_0x4af1b4,q:_0x43ed67,isGroup:_0x3d0303,sender:_0x254d78,senderNumber:_0x4a6e72,botNumber2:_0x287a38,botNumber:_0xb8bac7,pushname:_0x48d875,isMe:_0x5e472e,isOwner:_0x54d301,groupMetadata:_0x4ece99,groupName:_0x113387,participants:_0x53039c,groupAdmins:_0xc15247,isBotAdmins:_0x1acfeb,isAdmins:_0x4f3135,reply:_0x2cbc12})=>{const _0x32a288=_0x511ca9;try{const _0x32d9f9=await fetchJson(global[_0x32a288(0x161)]+_0x32a288(0x196)+global['myName']);await _0x5f140a[_0x32a288(0x16d)](_0x2fc9f7,{'text':_0x32d9f9[_0x32a288(0x163)]},{'quoted':_0x5ccbc4}),await _0xf8102c[_0x32a288(0x139)]('✅');}catch(_0x416f57){console[_0x32a288(0x155)](_0x416f57),_0x2cbc12('Error:\x20'+_0x416f57[_0x32a288(0x194)]);}}),gmd({'pattern':_0x511ca9(0x14f),'alias':[_0x511ca9(0x140)],'desc':_0x511ca9(0x175),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x51f2aa,_0x30caac,_0xd90484,{from:_0x2f3b7f,quoted:_0x3d3390,body:_0x3a092a,isCmd:_0x39e328,command:_0x5e7aa7,args:_0x1e6c62,q:_0x376682,isGroup:_0x86183c,sender:_0x114c2c,senderNumber:_0x6036ea,botNumber2:_0x56c11f,botNumber:_0x27dcb8,pushname:_0x20c707,isMe:_0x5c5db2,isOwner:_0x43929d,groupMetadata:_0x5ddfbb,groupName:_0x13b363,participants:_0x542b7d,groupAdmins:_0x4597e5,isBotAdmins:_0x2ae118,isAdmins:_0x4065e3,reply:_0x29ff85})=>{const _0x5cebc4=_0x511ca9;try{const _0x1e510d=await fetchJson(global[_0x5cebc4(0x161)]+_0x5cebc4(0x166)+global[_0x5cebc4(0x181)]);await _0x51f2aa[_0x5cebc4(0x16d)](_0x2f3b7f,{'text':'Set\x20Up:\x20'+_0x1e510d[_0x5cebc4(0x163)]['setup']+'\x0aPuncline:\x20'+_0x1e510d[_0x5cebc4(0x163)][_0x5cebc4(0x179)]},{'quoted':_0x30caac}),await _0xd90484[_0x5cebc4(0x139)]('✅');}catch(_0x24d04b){console['log'](_0x24d04b),_0x29ff85(_0x5cebc4(0x164)+_0x24d04b['message']);}}),gmd({'pattern':'halloween','desc':_0x511ca9(0x145),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x209cce,_0x3f2004,_0x163d71,{from:_0x542b0f,quoted:_0x1365c1,body:_0x5e2604,isCmd:_0x9bf72d,command:_0x5b56bd,args:_0x387132,q:_0x39bba9,isGroup:_0x3a31d1,sender:_0xce6b7f,senderNumber:_0x5418c1,botNumber2:_0x13ab32,botNumber:_0x5e6c89,pushname:_0x1f02a0,isMe:_0x4f33e2,isOwner:_0xfc13f0,groupMetadata:_0x1cb0ed,groupName:_0x5943ea,participants:_0xbd04df,groupAdmins:_0x3faeba,isBotAdmins:_0x422826,isAdmins:_0x4c03f4,reply:_0x39c1a8})=>{const _0x17a03f=_0x511ca9;try{const _0x186b46=await fetchJson(global[_0x17a03f(0x161)]+'/fun/halloween?apikey='+global['myName']);await _0x209cce[_0x17a03f(0x16d)](_0x542b0f,{'text':_0x186b46[_0x17a03f(0x163)]},{'quoted':_0x3f2004}),await _0x163d71[_0x17a03f(0x139)]('✅');}catch(_0x972109){console['log'](_0x972109),_0x39c1a8(_0x17a03f(0x164)+_0x972109[_0x17a03f(0x194)]);}}),gmd({'pattern':_0x511ca9(0x168),'desc':'Fetch\x20Motivational\x20Quotes.','category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x1c66d3,_0xf5adaa,_0x298ddc,{from:_0x5cfe28,quoted:_0x3ef74e,body:_0x47d69c,isCmd:_0x32f986,command:_0x2365a8,args:_0x43bb2a,q:_0x5e4af6,isGroup:_0x4f5af9,sender:_0x43212b,senderNumber:_0x22c0dc,botNumber2:_0x371e3f,botNumber:_0x42830d,pushname:_0x501c44,isMe:_0x3ffed7,isOwner:_0x289f8c,groupMetadata:_0x5bb2aa,groupName:_0x4333df,participants:_0x5c1cdd,groupAdmins:_0x1611cf,isBotAdmins:_0x1fb05c,isAdmins:_0x32cabe,reply:_0x125cfe})=>{const _0x341ef2=_0x511ca9;try{const _0x4a5d52=await fetchJson(global[_0x341ef2(0x161)]+_0x341ef2(0x198)+global[_0x341ef2(0x181)]);await _0x1c66d3[_0x341ef2(0x16d)](_0x5cfe28,{'text':_0x4a5d52[_0x341ef2(0x163)]},{'quoted':_0xf5adaa}),await _0x298ddc[_0x341ef2(0x139)]('✅');}catch(_0x2c805d){console[_0x341ef2(0x155)](_0x2c805d),_0x125cfe(_0x341ef2(0x164)+_0x2c805d['message']);}}),gmd({'pattern':_0x511ca9(0x191),'desc':_0x511ca9(0x18d),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x56d438,_0x3b0c18,_0x221424,{from:_0x55ed43,quoted:_0x2b5bc3,body:_0x1fd535,isCmd:_0x38c0a8,command:_0x5df998,args:_0x1b4079,q:_0x20c958,isGroup:_0x1399fc,sender:_0x2bd70a,senderNumber:_0x59dc3f,botNumber2:_0x272025,botNumber:_0x1580c7,pushname:_0x534ad5,isMe:_0x3dc359,isOwner:_0x9eda13,groupMetadata:_0x2edc6f,groupName:_0x819a2e,participants:_0x796f9a,groupAdmins:_0x1c1024,isBotAdmins:_0x47b124,isAdmins:_0x371f4c,reply:_0x475f29})=>{const _0x5f0b45=_0x511ca9;try{const _0x4f59ac=await fetchJson(global[_0x5f0b45(0x161)]+'/fun/love?apikey='+global[_0x5f0b45(0x181)]);await _0x56d438[_0x5f0b45(0x16d)](_0x55ed43,{'text':_0x4f59ac['result']},{'quoted':_0x3b0c18}),await _0x221424[_0x5f0b45(0x139)]('✅');}catch(_0x21eedb){console['log'](_0x21eedb),_0x475f29(_0x5f0b45(0x164)+_0x21eedb[_0x5f0b45(0x194)]);}}),gmd({'pattern':_0x511ca9(0x15d),'desc':_0x511ca9(0x167),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x15de7b,_0x5afc8f,_0x378ac3,{from:_0x23d915,quoted:_0x4989f7,body:_0x53c26e,isCmd:_0xf42cd0,command:_0x32308,args:_0x286585,q:_0x1522f8,isGroup:_0x1b8c97,sender:_0x1448c8,senderNumber:_0x32bbfc,botNumber2:_0x4db286,botNumber:_0xc6278f,pushname:_0x4da0b3,isMe:_0x4575a2,isOwner:_0x5ac818,groupMetadata:_0x260202,groupName:_0x3d2f0b,participants:_0x25f2d9,groupAdmins:_0x3ee005,isBotAdmins:_0x11191c,isAdmins:_0x2b9cd3,reply:_0x2ad17c})=>{const _0x1bf049=_0x511ca9;try{const _0x50f7ec=await fetchJson(global[_0x1bf049(0x161)]+_0x1bf049(0x14b)+global[_0x1bf049(0x181)]);await _0x15de7b[_0x1bf049(0x16d)](_0x23d915,{'text':_0x50f7ec['result']},{'quoted':_0x5afc8f}),await _0x378ac3[_0x1bf049(0x139)]('✅');}catch(_0x3145ce){console['log'](_0x3145ce),_0x2ad17c('Error:\x20'+_0x3145ce[_0x1bf049(0x194)]);}}),gmd({'pattern':_0x511ca9(0x17b),'desc':'Fetch\x20ThankYou\x20Quotes.','category':'fun','react':'👓','filename':__filename},async(_0x1bf576,_0xed7d1e,_0x2ba4c6,{from:_0x180cd4,quoted:_0xff55d3,body:_0x15b011,isCmd:_0x26282c,command:_0x542fff,args:_0x5b4a10,q:_0x153705,isGroup:_0x44eb81,sender:_0x52358f,senderNumber:_0x37faa0,botNumber2:_0x144c47,botNumber:_0x48cca7,pushname:_0x1a96ab,isMe:_0x2ac285,isOwner:_0x45876f,groupMetadata:_0x504eda,groupName:_0x20b50d,participants:_0x3fc5ec,groupAdmins:_0x72fa85,isBotAdmins:_0x434668,isAdmins:_0x21e823,reply:_0x3b2234})=>{const _0x4cf145=_0x511ca9;try{const _0x38ccbe=await fetchJson(global[_0x4cf145(0x161)]+_0x4cf145(0x195)+global['myName']);await _0x1bf576[_0x4cf145(0x16d)](_0x180cd4,{'text':_0x38ccbe[_0x4cf145(0x163)]},{'quoted':_0xed7d1e}),await _0x2ba4c6[_0x4cf145(0x139)]('✅');}catch(_0x492c0c){console[_0x4cf145(0x155)](_0x492c0c),_0x3b2234(_0x4cf145(0x164)+_0x492c0c['message']);}}),gmd({'pattern':_0x511ca9(0x141),'desc':'Fetch\x20Shayari\x20Quotes.','category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x528761,_0x1f0407,_0x379279,{from:_0x56ab18,quoted:_0x210e66,body:_0x5b627f,isCmd:_0x25079d,command:_0x582ce4,args:_0x429ed9,q:_0x59b386,isGroup:_0x279c91,sender:_0x213769,senderNumber:_0x48e765,botNumber2:_0x33eca9,botNumber:_0x1a287d,pushname:_0x304d52,isMe:_0x26a8bf,isOwner:_0x4937d6,groupMetadata:_0xbed4f0,groupName:_0x1ee573,participants:_0x26b928,groupAdmins:_0x546a96,isBotAdmins:_0x3d042d,isAdmins:_0xc49852,reply:_0x356cd1})=>{const _0x350cf2=_0x511ca9;try{const _0x53f212=await fetchJson(global[_0x350cf2(0x161)]+_0x350cf2(0x19f)+global['myName']);await _0x528761[_0x350cf2(0x16d)](_0x56ab18,{'text':_0x53f212['result']},{'quoted':_0x1f0407}),await _0x379279[_0x350cf2(0x139)]('✅');}catch(_0x4f27b0){console['log'](_0x4f27b0),_0x356cd1(_0x350cf2(0x164)+_0x4f27b0['message']);}}),gmd({'pattern':_0x511ca9(0x15c),'desc':_0x511ca9(0x19b),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x44857c,_0x11990e,_0x51ee2e,{from:_0x37995c,quoted:_0x2af6ee,body:_0x565121,isCmd:_0x882d69,command:_0xd8d27,args:_0x5d9c2f,q:_0x46da4a,isGroup:_0x1dcb36,sender:_0x37fe69,senderNumber:_0x594129,botNumber2:_0x100fae,botNumber:_0x2563a3,pushname:_0x309720,isMe:_0x48c16e,isOwner:_0x512402,groupMetadata:_0x39c082,groupName:_0x372385,participants:_0x262283,groupAdmins:_0x108221,isBotAdmins:_0x2d5a38,isAdmins:_0x1db6a2,reply:_0x350448})=>{const _0x21a1b3=_0x511ca9;try{const _0x5242e0=await fetchJson(global[_0x21a1b3(0x161)]+_0x21a1b3(0x16e)+global[_0x21a1b3(0x181)]);await _0x44857c[_0x21a1b3(0x16d)](_0x37995c,{'text':_0x5242e0['result']},{'quoted':_0x11990e}),await _0x51ee2e['react']('✅');}catch(_0x164bc8){console[_0x21a1b3(0x155)](_0x164bc8),_0x350448(_0x21a1b3(0x164)+_0x164bc8[_0x21a1b3(0x194)]);}}),gmd({'pattern':_0x511ca9(0x1a1),'desc':_0x511ca9(0x156),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x282851,_0x456c5c,_0x23c2e4,{from:_0x561adf,quoted:_0x3c030f,body:_0x3a89c2,isCmd:_0xd99f4b,command:_0x4a45f6,args:_0x5081f4,q:_0x5a1805,isGroup:_0x526efb,sender:_0x4dfe15,senderNumber:_0x3d4ea6,botNumber2:_0x179516,botNumber:_0x30a732,pushname:_0x3f2e45,isMe:_0x20cd26,isOwner:_0x511593,groupMetadata:_0x2ff457,groupName:_0x40587f,participants:_0x2e5b66,groupAdmins:_0x125da5,isBotAdmins:_0x5c0c98,isAdmins:_0x32a9b4,reply:_0x586464})=>{const _0x4815f4=_0x511ca9;try{const _0x470151=await fetchJson(global[_0x4815f4(0x161)]+_0x4815f4(0x18b)+global['myName']);await _0x282851[_0x4815f4(0x16d)](_0x561adf,{'text':_0x470151['result']},{'quoted':_0x456c5c}),await _0x23c2e4['react']('✅');}catch(_0x400b65){console['log'](_0x400b65),_0x586464('Error:\x20'+_0x400b65[_0x4815f4(0x194)]);}}),gmd({'pattern':_0x511ca9(0x187),'desc':_0x511ca9(0x16f),'category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x58ec5c,_0x1da776,_0x3d806d,{from:_0x3c208f,quoted:_0x4f8c7f,body:_0x3a8882,isCmd:_0x32beda,command:_0x318fbd,args:_0x3cee5b,q:_0xfd3fd,isGroup:_0x5451c7,sender:_0x52b981,senderNumber:_0x4fcb59,botNumber2:_0x1bb9de,botNumber:_0x215339,pushname:_0x47fe6d,isMe:_0x482b44,isOwner:_0x390446,groupMetadata:_0x2cfb60,groupName:_0x5e936d,participants:_0x45e598,groupAdmins:_0x58992f,isBotAdmins:_0x3a87ff,isAdmins:_0x2ebcd2,reply:_0xce6944})=>{const _0x42c3e4=_0x511ca9;try{const _0x2bd6f8=await fetchJson(global['api']+_0x42c3e4(0x176)+global[_0x42c3e4(0x181)]);await _0x58ec5c[_0x42c3e4(0x16d)](_0x3c208f,{'text':_0x2bd6f8['result']},{'quoted':_0x1da776}),await _0x3d806d['react']('✅');}catch(_0x55f19f){console[_0x42c3e4(0x155)](_0x55f19f),_0xce6944('Error:\x20'+_0x55f19f[_0x42c3e4(0x194)]);}}),gmd({'pattern':_0x511ca9(0x13c),'desc':'Fetch\x20Flirty\x20Messages.','category':_0x511ca9(0x138),'react':'👓','filename':__filename},async(_0x327f0b,_0x2feb66,_0x26d2d9,{from:_0x637e35,quoted:_0xd574ae,body:_0x4bff87,isCmd:_0x5dad52,command:_0x1771ce,args:_0x418a9b,q:_0x198647,isGroup:_0x3864c4,sender:_0x48ac11,senderNumber:_0x18bf54,botNumber2:_0xf290a,botNumber:_0x2a2157,pushname:_0xe70bab,isMe:_0x499cb0,isOwner:_0x3d5f0c,groupMetadata:_0x536c1c,groupName:_0x520d09,participants:_0x6baff1,groupAdmins:_0x29e868,isBotAdmins:_0xcd6f7d,isAdmins:_0x4cdb7a,reply:_0x5b75f8})=>{const _0x267129=_0x511ca9;try{const _0x2e21bf=await fetchJson(global[_0x267129(0x161)]+_0x267129(0x17c)+global[_0x267129(0x181)]);await _0x327f0b[_0x267129(0x16d)](_0x637e35,{'text':_0x2e21bf[_0x267129(0x163)]},{'quoted':_0x2feb66}),await _0x26d2d9[_0x267129(0x139)]('✅');}catch(_0x3d5597){console['log'](_0x3d5597),_0x5b75f8(_0x267129(0x164)+_0x3d5597[_0x267129(0x194)]);}}),gmd({'pattern':_0x511ca9(0x186),'alias':['quote'],'desc':_0x511ca9(0x150),'category':'fun','react':'👓','filename':__filename},async(_0x1e9db7,_0x28d011,_0x371854,{from:_0x4de4d5,quoted:_0xda0e47,body:_0x3ffa47,isCmd:_0x56b6a3,command:_0x4adae3,args:_0x2d0800,q:_0x30322e,isGroup:_0x5bc8e5,sender:_0x9cf6e9,senderNumber:_0x330faa,botNumber2:_0x3b4520,botNumber:_0x5f2de1,pushname:_0x3ed5dd,isMe:_0x1aa0a5,isOwner:_0x39fb19,groupMetadata:_0x4b5f32,groupName:_0x39a5c7,participants:_0x2b5c6a,groupAdmins:_0x4b2b78,isBotAdmins:_0x489c22,isAdmins:_0x1d58ca,reply:_0x177f4a})=>{const _0xa15fcf=_0x511ca9;try{const _0x27fb39=await fetchJson(global[_0xa15fcf(0x161)]+_0xa15fcf(0x193)+global[_0xa15fcf(0x181)]);await _0x1e9db7[_0xa15fcf(0x16d)](_0x4de4d5,{'text':_0x27fb39[_0xa15fcf(0x163)]},{'quoted':_0x28d011}),await _0x371854[_0xa15fcf(0x139)]('✅');}catch(_0x1985ef){console[_0xa15fcf(0x155)](_0x1985ef),_0x177f4a(_0xa15fcf(0x164)+_0x1985ef['message']);}}),gmd({'pattern':_0x511ca9(0x142),'desc':_0x511ca9(0x143),'category':'search','react':'😼','filename':__filename},async(_0x4c85ba,_0x562eea,_0x358ffe,{from:_0x2e07b7,quoted:_0x225ab5,body:_0x111e5e,isCmd:_0x46e889,command:_0x118f15,args:_0x3d4459,q:_0x319377,isGroup:_0xe780dc,sender:_0x2e99cd,senderNumber:_0xb8efd8,botNumber2:_0x372f47,botNumber:_0x3c0a11,pushname:_0x175766,isMe:_0x50e280,isOwner:_0x38a3e9,groupMetadata:_0x50d04f,groupName:_0x3739d1,participants:_0x5dbb31,groupAdmins:_0x379476,isBotAdmins:_0x48b755,isAdmins:_0x59240b,reply:_0x26eff2})=>{const _0x5db97e=_0x511ca9;try{const _0x434fe5='',_0xe16d3a=await fetchJson(_0x5db97e(0x13d));await _0x4c85ba[_0x5db97e(0x16d)](_0x2e07b7,{'image':{'url':_0xe16d3a[0x0]?.[_0x5db97e(0x19e)]},'caption':'>\x20'+global[_0x5db97e(0x177)]},{'quoted':_0x562eea}),await _0x358ffe[_0x5db97e(0x139)]('✅');}catch(_0x3a7b82){console[_0x5db97e(0x155)](_0x3a7b82),_0x26eff2(_0x5db97e(0x162)+_0x3a7b82['message']);}}),gmd({'pattern':'dog','desc':_0x511ca9(0x16c),'category':_0x511ca9(0x174),'react':'🐶','filename':__filename},async(_0xf140c9,_0x11de7b,_0x2c6fb1,{from:_0x3c556c,quoted:_0x550fc6,body:_0x2e7c9b,isCmd:_0x5e0d9c,command:_0xec381c,args:_0x5ee525,q:_0x154614,isGroup:_0x4d6d8e,sender:_0xd42683,senderNumber:_0x5b6336,botNumber2:_0x5c4f49,botNumber:_0xb2b8cc,pushname:_0x4f46ab,isMe:_0x4350e3,isOwner:_0x2425eb,groupMetadata:_0x2b7d10,groupName:_0x246d33,participants:_0x4fd68,groupAdmins:_0xa13028,isBotAdmins:_0x28d180,isAdmins:_0x5aa45,reply:_0x282d84})=>{const _0x14670c=_0x511ca9;try{const _0x1fc6ae=_0x14670c(0x1a2),_0x555691=await axios[_0x14670c(0x171)](_0x1fc6ae),_0x1fc129=_0x555691[_0x14670c(0x149)];await _0xf140c9[_0x14670c(0x16d)](_0x3c556c,{'image':{'url':_0x1fc129['message']},'caption':'>\x20'+global[_0x14670c(0x177)]},{'quoted':_0x11de7b}),await _0x2c6fb1[_0x14670c(0x139)]('✅');}catch(_0x215f6c){console[_0x14670c(0x155)](_0x215f6c),_0x282d84(_0x14670c(0x162)+_0x215f6c['message']);}}),gmd({'pattern':_0x511ca9(0x14d),'desc':_0x511ca9(0x169),'react':'🧠','category':_0x511ca9(0x138),'filename':__filename},async(_0x2e8579,_0x51db99,_0x5e957b,{from:_0x4345d8,q:_0x482746,reply:_0x26ddcd})=>{const _0x17bbfa=_0x511ca9;try{const _0x1bd62c=_0x17bbfa(0x199),_0x3339dd=await axios[_0x17bbfa(0x171)](_0x1bd62c),_0x377203=_0x3339dd['data'][_0x17bbfa(0x151)],_0x5470db='\x0a🧠\x20*Random\x20Fun\x20Fact*\x20🧠\x0a\x0a'+_0x377203+_0x17bbfa(0x184);return _0x26ddcd(_0x5470db);await _0x5e957b['react']('✅');}catch(_0x4e125f){return console[_0x17bbfa(0x155)](_0x4e125f),_0x26ddcd(_0x17bbfa(0x147));}}),gmd({'pattern':_0x511ca9(0x183),'desc':_0x511ca9(0x15f),'category':_0x511ca9(0x138),'react':'💻','filename':__filename},async(_0x492fc0,_0x3962b6,_0x575e28,{from:_0x23472f,quoted:_0xa7409b,body:_0xf98e9,isCmd:_0x36c908,command:_0x4e381b,args:_0x185d0c,q:_0x42104e,isGroup:_0x44731f,sender:_0x1db81f,senderNumber:_0x5cac15,botNumber2:_0x1de5e4,botNumber:_0x50a7a0,pushname:_0x107184,isMe:_0x299f05,isOwner:_0x573f77,groupMetadata:_0x162f66,groupName:_0x159cbc,participants:_0x3149ce,groupAdmins:_0x2c4872,isBotAdmins:_0x3b5835,isAdmins:_0x4f1bbe,reply:_0x2d1ccc})=>{const _0x282694=_0x511ca9;try{if(!_0x573f77)return _0x2d1ccc('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x3a182a=[_0x282694(0x19d),'\x20█\x2010%',_0x282694(0x157),_0x282694(0x170),'\x20█\x20█\x20█\x20█\x2040%',_0x282694(0x19a),'\x20█\x20█\x20█\x20█\x20█\x20█\x2060%',_0x282694(0x172),_0x282694(0x153),_0x282694(0x188),_0x282694(0x18a),_0x282694(0x180),_0x282694(0x159),'Data\x20hyjacked\x20from\x20device\x20100%\x20completed\x20\x5cn\x20killing\x20all\x20evidence\x20killing\x20all\x20malwares...','\x20HACKING\x20COMPLETED\x20',_0x282694(0x165),_0x282694(0x18e),_0x282694(0x13f)];for(const _0x5e6c87 of _0x3a182a){await _0x492fc0[_0x282694(0x16d)](_0x23472f,{'text':_0x5e6c87},{'quoted':_0x3962b6}),await _0x575e28[_0x282694(0x139)]('✅'),await new Promise(_0x791fee=>setTimeout(_0x791fee,0x3e8));}}catch(_0x26ff24){console['log'](_0x26ff24),_0x2d1ccc(_0x282694(0x17d)+_0x26ff24[_0x282694(0x194)]);}});function _0x2525(){const _0x58ee2b=['/fun/boyfriendsday?apikey=','hack','\x0a\x0aIsn\x27t\x20that\x20interesting?\x20🤔\x0a','664570VSmMJs','quotes','advice','\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x2090%','../lib','\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x20100%','/fun/truth?apikey=','Fetch\x20Christmas\x20Quotes/Wishes.','Fetch\x20Love\x20Quotes.','\x20SUCCESSFULLY\x20SENT\x20DATA\x20AND\x20Connection\x20disconnected','Fetch\x20Valentines\x20Quotes/Wishes.','/fun/fathersday?apikey=','love','/fun/valentines?apikey=','/fun/quotes?apikey=','message','/fun/thankyou?apikey=','/fun/heartbreak?apikey=','/fun/mothersday?apikey=','/fun/motivation?apikey=','https://uselessfacts.jsph.pl/random.json?language=en','\x20█\x20█\x20█\x20█\x20█\x2050%','Fetch\x20Goodnight\x20Quotes/Wishes.','1307976gELKLH','Injecting\x20Malware','url','/fun/shayari?apikey=','valentines','truth','https://dog.ceo/api/breeds/image/random','/fun/girlfriendsday?apikey=','Fetch\x20Fathers\x20Day\x20Quotes/Wishes.','Fetch\x20BouFriends\x20Day\x20Quotes/Wishes.','fun','react','2739837QmEHBU','9EIOegf','flirt','https://api.thecatapi.com/v1/images/search','Fetch\x20New\x20Year\x20Quotes/Wishes.','BACKLOGS\x20CLEARED','joke','shayari','cat','Fetch\x20Random\x20Cat\x20Images.','281635UbHyqm','Fetch\x20Halloween\x20Quotes/Wishes.','lines','⚠️\x20An\x20error\x20occurred\x20while\x20fetching\x20fun\x20fact.\x20Please\x20try\x20again\x20later.','heartbreak','data','axios','/fun/gratitude?apikey=','580625fxjbrn','fact','2474224WQkyUc','jokes','Fetch\x20General\x20Quotes.','text','35ExlOhx','\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x2080%','2ZupMOt','log','Fetch\x20Truth\x20Quotes.','\x20█\x20█\x2020%','/fun/christmas?apikey=','Device\x20successfully\x20connected...\x20\x5cn\x20Receiving\x20data...','pickupline','fathersday','goodnight','gratitude','valentine','Hacking\x20Prank\x20lol.','Fetch\x20Heartbreak\x20Quotes.','api','єяяσя\x20ƒєт¢нιηg\x20∂σg\x20ιмαgє:\x20','result','Error:\x20','\x20SENDING\x20LOG\x20DOCUMENTS...','/fun/jokes?apikey=','Fetch\x20Gratitude\x20Quotes.','motivation','Get\x20a\x20Random\x20fun\x20Fact','bfsday','gfsday','Fetch\x20Random\x20Dog\x20Images.','sendMessage','/fun/goodnight?apikey=','Fetch\x20Advice\x20Quotes.','\x20█\x20█\x20█\x2030%','get','\x20█\x20█\x20█\x20█\x20█\x20█\x20█\x2070%','pickup','search','Fetch\x20Jokes.','/fun/advice?apikey=','footer','pickuplines','punchline','Fetch\x20Mothers\x20Day\x20Quotes/Wishes.','thankyou','/fun/flirt?apikey=','❌\x20*Error:*\x20','5173140jgXOMC','Fetch\x20Pickup\x20Lines.','System\x20hyjacking\x20on\x20process..\x20\x5cn\x20Conecting\x20to\x20Server\x20error\x20to\x20find\x20404\x20','myName'];_0x2525=function(){return _0x58ee2b;};return _0x2525();}
+const { gmd, fetchJson } = require('../lib'),
+      axios = require('axios');
+
+gmd({
+    pattern: "newyear",
+    desc: "Fetch New Year Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/newyear?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "christmas",
+    desc: "Fetch Christmas Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/christmas?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "valentine",
+    alias: ["valentines", "valentinesday"],
+    desc: "Fetch Valentines Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/valentines?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "gfsday",
+    desc: "Fetch GirlFriends Day Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/girlfriendsday?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "bfsday",
+    desc: "Fetch BouFriends Day Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/boyfriendsday?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "pickup",
+    alias: ["pickupline", "pickuplines", "lines"],
+    desc: "Fetch Pickup Lines.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/pickupline?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "fathersday",
+    desc: "Fetch Fathers Day Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/fathersday?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "mothersday",
+    desc: "Fetch Mothers Day Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/mothersday?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "heartbreak",
+    desc: "Fetch Heartbreak Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/heartbreak?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "jokes",
+    alias: ["joke"],
+    desc: "Fetch Jokes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/jokes?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: `Set Up: ${data.result.setup}\nPuncline: ${data.result.punchline}` }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "halloween",
+    desc: "Fetch Halloween Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/halloween?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "motivation",
+    desc: "Fetch Motivational Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/motivation?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "love",
+    desc: "Fetch Love Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/love?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "gratitude",
+    desc: "Fetch Gratitude Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/gratitude?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "thankyou",
+    desc: "Fetch ThankYou Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/thankyou?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "shayari",
+    desc: "Fetch Shayari Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/shayari?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "goodnight",
+    desc: "Fetch Goodnight Quotes/Wishes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/goodnight?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "truth",
+    desc: "Fetch Truth Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/truth?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "advice",
+    desc: "Fetch Advice Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/advice?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "flirt",
+    desc: "Fetch Flirty Messages.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/flirt?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "quotes",
+    alias: ["quote"],
+    desc: "Fetch General Quotes.",
+    category: "fun",
+    react: "👓",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const data = await fetchJson(`${global.api}/fun/quotes?apikey=${global.myName}`);
+        await Gifted.sendMessage(from, { text: data.result }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`Error: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "cat",
+    desc: "Fetch Random Cat Images.",
+    category: "search",
+    react: "😼",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const apiUrl = ``;
+        const data = await fetchJson(`https://api.thecatapi.com/v1/images/search`);
+        await Gifted.sendMessage(from, { image: { url: data[0]?.url }, caption: `> ${global.footer}`  }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`єяяσя ƒєт¢нιηg ∂σg ιмαgє: ${e.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "dog",
+    desc: "Fetch Random Dog Images.",
+    category: "search",
+    react: "🐶",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const apiUrl = `https://dog.ceo/api/breeds/image/random`;
+        const response = await axios.get(apiUrl);
+        const data = response.data;
+
+        await Gifted.sendMessage(from, { image: { url: data.message }, caption: `> ${global.footer}`  }, { quoted: mek });
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e); 
+        reply(`єяяσя ƒєт¢нιηg ∂σg ιмαgє: ${e.message}`);
+    }
+});
+
+gmd({
+    pattern: "fact",
+    desc: "Get a Random fun Fact",
+    react: "🧠",
+    category: "fun",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, q, reply }) => {
+    try {
+        const url = 'https://uselessfacts.jsph.pl/random.json?language=en'; 
+        const response = await axios.get(url);
+        const fact = response.data.text;
+        const funFact = `
+🧠 *Random Fun Fact* 🧠
+
+${fact}
+
+Isn't that interesting? 🤔
+`;
+        return reply(funFact);
+        await m.react("✅"); 
+    } catch (e) {
+        console.log(e);
+        return reply("⚠️ An error occurred while fetching fun fact. Please try again later.");
+    }
+});
+
+gmd({
+    pattern: "hack",
+    desc: "Hacking Prank lol.",
+    category: "fun",
+    react: "💻",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+        const steps = [
+    "Injecting Malware",
+    " █ 10%",
+    " █ █ 20%",
+    " █ █ █ 30%",
+    " █ █ █ █ 40%",
+    " █ █ █ █ █ 50%",
+    " █ █ █ █ █ █ 60%",
+    " █ █ █ █ █ █ █ 70%",
+    " █ █ █ █ █ █ █ █ 80%",
+    " █ █ █ █ █ █ █ █ █ 90%",
+    " █ █ █ █ █ █ █ █ █ █ 100%",
+    "System hyjacking on process.. \\n Conecting to Server error to find 404 ",
+    "Device successfully connected... \\n Receiving data...",
+    "Data hyjacked from device 100% completed \\n killing all evidence killing all malwares...",
+    " HACKING COMPLETED ",
+    " SENDING LOG DOCUMENTS...",
+    " SUCCESSFULLY SENT DATA AND Connection disconnected",
+    "BACKLOGS CLEARED"
+  ];
+
+        for (const line of steps) {
+            await Gifted.sendMessage(from, { text: line }, { quoted: mek });
+            await m.react("✅"); 
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+    } catch (e) {
+        console.log(e);
+        reply(`❌ *Error:* ${e.message}`);
+    }
+});
