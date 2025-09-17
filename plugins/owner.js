@@ -1,1 +1,2122 @@
-function _0x4a05(){const _0x5b62e5=['arrayBuffer','updateProfilePicture','Enable\x20or\x20Disable\x20Auto\x20Reply\x20Status\x20Feature','includes','match_last_seen','*𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αɴтιℓιɴк\x20=>\x20ωαʀɴ*\x0a*2.\x20тσ\x20єɴαвℓє\x20αɴтιℓιɴк\x20=>\x20∂єℓєтє*\x0a*3.\x20тσ\x20єɴαвℓє\x20αɴтιℓιɴк\x20=>\x20ʀємσνє/кι¢к*\x0a*4.\x20тσ\x20∂ιѕαвℓє\x20αɴтιℓιɴк\x20fєαтυʀє*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*','❌\x20Failed\x20to\x20update\x20profile\x20picture:\x20','Add\x20a\x20user\x20to\x20sudo\x20list','❌\x20Error\x20updating\x20profile\x20picture:','Change\x20Status\x20Reply\x20Message','❌\x20Error\x20unstarring\x20message:\x20','*𝐒𝐓𝐀𝐓𝐔𝐒\x20𝐋𝐈𝐊𝐄\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αυтσℓιкє\x20ѕтαтυѕ*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20αυтσℓιкє\x20ѕтαтυѕ*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*','Enable/Disable\x20Anti-Link\x20Feature','Get\x20the\x20Bot\x27s\x20JID.','Update\x20Default\x20Disappearing\x20Messages','bind','json','uptime','*💬\x20Current\x20Privacy\x20Settings:*\x0a\x0a','chatbot','⏳\x20Disappearing\x20messages\x20turned\x20off!','updateGroupsAddPrivacy','keys','https://wa.me/','disapp-msgs','en-GB','*𝐂𝐇𝐀𝐓𝐁𝐎𝐓\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20gℓσвαℓℓу*\x0a*2.\x20тσ\x20єɴαвℓє\x20ιɴ\x20gʀσυρѕ*\x0a*3.\x20тσ\x20єɴαвℓє\x20ιɴ\x20ιɴвσχ*\x0a*4.\x20тσ\x20∂ιѕαвℓє\x20gℓσвαℓℓу*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*','ANTILINK','⚠️\x20No\x20sudo\x20users\x20added\x20yet.','Execute\x20Terminal\x20Commands.','Fetch\x20Error:','BOT_PIC','mystatus','❌\x20Fatal\x20Eval\x20Error:\x20','📌\x20Chat\x20unpinned\x20successfully!','Block\x20a\x20User.','updateReadReceiptsPrivacy','exists','Set\x20Autobio\x20based\x20on\x20config.AUTO_BIO.','join','\x20|\x20Added:\x20','session','📌\x20Chat\x20pinned\x20successfully!','message','pushName','antilink','*𝐀𝐍𝐓𝐈𝐂𝐀𝐋𝐋\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20∂є¢ℓιɴє\x20¢αℓℓѕ*\x0a*2.\x20тσ\x20∂є¢ℓιɴє\x20&\x20вℓσ¢к\x20¢αℓℓєʀѕ*\x0a*3.\x20тσ\x20∂ιѕαвℓє\x20αɴтι¢αℓℓ*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*','areact','updateDefaultDisappearingMode','Autobio\x20Has\x20Been\x20Enabled.','commands','mode','Owner\x20Only\x20Command!','setpp','DateTimeFormat','**\x0a╰───────────────┄┈┈','Remove\x20a\x20user\x20from\x20sudo\x20list','Enable\x20or\x20Disable\x20Welcome\x20Messages\x20in\x20Groups','❌\x20Error\x20updating\x20disappearing\x20messages:\x20','Bot\x20Presence\x20Has\x20Been\x20Set\x20to\x20Always\x20Recording\x20Audio.','Get\x20Data/Files\x20from\x20URLs','\x20})()','getsess','*𝐖𝐄𝐋𝐂𝐎𝐌𝐄\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20gʀσυρ\x20ωєℓ¢σмє\x20мєѕѕαgєѕ*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20gʀσυρ\x20ωєℓ¢σмє\x20мєѕѕαgєѕ*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*','contacts','No\x20Message\x20Quoted\x20for\x20Deletion','block','Enable\x20or\x20Disable\x20the\x20Antiddelete\x20Feature.','groups','test','*𝐀𝐍𝐓𝐈𝐃𝐄𝐋𝐄𝐓𝐄\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20gℓσвαℓℓу*\x0a*2.\x20тσ\x20єɴαвℓє\x20fσʀ\x20¢нαтѕ\x20σɴℓу*\x0a*3.\x20тσ\x20єɴαвℓє\x20fσʀ\x20¢нαтѕ\x20&\x20gʀσυρѕ*\x0a*4.\x20тσ\x20∂ιѕαвℓє\x20αɴтι∂єℓєтє*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*','AUTO_READ_STATUS','from','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20(async\x20()\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20try\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','setantilink','Provide\x20a\x20URL\x20to\x20get\x20data\x20from','owner','setmyname','Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1,\x202,\x203\x20or\x204).','Auto\x20View\x20Status\x20is\x20disabled.','Bot\x20Presence\x20Has\x20Been\x20Set\x20to\x20Always\x20Composing\x20a\x20Message.','likestatus','Update\x20Online\x20Privacy','readmessages','execute','sender','*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂**📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*','Goodbye\x20messages\x20are\x20enabled.','trim','getPrototypeOf','Enable\x20or\x20Disable\x20Anti\x20Word\x20Feature','Broadcast\x20a\x20Message\x20to\x20All\x20Groups.','shell','⬇🤖','\x20|\x20Removed:\x20','mek','Welcome\x20messages\x20are\x20disabled.','Autobio\x20Has\x20Been\x20Disabled.','*👑\x20SUDO\x20USERS:*\x0a\x0a','path','Change\x20Profile\x20Name','addsudo','1653449dEBVGG','setreadmessages','Bot\x20Has\x20Been\x20Set\x20to\x20Work\x20in\x20Inbox(pm)\x20Only.','get','12Ewggbd','updateProfileStatus','Unblock\x20a\x20User.','botmode','📢\x20Message\x20Delivered\x20to\x20all\x20your\x20groups.','❌\x20Please\x20reply\x20to\x20the\x20user\x20you\x20want\x20to\x20unblock.','(async\x20()\x20=>\x20{\x20','GOODBYE','updateLastSeenPrivacy','forEach','console','setautobio','\x20exists\x20on\x20WhatsApp,\x20as\x20jid:\x20','inbox','[delsudo\x20ERROR]:','❌\x20Failed\x20to\x20list\x20sudo\x20users.','fetchPrivacySettings','pair','❌\x20Error\x20fetching\x20privacy\x20settings:\x20','❌\x20Error\x20blocking\x20user:\x20','AUTO_LIKE_EMOJI','goodbye','onWhatsApp','Auto\x20Like\x20Status\x20is\x20disabled.','typing','❌\x20Invalid\x20option.\x20Valid\x20options\x20are:\x20\x27all\x27,\x20\x27contacts\x27,\x20\x27contact_blacklist\x27,\x20\x27none\x27.','updateProfilePicturePrivacy','786392JcXYGF','❌\x20Error:\x20','PRESENCE','setsudo','*Auto\x20Read\x20is\x20enabled\x20for\x20commands\x20only*','chatModify','groupFetchAllParticipating','download','wapresence','Update\x20Profile\x20Picture\x20Privacy','Antidelete\x20Has\x20Been\x20Enabled\x20for\x20Chats\x20Only.','setstatus','\x20blocked\x20successfully.','PREFIX','Generates\x20a\x20wa.me\x20link\x20for\x20the\x20Mentioned/Quoted\x20User.','false','Anti\x20Link\x20is\x20enabled.\x20Users\x20who\x20send\x20links\x20will\x20be\x20automatically\x20removed.','format','🖼️','clearchats','❌\x20Error\x20updating\x20group\x20add\x20privacy:\x20','setantiword','messages','\x20is\x20already\x20in\x20sudo\x20list.','❌\x20Error\x20updating\x20status\x20privacy:\x20','/code?number=','chat','❌\x20Error\x20updating\x20read\x20receipts\x20privacy:\x20','remoteJid','href','statuslikeemoji','statusreplymessage','updateProfileName','autobio','Auto\x20React\x20is\x20disabled.','true','unavailable','Unpin\x20a\x20Specific\x20Chat','❌\x20You\x20are\x20not\x20the\x20bot\x20owner!','❌\x20Error\x20updating\x20profile\x20picture\x20privacy:\x20','𝐀𝐋𝐈-𝐌𝐃\x20𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸','Enable\x20or\x20Disable\x20Auto\x20React\x20to\x20all\x20Messages','CHAT_BOT','constructor','⏳\x20Disappearing\x20messages\x20turned\x20on!','quoted','List\x20all\x20sudo\x20users','✅\x20User\x20','replace','Auto\x20View\x20Status\x20is\x20enabled.','../.env','Set\x20Bot\x20Wapresence','audio/mpeg','Please\x20provide\x20a\x20new\x20prefix.','❌\x20Please\x20reply\x20to\x20an\x20image.','antidelete','setautoread','/ai/gpt-turbo?apikey=','An\x20error\x20occurred\x20while\x20changing\x20the\x20status\x20reply\x20message.','autolike','&q=','*Auto\x20Bio\x20disabled!*\x20😶','Change\x20Profile\x20Status','headers','autolikestatus','none','setautoreact','Evaluate\x20JavaScript\x20Code.','*Chatbot\x20will\x20work\x20in\x20group\x20chats\x20Only!*','Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1,\x202,\x20or\x203\x20).','📝\x20*Group\x20JIDs:*\x0a\x0a','writeFileSync','Gemini\x20failed\x20or\x20no\x20valid\x20response:','❌\x20Error\x20changing\x20profile\x20status:\x20','length','ANTI_DELETE','group','❌\x20Error\x20fetching\x20paircode\x20code:\x20','Antidelete\x20Has\x20Been\x20Enabled\x20Globally(\x20Chats,\x20Groups\x20and\x20Statuses).','lastseen','\x20unblocked\x20successfully.','*𝐀𝐔𝐓𝐎\x20𝐑𝐄𝐀𝐃\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αυтσʀєα∂\x20αℓℓ\x20мєѕѕαgєѕ*\x0a*2.\x20тσ\x20єɴαвℓє\x20αυтσʀєα∂\x20¢σммαɴ∂ѕ\x20σɴℓу*\x0a*3.\x20тσ\x20∂ιѕαвℓє\x20αυтσʀєα∂\x20fєαтυʀє\x20gℓσвαℓℓу*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*','stringify','updateOnlinePrivacy','myName','Unstar\x20a\x20Specific\x20Message\x20in\x20a\x20Chat','Error:\x20','viewstatus','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20catch\x20(innerErr)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20await\x20reply(\x22❌\x20Eval\x20Error:\x20\x22\x20+\x20(innerErr?.stack\x20||\x20innerErr?.message\x20||\x20innerErr));\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})();\x0a\x20\x20\x20\x20\x20\x20\x20\x20','jid','groupjids','MODE','archive','Change\x20Status\x20Like\x20Emoji','code','setread','🧹\x20All\x20Chats\x20Successfully\x20cleared!','\x20from\x20sudo\x20list.','Provide\x20some\x20code\x20to\x20evaluate.','*\x0a╰───────────────┄┈┈','/ai/geminiaipro?apikey=','Update\x20Status\x20Privacy','Antidelete\x20Has\x20Been\x20Enabled\x20for\x20Chats\x20&\x20Groups.','util','autolikeeoji','messages.upsert','text','Auto\x20Read\x20is\x20enabled\x20for\x20all.','Update\x20Read\x20Receipts\x20Privacy','online','Update\x20Group\x20add\x20Privacy','/ai/geminiai?apikey=','Antidelete\x20Has\x20Been\x20Disabled.','Please\x20provide\x20a\x20new\x20status\x20like\x20emoji.','❌\x20Error\x20updating\x20online\x20privacy:\x20','*Chatbot\x20has\x20been\x20disabled\x20globally(all\x20chats)!*','🤖\x20*Bot\x20JID:*\x20','*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*','[listsudo\x20ERROR]:','mtype','Gifted','star','Reply\x20to\x20a\x20user\x20to\x20add\x20to\x20sudo.','autoview','✅\x20Last\x20seen\x20privacy\x20updated\x20to:\x20','AUTO_BIO','2-digit','eval3','store','recording','Turn\x20on\x20Disappearing\x20Messages','⚠️\x20Could\x20not\x20download\x20the\x20image.','ANTIWORD','Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1,\x202\x20or\x203).','Gpt\x20API\x20failed\x20or\x20no\x20valid\x20response:','setanticall','ANTICALL','Please\x20provide\x20a\x20new\x20status\x20reply\x20message.','Enable\x20or\x20Disable\x20Auto\x20Read\x20Messages','❌\x20Error\x20pinning\x20chat:\x20','delchats','setprefix','content-length','listsudo','Sorry,\x20I\x20couldn\x27t\x20generate\x20a\x20response.\x20Please\x20try\x20again\x20later.','5217880ZoOTpX','user','del','terminal','conversation',']\x20\x20|\x20\x20𝐐𝐔𝐎𝐓𝐄:\x20','linkphone','setautolike','Delete\x20Message','key','❌\x20Failed\x20to\x20remove\x20sudo.','❌\x20Error\x20enabling\x20disappearing\x20messages:\x20','❌\x20Failed\x20to\x20add\x20sudo.','chats','setviewstatus','✅\x20Status\x20privacy\x20updated\x20to:\x20','Auto\x20Read\x20is\x20disabled.','error','anticall','eval','myprofile-pic','unblock','Privacy\x20settings:\x20','Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1\x20or\x202).','newprefix','welcome','🚫\x20User\x20','❌\x20Unsupported\x20content\x20type.','public','setareact','\x20𝐈𝐒\x20𝐀𝐂𝐓𝐈𝐕𝐄\x20𝟐𝟒/𝟕\x20|\x20𝐓𝐈𝐌𝐄:\x20[','image','toLowerCase','Anti\x20Link\x20is\x20enabled.\x20Links\x20will\x20be\x20deleted\x20without\x20users\x20being\x20removed.','listprivacy','📦\x20Chat\x20archived\x20successfully!','Status\x20Reply\x20Message\x20has\x20been\x20changed\x20to:\x20','❌\x20Error\x20updating\x20last\x20seen\x20privacy:\x20','35183817opzaID','Generate\x20Paircode','contact_blacklist','An\x20unexpected\x20error\x20occurred.','120363318387454868@newsletter','../lib','https://github.com/edugifted/gifted-db/raw/refs/heads/main/autovoice/autovoice.json','Gemini\x20API\x20failed\x20or\x20no\x20valid\x20response:','✅\x20Group\x20add\x20privacy\x20updated\x20to:\x20','5853680mBTzwy','Provide\x20a\x20terminal\x20command\x20to\x20execute.','newmode','[SUDO]\x20addSudo\x20called\x20for:\x20','Bot\x20Presence\x20Has\x20Been\x20Set\x20to\x20Default.','*\x0aUse\x20it\x20to\x20Link\x20Your\x20WhatsApp\x20Within\x201\x20Minute\x20Before\x20it\x20Expires\x0aThereafter,\x20Obtain\x20Your\x20Session\x20ID.\x0aHappy\x20Bot\x20Deployment!!!\x0a\x0a','setautoreadmessages','Anti\x20Link\x20is\x20enabled.\x20Links\x20will\x20be\x20deleted\x20and\x20users\x20warned\x203\x20times\x20before\x20being\x20removed.','⭐\x20Message\x20starred!','.del','setstatusreplymessage','log','.\x20wa.me/','myprivacy','77580wGhDek','⬇🔄','⚠️\x20@','Bot\x20Has\x20Been\x20Set\x20to\x20work\x20in\x20Groups\x20Only.','updateStatusPrivacy','Please\x20mention\x20a\x20user,\x20quote\x20a\x20message,\x20or\x20provide\x20a\x20number.','paircode','Set\x20Bot\x20Profile\x20Picture.','📝\x20Profile\x20name\x20updated\x20to:\x20','resolve','STATUS_REPLY_MSG','setautoaudio','setpresence','Auto\x20React\x20is\x20enabled.','AUTO_BIO_QUOTE','result','all','✅\x20Profile\x20picture\x20privacy\x20updated\x20to:\x20','stanzaId','\x20is\x20not\x20in\x20the\x20sudo\x20list.','extendedTextMessage','*Chatbot\x20has\x20been\x20enabled\x20globally(all\x20chats)!*','Anti\x20Link\x20is\x20disabled.\x20Links\x20will\x20not\x20be\x20moderated.','contextInfo','✅\x20Bot\x20profile\x20picture\x20updated\x20successfully!','axios','Anti\x20Word\x20is\x20disabled.','groups-privacy','setautovoice','exec','reply','Start\x20the\x20*URL*\x20with\x20http://\x20or\x20https://','privacy','footer','delete','Anticall\x20has\x20been\x20enabled!\x20Calls\x20will\x20be\x20declined\x20without\x20any\x20action.','❌\x20Error\x20unblocking\x20user:\x20','clear','242000DcNvOI','updateBlockStatus','Bot\x20status\x20like\x20emoji\x20has\x20been\x20changed\x20to:\x20','*𝐖𝐀𝐏𝐑𝐄𝐒𝐄𝐍𝐂𝐄\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αℓωαуѕ\x20σɴℓιɴє\x22\x0a*2.\x20тσ\x20єɴαвℓє\x20νιʀтυαℓ\x20туριɴg*\x0a*3.\x20тσ\x20єɴαвℓє\x20νιʀтυαℓ\x20ʀє¢σʀ∂ιɴg\x20αυ∂ισ*\x0a*4.\x20тσ\x20∂ιѕαвℓє\x20ωαρʀєѕєɴ¢є\x20(мαιɴтαιɴɴ\x20∂єfαυℓт)*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20**','_*,\x0aYour\x20ALI\x20MD\x20PairingCode\x20is:\x20*','[SUDO]\x20removeSudo\x20called\x20for:\x20','Get\x20Current\x20Privacy\x20Settings','setwelcome','✅\x20Default\x20disappearing\x20messages\x20updated\x20to:\x20','disapp-off','success..','caption','Welcome\x20messages\x20are\x20enabled.','last','❌\x20Error\x20disabling\x20disappearing\x20messages:\x20','mentionedJid','\x20does\x20not\x20exist\x20on\x20WhatsApp.','❌\x20Content-Length\x20exceeds\x20limit:\x20','Set\x20Bot\x20Mode','evaluate','❌\x20Error\x20changing\x20profile\x20name:\x20','split','30OJpvNF','AUTO_AUDIO','WELCOME','floor','autovoice','setstatusreplymsg','Enable\x20or\x20Disable\x20the\x20Autobio\x20Feature.','react','AUTO_READ_MESSAGES','Anti\x20Word\x20is\x20enabled.','Enable\x20or\x20Disable\x20Anticall','api','sendMessage','*𝐌𝐎𝐃𝐄\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20ρυвℓι¢\x20мσ∂є\x0a*2.\x20тσ\x20єɴαвℓє\x20ρʀιναтє\x20мσ∂є*\x0a*3.\x20тσ\x20єɴαвℓє\x20ιɴвσχ\x20мσ∂є*\x0a*4.\x20тσ\x20єɴαвℓє\x20gʀσυρ\x20мσ∂є*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*'];_0x4a05=function(){return _0x5b62e5;};return _0x4a05();}const _0x414f07=_0x31c1;(function(_0x1a4a7f,_0x25dd42){const _0x44ee05=_0x31c1,_0x2aed47=_0x1a4a7f();while(!![]){try{const _0x3bbf25=-parseInt(_0x44ee05(0x2ed))/0x1+parseInt(_0x44ee05(0x244))/0x2+parseInt(_0x44ee05(0x25a))/0x3*(-parseInt(_0x44ee05(0x21e))/0x4)+-parseInt(_0x44ee05(0x210))/0x5+-parseInt(_0x44ee05(0x2d2))/0x6*(parseInt(_0x44ee05(0x2ce))/0x7)+-parseInt(_0x44ee05(0x37e))/0x8+parseInt(_0x44ee05(0x207))/0x9;if(_0x3bbf25===_0x25dd42)break;else _0x2aed47['push'](_0x2aed47['shift']());}catch(_0x844d6){_0x2aed47['push'](_0x2aed47['shift']());}}}(_0x4a05,0xb839a));const {gmd,config,commands,getBuffer,getSudoNumbers,addSudo,removeSudo,fetchJson}=require(_0x414f07(0x20c)),{PREFIX,TIME_ZONE:tz}=config,fs=require('fs'),path=require(_0x414f07(0x2cb)),axios=require(_0x414f07(0x237)),util=require(_0x414f07(0x354)),moment=require('moment-timezone'),{exec}=require('child_process'),{WA_DEFAULT_EPHEMERAL,downloadContentFromMessage,makeInMemoryStore}=require('@whiskeysockets/baileys');let chatbotEnabled=![],chatbotInGroups=![],chatbotInInbox=![],autoBioEnabled=![],autoBioInterval,secondCount=0x1;autoBioEnabled=config[_0x414f07(0x36a)]===_0x414f07(0x310),chatbotEnabled=config[_0x414f07(0x317)]==='true',chatbotInInbox=config[_0x414f07(0x317)]===_0x414f07(0x2df),chatbotInGroups=config['CHAT_BOT']===_0x414f07(0x2ac);function _0x31c1(_0xacf078,_0x53ef3e){const _0x4a0555=_0x4a05();return _0x31c1=function(_0x31c1be,_0x2aef42){_0x31c1be=_0x31c1be-0x1e9;let _0x7a47d2=_0x4a0555[_0x31c1be];return _0x7a47d2;},_0x31c1(_0xacf078,_0x53ef3e);}function saveConfig(){const _0x8afac5=_0x414f07;let _0x30f79d='';for(let _0x42e10b in config){_0x30f79d+=_0x42e10b+'='+config[_0x42e10b]+'\x0a';}const _0x227934=path[_0x8afac5(0x227)](__dirname,_0x8afac5(0x31f));fs[_0x8afac5(0x334)](_0x227934,_0x30f79d,'utf8');}function formatUptime(_0x1cff1f){const _0x4dff60=_0x414f07,_0x597b5f=Math[_0x4dff60(0x25d)](_0x1cff1f/(0x18*0x3c*0x3c));_0x1cff1f%=0x18*0x3c*0x3c;const _0x19c706=Math[_0x4dff60(0x25d)](_0x1cff1f/(0x3c*0x3c));_0x1cff1f%=0x3c*0x3c;const _0x185d96=Math['floor'](_0x1cff1f/0x3c);return _0x1cff1f=Math[_0x4dff60(0x25d)](_0x1cff1f%0x3c),_0x597b5f+'d\x20'+_0x19c706+'h\x20'+_0x185d96+'m\x20'+_0x1cff1f+'s';}const now=new Date(),date=new Intl[(_0x414f07(0x29e))](_0x414f07(0x281),{'timeZone':tz,'day':_0x414f07(0x36b),'month':_0x414f07(0x36b),'year':'numeric'})[_0x414f07(0x2fe)](now),time=new Intl[(_0x414f07(0x29e))]('en-GB',{'timeZone':tz,'hour':_0x414f07(0x36b),'minute':_0x414f07(0x36b),'second':'2-digit','hour12':!![]})[_0x414f07(0x2fe)](now),uptime=formatUptime(process[_0x414f07(0x279)]());gmd({'pattern':'broadcast','desc':_0x414f07(0x2c3),'category':_0x414f07(0x2b4),'react':'📢','filename':__filename},async(_0x416d65,_0x377035,_0x3ec555,{from:_0x358da9,isOwner:_0x4f5898,args:_0x316e25,reply:_0x595ae8})=>{const _0x3dbc49=_0x414f07;if(!_0x4f5898)return _0x595ae8(_0x3dbc49(0x362));if(_0x316e25[_0x3dbc49(0x337)]===0x0)return _0x595ae8('📢\x20Provide\x20a\x20message\x20to\x20breadcast\x20after\x20the\x20command.');const _0x521411=_0x316e25[_0x3dbc49(0x28f)]('\x20'),_0x3be4a5=Object[_0x3dbc49(0x27e)](await _0x416d65[_0x3dbc49(0x2f3)]());for(const _0x5e93d2 of _0x3be4a5){await _0x416d65[_0x3dbc49(0x266)](_0x5e93d2,{'image':{'url':config[_0x3dbc49(0x287)]},'caption':_0x521411},{'quoted':_0x377035});}_0x595ae8(_0x3dbc49(0x2d6));}),gmd({'pattern':_0x414f07(0x29d),'desc':_0x414f07(0x225),'category':_0x414f07(0x2b4),'react':_0x414f07(0x2ff),'filename':__filename},async(_0x4b59b7,_0x26d218,_0x459a1d,{isOwner:_0x5f3d06,quoted:_0x243ad7,reply:_0xfe26d1})=>{const _0x464dc8=_0x414f07;try{if(!_0x5f3d06)return _0xfe26d1('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');if(!_0x243ad7||_0x243ad7[_0x464dc8(0x364)]!==_0x464dc8(0x200))return _0xfe26d1(_0x464dc8(0x323));const _0x3f7c79=await _0x243ad7[_0x464dc8(0x2f4)]();if(!_0x3f7c79)return _0xfe26d1(_0x464dc8(0x370));await _0x4b59b7[_0x464dc8(0x269)](_0x4b59b7[_0x464dc8(0x37f)]['id'],_0x3f7c79),_0xfe26d1(_0x464dc8(0x236));}catch(_0x53f30a){console[_0x464dc8(0x1f2)](_0x464dc8(0x270),_0x53f30a),_0xfe26d1(_0x464dc8(0x26e)+_0x53f30a[_0x464dc8(0x293)]);}}),gmd({'pattern':_0x414f07(0x23b),'alias':['$','run',_0x414f07(0x381),'code',_0x414f07(0x2bc),'>',_0x414f07(0x2c4)],'desc':_0x414f07(0x285),'category':_0x414f07(0x2b4),'react':'💻','filename':__filename},async(_0x1dbd2f,_0x44254d,_0x5d911c,{reply:_0x3f0ac7,isOwner:_0x5ba4d3,isMe:_0x3718b5,botNumber2:_0x5b8c6f,botNumber:_0x5b1c09,q:_0x7dc755})=>{const _0x4b681f=_0x414f07;if(!_0x5ba4d3&&!_0x3718b5&&!_0x5b8c6f&&!_0x5b1c09)return _0x3f0ac7(_0x4b681f(0x362));if(!_0x7dc755)return _0x3f0ac7(_0x4b681f(0x211));exec(_0x7dc755,(_0x3aa542,_0x409c6e,_0xc0fc8f)=>{const _0xad875a=_0x4b681f;if(_0x3aa542)return _0x3f0ac7('❌\x20Error:\x20'+_0x3aa542[_0xad875a(0x293)]);if(_0xc0fc8f)return _0x3f0ac7('⚠️\x20Stderr:\x20'+_0xc0fc8f);if(_0x409c6e)_0x3f0ac7(_0x409c6e['trim']());});}),gmd({'pattern':_0x414f07(0x36c),'alias':['<','e','evaluate'],'desc':_0x414f07(0x330),'category':_0x414f07(0x2b4),'react':'🧠','filename':__filename},async(_0x5d10b1,_0x4b2425,_0x35d86a,{reply:_0xceff61,isOwner:_0x3737b9,q:_0x2d79b1})=>{const _0xa392f1=_0x414f07;if(!_0x3737b9)return _0xceff61(_0xa392f1(0x362));if(!_0x2d79b1)return _0xceff61('Provide\x20some\x20code\x20to\x20evaluate.');try{const _0x199f27=Object[_0xa392f1(0x2c1)](async function(){})[_0xa392f1(0x318)],_0x5e2dc2=new _0x199f27(_0xa392f1(0x365),_0xa392f1(0x2c7),'m',_0xa392f1(0x23c),_0xa392f1(0x2dc),_0xa392f1(0x2b1)+_0x2d79b1+_0xa392f1(0x345));await _0x5e2dc2(_0x5d10b1,_0x4b2425,_0x35d86a,_0xceff61,console);}catch(_0x1080e7){await _0xceff61(_0xa392f1(0x289)+(_0x1080e7?.['stack']||_0x1080e7?.[_0xa392f1(0x293)]||_0x1080e7));}}),gmd({'pattern':_0x414f07(0x1f4),'alias':['<','e',_0x414f07(0x257)],'desc':_0x414f07(0x330),'category':_0x414f07(0x2b4),'react':'🧠','filename':__filename},async(_0x46f8d3,_0x2b87d0,_0x2d6e7b,{reply:_0x4c772a,isOwner:_0x27bf8c,q:_0x4e0260})=>{const _0x2e356e=_0x414f07;if(!_0x27bf8c)return _0x4c772a(_0x2e356e(0x362));if(!_0x4e0260)return _0x4c772a(_0x2e356e(0x34f));try{let _0x27926d=/await/i[_0x2e356e(0x2ad)](_0x4e0260)?await eval(_0x2e356e(0x2d8)+_0x4e0260+_0x2e356e(0x2a5)):eval(_0x4e0260);_0x4c772a(util[_0x2e356e(0x2fe)](_0x27926d));}catch(_0x520148){_0x4c772a(_0x2e356e(0x2ee)+util[_0x2e356e(0x2fe)](_0x520148));}}),gmd({'pattern':'fetch','alias':[_0x414f07(0x2d1),_0x414f07(0x2f4),'load',_0x414f07(0x237)],'desc':_0x414f07(0x2a4),'category':'owner','react':'🔎','filename':__filename},async(_0x3c857a,_0x400df9,_0x4f80e1,{from:_0x240385,reply:_0x11340a,isOwner:_0x50517e,q:_0x5b06d8})=>{const _0x33c382=_0x414f07;if(!_0x50517e)return _0x11340a('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');if(!_0x5b06d8)return _0x11340a(_0x33c382(0x2b3));if(!/^https?:\/\//[_0x33c382(0x2ad)](_0x5b06d8))return _0x11340a(_0x33c382(0x23d));try{const _0x41106f=new URL(_0x5b06d8)[_0x33c382(0x30a)],_0x40bc06=await fetch(_0x41106f),_0x4f99b9=_0x40bc06[_0x33c382(0x32c)][_0x33c382(0x2d1)](_0x33c382(0x37b));if(_0x4f99b9&&_0x4f99b9>0x32*0x400*0x400)return _0x11340a(_0x33c382(0x255)+_0x4f99b9);const _0x24559d=_0x40bc06['headers']['get']('content-type')||'';if(/image\//[_0x33c382(0x2ad)](_0x24559d)){const _0x2804d9=Buffer['from'](await _0x40bc06[_0x33c382(0x268)]());await _0x3c857a['sendMessage'](_0x240385,{'image':_0x2804d9,'caption':'>\x20'+global[_0x33c382(0x23f)]});return;}else{if(/audio\//[_0x33c382(0x2ad)](_0x24559d)){const _0x1305e0=Buffer['from'](await _0x40bc06['arrayBuffer']());await _0x3c857a[_0x33c382(0x266)](_0x240385,{'audio':_0x1305e0,'mimetype':_0x24559d,'ptt':![]});return;}else{if(/video\//[_0x33c382(0x2ad)](_0x24559d)){const _0x255bb7=Buffer[_0x33c382(0x2b0)](await _0x40bc06[_0x33c382(0x268)]());await _0x3c857a[_0x33c382(0x266)](_0x240385,{'video':_0x255bb7,'caption':'>\x20'+global['footer']});return;}}}let _0x3bf6a6='';if(/application\/json/['test'](_0x24559d))_0x3bf6a6=JSON[_0x33c382(0x33f)](await _0x40bc06[_0x33c382(0x278)](),null,0x2);else{if(/text/[_0x33c382(0x2ad)](_0x24559d))_0x3bf6a6=await _0x40bc06[_0x33c382(0x357)]();else return _0x11340a(_0x33c382(0x1fc));}_0x11340a(_0x3bf6a6['slice'](0x0,0x10000)),await _0x4f80e1['react']('✅');}catch(_0x8be384){console[_0x33c382(0x1f2)](_0x33c382(0x286),_0x8be384),_0x11340a(_0x33c382(0x2ee)+_0x8be384[_0x33c382(0x293)]);}}),gmd({'pattern':_0x414f07(0x2e3),'alias':[_0x414f07(0x2a6),_0x414f07(0x224),_0x414f07(0x384),'getpaircodd'],'desc':_0x414f07(0x208),'category':_0x414f07(0x2b4),'react':'📱','filename':__filename},async(_0x2993b3,_0x33fad9,_0xfcbfad,{from:_0x1977d6,l:_0x10c8bb,quoted:_0x170031,body:_0x306bbd,isCmd:_0x55ba7d,command:_0x50d475,args:_0x158a4f,q:_0x3f3450,isGroup:_0x52a452,sender:_0x580ee0,senderNumber:_0x54ff85,botNumber2:_0x5c498f,botNumber:_0x191b61,pushname:_0x222e5e,isMe:_0x103b0f,isOwner:_0x296f6d,groupMetadata:_0x580fd2,groupName:_0x41aae5,participants:_0x25a9b4,isItzcp:_0x426fde,groupAdmins:_0x57b2d2,isBotAdmins:_0x1ac226,isAdmins:_0x438fe7,reply:_0x3b32aa})=>{const _0x2e78fb=_0x414f07;if(!_0x296f6d)return _0x3b32aa('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');if(!_0x3f3450)return _0x3b32aa('Provide\x20a\x20Phone\x20Number\x20to\x20Genrrate\x20PairingCode!');try{const _0x1e0e56=await fetchJson(global[_0x2e78fb(0x291)]+_0x2e78fb(0x306)+encodeURIComponent(_0x3f3450)),_0x188d68=_0x1e0e56[_0x2e78fb(0x34b)],_0x3f0e9f='Dear\x20*_'+_0xfcbfad[_0x2e78fb(0x294)]+_0x2e78fb(0x248)+_0x188d68+_0x2e78fb(0x215)+global[_0x2e78fb(0x24f)],_0x225d64={'image':{'url':config[_0x2e78fb(0x287)]},'caption':_0x3f0e9f,'contextInfo':{'mentionedJid':[_0xfcbfad[_0x2e78fb(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x2e78fb(0x20b),'newsletterName':_0x2e78fb(0x315),'serverMessageId':0x8f}}};await _0x2993b3[_0x2e78fb(0x266)](_0x1977d6,_0x225d64,{'disappearingMessagesInChat':!![],'ephemeralExpiration':0x64},{'quoted':_0x33fad9}),await _0x2993b3[_0x2e78fb(0x266)](_0x1977d6,{'text':_0x188d68},{'quoted':_0x33fad9}),await _0xfcbfad[_0x2e78fb(0x261)]('✅');}catch(_0x1de8a6){_0x3b32aa(_0x2e78fb(0x33a)+_0x1de8a6['message']);}}),gmd({'pattern':_0x414f07(0x1fa),'alias':[_0x414f07(0x24b)],'desc':_0x414f07(0x2a1),'category':_0x414f07(0x2b4),'react':'👋','filename':__filename},async(_0x3626be,_0x4147bd,_0x21a822,{from:_0x34004b,q:_0x63b36d,body:_0x1cebc5,reply:_0x343146,isOwner:_0xc38053})=>{const _0x15a808=_0x414f07;if(!_0xc38053)return _0x343146(_0x15a808(0x362));const _0x46f5c9={'image':{'url':config['BOT_PIC']},'caption':_0x15a808(0x2a7)+global[_0x15a808(0x23f)]+'*\x0a╰───────────────┄┈┈','contextInfo':{'mentionedJid':[_0x21a822[_0x15a808(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363318387454868@newsletter','newsletterName':_0x15a808(0x315),'serverMessageId':0x8f}}},_0x304a13=await _0x3626be[_0x15a808(0x266)](_0x34004b,_0x46f5c9),_0x4687b5=_0x304a13[_0x15a808(0x1ea)]['id'];_0x3626be['ev']['on'](_0x15a808(0x356),async _0x11e972=>{const _0x1f05af=_0x15a808,_0x57b1b0=_0x11e972[_0x1f05af(0x303)][0x0];if(!_0x57b1b0[_0x1f05af(0x293)])return;const _0x1aa561=_0x57b1b0['message'][_0x1f05af(0x382)]||_0x57b1b0['message']['extendedTextMessage']?.[_0x1f05af(0x357)],_0x1920bc=_0x57b1b0['message'][_0x1f05af(0x232)]?.[_0x1f05af(0x235)]?.[_0x1f05af(0x230)]===_0x4687b5;if(_0x1920bc){await _0x21a822['react']('👋');switch(_0x1aa561){case'1':config['WELCOME']=_0x1f05af(0x310),saveConfig();return _0x343146(_0x1f05af(0x250));break;case'2':config[_0x1f05af(0x25c)]=_0x1f05af(0x2fc),saveConfig();return _0x343146(_0x1f05af(0x2c8));break;default:await _0x3626be[_0x1f05af(0x266)](_0x34004b,{'text':'Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1\x20or\x202).'});}}}),await _0x21a822[_0x15a808(0x261)]('✅');}),gmd({'pattern':_0x414f07(0x2e7),'alias':['setgoodbye'],'desc':'Enable\x20or\x20Disable\x20Goodbye\x20Messages\x20in\x20Groups','category':_0x414f07(0x2b4),'react':'👋','filename':__filename},async(_0x1e5e67,_0x285376,_0x46bb68,{from:_0x4b58,q:_0x4c6c3f,body:_0x56fa06,reply:_0xb47cd0,isOwner:_0x4d3cdb})=>{const _0x4dd799=_0x414f07;if(!_0x4d3cdb)return _0xb47cd0(_0x4dd799(0x362));const _0x3c28bc={'image':{'url':config[_0x4dd799(0x287)]},'caption':'*𝐆𝐎𝐎𝐃𝐁𝐘𝐄\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20gʀσυρ\x20gσσ∂вує\x20мєѕѕαgєѕ*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20gʀσυρ\x20gσσ∂вує\x20мєѕѕαgєѕ*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*'+global[_0x4dd799(0x23f)]+_0x4dd799(0x350),'contextInfo':{'mentionedJid':[_0x46bb68[_0x4dd799(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x4dd799(0x20b),'newsletterName':_0x4dd799(0x315),'serverMessageId':0x8f}}},_0x537c45=await _0x1e5e67[_0x4dd799(0x266)](_0x4b58,_0x3c28bc),_0x416357=_0x537c45[_0x4dd799(0x1ea)]['id'];_0x1e5e67['ev']['on'](_0x4dd799(0x356),async _0x1bcafd=>{const _0x335b5e=_0x4dd799,_0x2110eb=_0x1bcafd[_0x335b5e(0x303)][0x0];if(!_0x2110eb[_0x335b5e(0x293)])return;const _0x35f00a=_0x2110eb['message'][_0x335b5e(0x382)]||_0x2110eb[_0x335b5e(0x293)][_0x335b5e(0x232)]?.['text'],_0x39adeb=_0x2110eb[_0x335b5e(0x293)][_0x335b5e(0x232)]?.[_0x335b5e(0x235)]?.[_0x335b5e(0x230)]===_0x416357;if(_0x39adeb){await _0x46bb68[_0x335b5e(0x261)]('👋');switch(_0x35f00a){case'1':config['GOODBYE']=_0x335b5e(0x310),saveConfig();return _0xb47cd0(_0x335b5e(0x2bf));break;case'2':config[_0x335b5e(0x2d9)]=_0x335b5e(0x2fc),saveConfig();return _0xb47cd0('Goodbye\x20messages\x20are\x20disabled.');break;default:await _0x1e5e67[_0x335b5e(0x266)](_0x4b58,{'text':'Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1\x20or\x202).'});}}}),await _0x46bb68['react']('✅');}),gmd({'pattern':_0x414f07(0x21d),'alias':['allprivacy',_0x414f07(0x203),_0x414f07(0x23e),'privacy-settings',_0x414f07(0x21d)],'desc':_0x414f07(0x24a),'category':_0x414f07(0x2b4),'react':'🔐','filename':__filename},async(_0x10b6aa,_0x4fe702,_0xd29a05,{from:_0x28f607,l:_0x4eb672,quoted:_0x4efb19,body:_0x50f8ec,isCmd:_0x16479c,command:_0x2dee50,args:_0x41e47f,q:_0x382381,isGroup:_0x22c657,sender:_0x4faa8b,senderNumber:_0x4f3350,botNumber2:_0x82fdb5,botNumber:_0x5ebac1,pushname:_0x356ba6,isMe:_0x4fb37c,isOwner:_0x438adf,groupMetadata:_0x5a71a0,groupName:_0x85fe1f,participants:_0x19d863,isItzcp:_0x1cef57,groupAdmins:_0x5f195a,isBotAdmins:_0x44ac90,isAdmins:_0x60a3bf,reply:_0x371503})=>{const _0x14f938=_0x414f07;if(!_0x438adf)return _0x371503('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');try{const _0x65b86b=await _0x10b6aa[_0x14f938(0x2e2)](!![]);console[_0x14f938(0x21b)](_0x14f938(0x1f7)+JSON[_0x14f938(0x33f)](_0x65b86b)),_0x371503(_0x14f938(0x27a)+JSON[_0x14f938(0x33f)](_0x65b86b,null,0x2));}catch(_0x3075d7){_0x371503(_0x14f938(0x2e4)+_0x3075d7[_0x14f938(0x293)]);}}),gmd({'pattern':_0x414f07(0x33c),'desc':'Update\x20Last\x20Seen\x20Privacy','category':_0x414f07(0x2b4),'react':'🔐','filename':__filename},async(_0x5d2808,_0x57e8df,_0x25c232,{from:_0x180aa4,l:_0x49ee97,quoted:_0x4d7c4b,body:_0x410ced,isCmd:_0x2afa68,command:_0x459e71,args:_0x323d53,q:_0x508830,isGroup:_0x141531,sender:_0x450745,senderNumber:_0x2f6830,botNumber2:_0x5f344a,botNumber:_0x3f6528,pushname:_0x54b872,isMe:_0x15ccfc,isOwner:_0x24991e,groupMetadata:_0x4935b1,groupName:_0x119793,participants:_0x4392c8,isItzcp:_0x4a6db0,groupAdmins:_0x4734b4,isBotAdmins:_0x1e0f1a,isAdmins:_0x490273,reply:_0x579b8c})=>{const _0x23c295=_0x414f07;if(!_0x24991e)return _0x579b8c(_0x23c295(0x362));try{const _0x1f3deb=_0x323d53[0x0]||_0x23c295(0x22e),_0x4ed6bf=[_0x23c295(0x22e),_0x23c295(0x2a8),_0x23c295(0x209),_0x23c295(0x32e)];if(!_0x4ed6bf[_0x23c295(0x26b)](_0x1f3deb))return _0x579b8c(_0x23c295(0x2eb));await _0x5d2808[_0x23c295(0x2da)](_0x1f3deb),_0x579b8c(_0x23c295(0x369)+_0x1f3deb);}catch(_0x195bba){_0x579b8c(_0x23c295(0x206)+_0x195bba['message']);}}),gmd({'pattern':_0x414f07(0x35a),'desc':_0x414f07(0x2ba),'category':'owner','react':'🔐','filename':__filename},async(_0x173b15,_0xc3324d,_0x564290,{from:_0x1f2164,l:_0x497c18,quoted:_0x3d1f4c,body:_0x4d104d,isCmd:_0x3ee992,command:_0x357e02,args:_0x5198a5,q:_0x27f195,isGroup:_0x50d2d4,sender:_0x52e72a,senderNumber:_0x7c8073,botNumber2:_0xa3c4a9,botNumber:_0x1ed8d2,pushname:_0x377c74,isMe:_0x594929,isOwner:_0x218251,groupMetadata:_0x5c3368,groupName:_0x2183ba,participants:_0x53de13,isItzcp:_0x5a39c3,groupAdmins:_0x21c22b,isBotAdmins:_0x1ae9de,isAdmins:_0x288587,reply:_0x19a20b})=>{const _0x58954f=_0x414f07;if(!_0x218251)return _0x19a20b(_0x58954f(0x362));try{const _0xacd424=_0x5198a5[0x0]||_0x58954f(0x22e),_0x16e5c8=[_0x58954f(0x22e),_0x58954f(0x26c)];if(!_0x16e5c8[_0x58954f(0x26b)](_0xacd424))return _0x19a20b('❌\x20Invalid\x20option.\x20Valid\x20options\x20are:\x20\x27all\x27,\x20\x27match_last_seen\x27.');await _0x173b15[_0x58954f(0x340)](_0xacd424),_0x19a20b('✅\x20Online\x20privacy\x20updated\x20to:\x20'+_0xacd424);}catch(_0x42bcff){_0x19a20b(_0x58954f(0x35f)+_0x42bcff[_0x58954f(0x293)]);}}),gmd({'pattern':_0x414f07(0x1f5),'desc':_0x414f07(0x2f6),'category':'owner','react':'🔐','filename':__filename},async(_0x2c75c9,_0x4473d7,_0x9a3f3c,{from:_0xbb9c46,l:_0x847423,quoted:_0x342df0,body:_0x51bd0d,isCmd:_0x4809b8,command:_0x58e793,args:_0x47ad66,q:_0x35abeb,isGroup:_0x3abdbc,sender:_0xac9a7a,senderNumber:_0x33d539,botNumber2:_0x3be87f,botNumber:_0x426281,pushname:_0x248fa6,isMe:_0x92ba5,isOwner:_0x194f4a,groupMetadata:_0x36dd96,groupName:_0x3c8f1c,participants:_0x1a5696,isItzcp:_0x1cd421,groupAdmins:_0x36d377,isBotAdmins:_0xc78025,isAdmins:_0x38e0c5,reply:_0x1ecab2})=>{const _0x3fbeaf=_0x414f07;if(!_0x194f4a)return _0x1ecab2(_0x3fbeaf(0x362));try{const _0x29b8e9=_0x47ad66[0x0]||_0x3fbeaf(0x22e),_0x314085=[_0x3fbeaf(0x22e),'contacts','contact_blacklist',_0x3fbeaf(0x32e)];if(!_0x314085[_0x3fbeaf(0x26b)](_0x29b8e9))return _0x1ecab2('❌\x20Invalid\x20option.\x20Valid\x20options\x20are:\x20\x27all\x27,\x20\x27contacts\x27,\x20\x27contact_blacklist\x27,\x20\x27none\x27.');await _0x2c75c9[_0x3fbeaf(0x2ec)](_0x29b8e9),_0x1ecab2(_0x3fbeaf(0x22f)+_0x29b8e9);}catch(_0x2e7e0c){_0x1ecab2(_0x3fbeaf(0x314)+_0x2e7e0c[_0x3fbeaf(0x293)]);}}),gmd({'pattern':_0x414f07(0x288),'desc':_0x414f07(0x352),'category':_0x414f07(0x2b4),'react':'🔐','filename':__filename},async(_0x429dda,_0x522d4e,_0x463352,{from:_0x364ba8,l:_0x23b029,quoted:_0xf1ef77,body:_0x72a676,isCmd:_0x331c00,command:_0x1abd9e,args:_0x448272,q:_0x11624,isGroup:_0x96bf61,sender:_0x5807a5,senderNumber:_0x2d459b,botNumber2:_0x32d3e3,botNumber:_0x2e51c7,pushname:_0x2a2b5f,isMe:_0x392b2c,isOwner:_0x37359e,groupMetadata:_0x12c4fb,groupName:_0x343c29,participants:_0x437d7b,isItzcp:_0xf13514,groupAdmins:_0x3989e7,isBotAdmins:_0x245f9c,isAdmins:_0x3693d6,reply:_0x1b5b9f})=>{const _0x469bfb=_0x414f07;if(!_0x37359e)return _0x1b5b9f(_0x469bfb(0x362));try{const _0x1613dd=_0x448272[0x0]||'all',_0x4435ee=[_0x469bfb(0x22e),_0x469bfb(0x2a8),_0x469bfb(0x209),'none'];if(!_0x4435ee['includes'](_0x1613dd))return _0x1b5b9f(_0x469bfb(0x2eb));await _0x429dda[_0x469bfb(0x222)](_0x1613dd),_0x1b5b9f(_0x469bfb(0x1f0)+_0x1613dd);}catch(_0x3d5646){_0x1b5b9f(_0x469bfb(0x305)+_0x3d5646['message']);}}),gmd({'pattern':'read-receipts','desc':_0x414f07(0x359),'category':_0x414f07(0x2b4),'react':'🔐','filename':__filename},async(_0xecf54a,_0xbf4acc,_0x3ed4d0,{from:_0x5abb5b,l:_0x279b2c,quoted:_0x5b1617,body:_0x4c9ee6,isCmd:_0x3785e4,command:_0x3cf710,args:_0x1f2fd0,q:_0x53dd63,isGroup:_0x2d1b01,sender:_0x5cab64,senderNumber:_0x1fa37c,botNumber2:_0xcc717d,botNumber:_0x297d53,pushname:_0x1cbe8e,isMe:_0x1679f3,isOwner:_0x36cd11,groupMetadata:_0x490740,groupName:_0x3049d1,participants:_0x2e23b3,isItzcp:_0x1359e9,groupAdmins:_0x45c50e,isBotAdmins:_0x2556cd,isAdmins:_0x47e152,reply:_0x1b9dbe})=>{const _0x4ebe0d=_0x414f07;if(!_0x36cd11)return _0x1b9dbe(_0x4ebe0d(0x2be));try{const _0xc0f3eb=_0x1f2fd0[0x0]||_0x4ebe0d(0x22e),_0x4d03e4=[_0x4ebe0d(0x22e),_0x4ebe0d(0x32e)];if(!_0x4d03e4['includes'](_0xc0f3eb))return _0x1b9dbe('❌\x20Invalid\x20option.\x20Valid\x20options\x20are:\x20\x27all\x27,\x20\x27none\x27.');await _0xecf54a[_0x4ebe0d(0x28c)](_0xc0f3eb),_0x1b9dbe('✅\x20Read\x20receipts\x20privacy\x20updated\x20to:\x20'+_0xc0f3eb);}catch(_0x5d779b){_0x1b9dbe(_0x4ebe0d(0x308)+_0x5d779b[_0x4ebe0d(0x293)]);}}),gmd({'pattern':_0x414f07(0x239),'desc':_0x414f07(0x35b),'category':_0x414f07(0x2b4),'react':'🔐','filename':__filename},async(_0x33bb6b,_0x4edfee,_0x2b1833,{from:_0x304b64,l:_0x28ac84,quoted:_0x12dabf,body:_0x179501,isCmd:_0x1f8d15,command:_0x281526,args:_0x3d1c84,q:_0x1091b5,isGroup:_0x499142,sender:_0x230da5,senderNumber:_0xf1d3b0,botNumber2:_0x5ce261,botNumber:_0x2b0487,pushname:_0x607a19,isMe:_0x5e83d8,isOwner:_0x32944d,groupMetadata:_0x34e8d1,groupName:_0x52dfb2,participants:_0x3ef3ba,isItzcp:_0x20c443,groupAdmins:_0x54bb40,isBotAdmins:_0xff2602,isAdmins:_0x5149f6,reply:_0x2b00e1})=>{const _0x4aab4b=_0x414f07;if(!_0x32944d)return _0x2b00e1('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');try{const _0x46951a=_0x3d1c84[0x0]||_0x4aab4b(0x22e),_0x3d3759=[_0x4aab4b(0x22e),_0x4aab4b(0x2a8),_0x4aab4b(0x209),_0x4aab4b(0x32e)];if(!_0x3d3759[_0x4aab4b(0x26b)](_0x46951a))return _0x2b00e1(_0x4aab4b(0x2eb));await _0x33bb6b[_0x4aab4b(0x27d)](_0x46951a),_0x2b00e1(_0x4aab4b(0x20f)+_0x46951a);}catch(_0x49f12e){_0x2b00e1(_0x4aab4b(0x301)+_0x49f12e[_0x4aab4b(0x293)]);}}),gmd({'pattern':'setdisapp','alias':['disappearing','default-disapp',_0x414f07(0x280)],'desc':_0x414f07(0x276),'category':_0x414f07(0x2b4),'react':'🔐','filename':__filename},async(_0x21c63a,_0x59d552,_0x594253,{from:_0x149228,l:_0x5a780f,quoted:_0x87d783,body:_0x376a6b,isCmd:_0x362188,command:_0x110c08,args:_0x2390f5,q:_0x5ada64,isGroup:_0x5542d,sender:_0x19e515,senderNumber:_0x4e3dea,botNumber2:_0xf447a7,botNumber:_0x3ea3d9,pushname:_0x514ec4,isMe:_0x2db5bf,isOwner:_0x10a05d,groupMetadata:_0xc2ffe5,groupName:_0x495a85,participants:_0x1a4daa,isItzcp:_0x39129e,groupAdmins:_0x4ebf15,isBotAdmins:_0x31a87b,isAdmins:_0x1a3e95,reply:_0x255a09})=>{const _0x123cd2=_0x414f07;if(!_0x10a05d)return _0x255a09(_0x123cd2(0x362));try{const _0x5e030c=_0x2390f5[0x0]||0x15180;await _0x21c63a[_0x123cd2(0x298)](_0x5e030c),_0x255a09(_0x123cd2(0x24c)+_0x5e030c+'\x20seconds');}catch(_0x27b2f0){_0x255a09(_0x123cd2(0x2a2)+_0x27b2f0[_0x123cd2(0x293)]);}}),gmd({'pattern':'block','desc':_0x414f07(0x28b),'category':_0x414f07(0x2b4),'react':'🚫','filename':__filename},async(_0x4bb05a,_0x5dacef,_0x1f8c9e,{from:_0x47e219,isOwner:_0x337a51,quoted:_0x19e34f,reply:_0x5f5430})=>{const _0x1f86d9=_0x414f07;if(!_0x337a51)return _0x5f5430(_0x1f86d9(0x313));if(!_0x1f8c9e[_0x1f86d9(0x31a)])return _0x5f5430('❌\x20Please\x20reply\x20to\x20the\x20user\x20you\x20want\x20to\x20block.');const _0x5a9633=_0x19e34f[_0x1f86d9(0x2bd)];try{await _0x4bb05a['updateBlockStatus'](_0x5a9633,'block'),_0x5f5430(_0x1f86d9(0x1fb)+_0x5a9633+_0x1f86d9(0x2f9));}catch(_0x12635b){_0x5f5430(_0x1f86d9(0x2e5)+_0x12635b[_0x1f86d9(0x293)]);}}),gmd({'pattern':_0x414f07(0x1f6),'desc':_0x414f07(0x2d4),'category':_0x414f07(0x2b4),'react':'✅','filename':__filename},async(_0x1591cd,_0x21f631,_0x56a546,{from:_0xd696bf,isOwner:_0x57780d,quoted:_0x18fda5,reply:_0x39e7e9})=>{const _0x2b3833=_0x414f07;if(!_0x57780d)return _0x39e7e9(_0x2b3833(0x362));if(!_0x56a546[_0x2b3833(0x31a)])return _0x39e7e9(_0x2b3833(0x2d7));const _0x240109=_0x18fda5[_0x2b3833(0x2bd)];try{await _0x1591cd[_0x2b3833(0x245)](_0x240109,'unblock'),_0x39e7e9(_0x2b3833(0x31c)+_0x240109+_0x2b3833(0x33d));}catch(_0x164f26){_0x39e7e9(_0x2b3833(0x242)+_0x164f26[_0x2b3833(0x293)]);}}),gmd({'pattern':_0x414f07(0x380),'react':'🧹','alias':[_0x414f07(0x240)],'desc':_0x414f07(0x1e9),'category':_0x414f07(0x2b4),'use':_0x414f07(0x219),'filename':__filename},async(_0x3e72d7,_0x487241,_0x405ca7,{from:_0xdbbed5,l:_0x2f7cd5,quoted:_0x4d00e1,body:_0x459aa2,isCmd:_0x7bfeb5,command:_0x22ae48,args:_0x280e96,q:_0xbaf213,isGroup:_0x32177b,sender:_0x3a6155,senderNumber:_0x25765e,botNumber2:_0x2f79c2,botNumber:_0x10ed1e,pushname:_0x1ea0be,isMe:_0x4b9681,isOwner:_0xec0c05,groupMetadata:_0x3383f8,groupName:_0x47dea6,participants:_0x15a546,isItzcp:_0x188580,groupAdmins:_0x360e3,isBotAdmins:_0x4f943c,isAdmins:_0x501348,reply:_0x3f18e8})=>{const _0x2e32b2=_0x414f07;if(!_0xec0c05)return;try{if(!_0x405ca7[_0x2e32b2(0x31a)])return _0x3f18e8(_0x2e32b2(0x2a9));const _0x4034a0={'remoteJid':_0x405ca7[_0x2e32b2(0x307)],'fromMe':![],'id':_0x405ca7[_0x2e32b2(0x31a)]['id'],'participant':_0x405ca7['quoted'][_0x2e32b2(0x2bd)]};await _0x3e72d7['sendMessage'](_0x405ca7[_0x2e32b2(0x307)],{'delete':_0x4034a0}),await _0x405ca7[_0x2e32b2(0x261)]('✅');}catch(_0x53e958){console[_0x2e32b2(0x21b)](_0x53e958),_0x3f18e8(_0x2e32b2(0x24e));}}),gmd({'pattern':_0x414f07(0x300),'alias':[_0x414f07(0x243),_0x414f07(0x379)],'desc':'Clear\x20all\x20Chats.','category':_0x414f07(0x2b4),'react':'🧹','filename':__filename},async(_0x1bdf83,_0x527c2b,_0x1afdc2,{from:_0x28d1e3,isOwner:_0x26c522,reply:_0x358f00})=>{const _0x602f8d=_0x414f07;if(!_0x26c522)return _0x358f00(_0x602f8d(0x362));try{const _0x23024c=_0x1bdf83[_0x602f8d(0x1ee)][_0x602f8d(0x22e)]();for(const _0x5206f8 of _0x23024c){await _0x1bdf83['modifyChat'](_0x5206f8[_0x602f8d(0x346)],_0x602f8d(0x240));}_0x358f00(_0x602f8d(0x34d));}catch(_0x217737){_0x358f00(_0x602f8d(0x2ee)+_0x217737['message']);}}),gmd({'pattern':_0x414f07(0x346),'desc':_0x414f07(0x275),'category':_0x414f07(0x2b4),'react':'🤖','filename':__filename},async(_0x2ffe9c,_0x2f574f,_0x7dd482,{from:_0x1ea7ff,isOwner:_0x348398,reply:_0xf7e78f})=>{const _0x269a5e=_0x414f07;if(!_0x348398)return _0xf7e78f(_0x269a5e(0x362));_0xf7e78f(_0x269a5e(0x361)+_0x2ffe9c[_0x269a5e(0x37f)]['id']);}),gmd({'pattern':'gjid','alias':[_0x414f07(0x347)],'desc':'Get\x20the\x20list\x20of\x20JIDs\x20for\x20all\x20groups\x20the\x20bot\x20is\x20part\x20of.','category':_0x414f07(0x339),'react':'📝','filename':__filename},async(_0x29ce44,_0xdcc3a8,_0x1b06ad,{from:_0xb213a9,isOwner:_0xbc5d7a,reply:_0x3c278b})=>{const _0x3eb571=_0x414f07;if(!_0xbc5d7a)return _0x3c278b('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x5e7f43=await _0x29ce44[_0x3eb571(0x2f3)](),_0x498672=Object['keys'](_0x5e7f43)[_0x3eb571(0x28f)]('\x0a');_0x3c278b(_0x3eb571(0x333)+_0x498672);}),gmd({'pattern':_0x414f07(0x349),'desc':'Archive\x20a\x20Specific\x20Chat','category':'owner','react':'📦','filename':__filename},async(_0x89abbe,_0x1a4ecb,_0x20a60c,{from:_0x268171,isOwner:_0x1853bc,reply:_0x21c0eb})=>{const _0x1fc726=_0x414f07;if(!_0x1853bc)return _0x21c0eb(_0x1fc726(0x362));try{store[_0x1fc726(0x277)](_0x89abbe['ev']),_0x89abbe['store']=store;const _0xcfa740=_0x268171,_0x55faa8=await _0x89abbe[_0x1fc726(0x36d)][_0x1fc726(0x303)][_0xcfa740]?.[_0x1fc726(0x251)];if(!_0x55faa8)return _0x21c0eb('❌\x20No\x20messages\x20found\x20in\x20this\x20chat!');await _0x89abbe[_0x1fc726(0x2f2)]({'archive':!![],'lastMessages':[_0x55faa8]},_0xcfa740),_0x21c0eb(_0x1fc726(0x204));}catch(_0x3db62f){_0x21c0eb('❌\x20Error\x20archiving\x20chat:\x20'+_0x3db62f[_0x1fc726(0x293)]);}}),gmd({'pattern':'pin','desc':'Pin\x20a\x20Specific\x20Chat','category':_0x414f07(0x2b4),'react':'📌','filename':__filename},async(_0x170a01,_0x3b052b,_0x301890,{from:_0x2cd77c,isOwner:_0x19d130,reply:_0x15d5b1})=>{const _0x59bd16=_0x414f07;if(!_0x19d130)return _0x15d5b1(_0x59bd16(0x362));try{await _0x170a01[_0x59bd16(0x2f2)]({'pin':!![]},_0x2cd77c),_0x15d5b1(_0x59bd16(0x292));}catch(_0x21364c){_0x15d5b1(_0x59bd16(0x378)+_0x21364c[_0x59bd16(0x293)]);}}),gmd({'pattern':'unpin','desc':_0x414f07(0x312),'category':'owner','react':'📌','filename':__filename},async(_0x2b9e35,_0x26c819,_0x480870,{from:_0x1bc7af,isOwner:_0x5c51aa,reply:_0x5632c6})=>{const _0x1b1191=_0x414f07;if(!_0x5c51aa)return _0x5632c6(_0x1b1191(0x362));try{await _0x2b9e35[_0x1b1191(0x2f2)]({'pin':![]},_0x1bc7af),_0x5632c6(_0x1b1191(0x28a));}catch(_0x5e60f9){_0x5632c6('❌\x20Error\x20unpinning\x20chat:\x20'+_0x5e60f9[_0x1b1191(0x293)]);}}),gmd({'pattern':_0x414f07(0x366),'desc':'Star\x20a\x20Specific\x20Message\x20in\x20a\x20Chat','category':_0x414f07(0x2b4),'react':'⭐','filename':__filename},async(_0x1399d8,_0xb4f879,_0x40efc9,{from:_0x2225e9,isOwner:_0x40d24a,reply:_0x3b4acf,args:_0x1c9e7f})=>{const _0x558a8b=_0x414f07;if(!_0x40d24a)return _0x3b4acf('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');try{const _0x58ad00=_0x1c9e7f[0x0];await _0x1399d8[_0x558a8b(0x2f2)]({'star':{'messages':[{'id':_0x58ad00,'fromMe':!![],'star':!![]}]}},_0x2225e9),_0x3b4acf(_0x558a8b(0x218));}catch(_0xcf8ccf){_0x3b4acf('❌\x20Error\x20starring\x20message:\x20'+_0xcf8ccf[_0x558a8b(0x293)]);}}),gmd({'pattern':'unstar','desc':_0x414f07(0x342),'category':_0x414f07(0x2b4),'react':'⭐','filename':__filename},async(_0x143937,_0x5cc287,_0x30b0b7,{from:_0x55d9aa,isOwner:_0x1d9928,reply:_0x21a681,args:_0x193386})=>{const _0x3bfb22=_0x414f07;if(!_0x1d9928)return _0x21a681(_0x3bfb22(0x362));try{const _0x4f4ea3=_0x193386[0x0];await _0x143937['chatModify']({'star':{'messages':[{'id':_0x4f4ea3,'fromMe':!![],'star':![]}]}},_0x55d9aa),_0x21a681('⭐\x20Message\x20unstarred!');}catch(_0x4a07f0){_0x21a681(_0x3bfb22(0x272)+_0x4a07f0[_0x3bfb22(0x293)]);}}),gmd({'pattern':'disapp-on','desc':_0x414f07(0x36f),'category':_0x414f07(0x2b4),'react':'⏳','filename':__filename},async(_0x57f283,_0x3f52e7,_0x3aa524,{from:_0x5ea975,isOwner:_0x70062a,reply:_0x24727c})=>{const _0x30e7e3=_0x414f07;if(!_0x70062a)return _0x24727c(_0x30e7e3(0x362));try{const _0x5102e7=_0x5ea975;await _0x57f283[_0x30e7e3(0x266)](_0x5102e7,{'disappearingMessagesInChat':WA_DEFAULT_EPHEMERAL}),_0x24727c(_0x30e7e3(0x319));}catch(_0x5a7439){_0x24727c(_0x30e7e3(0x1ec)+_0x5a7439[_0x30e7e3(0x293)]);}}),gmd({'pattern':_0x414f07(0x24d),'desc':'Turn\x20off\x20Disappearing\x20Messages','category':_0x414f07(0x2b4),'react':'⏳','filename':__filename},async(_0x4ebf32,_0x2040b4,_0xf62ee6,{from:_0x1197b7,isOwner:_0xdbf169,reply:_0x2ce31d})=>{const _0x4a7f99=_0x414f07;if(!_0xdbf169)return _0x2ce31d('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');try{const _0x449f48=_0x1197b7;await _0x4ebf32['sendMessage'](_0x449f48,{'disappearingMessagesInChat':![]}),_0x2ce31d(_0x4a7f99(0x27c));}catch(_0xcae4e3){_0x2ce31d(_0x4a7f99(0x252)+_0xcae4e3[_0x4a7f99(0x293)]);}}),gmd({'pattern':'onwa','desc':'Check\x20if\x20a\x20Number\x20is\x20on\x20WhatsApp','category':_0x414f07(0x2b4),'react':'📱','filename':__filename},async(_0x3705bf,_0x1cdcd0,_0x4f44e9,{from:_0x122923,isOwner:_0x532616,reply:_0x284f89,args:_0x2087e2})=>{const _0x626d03=_0x414f07;if(!_0x532616)return _0x284f89(_0x626d03(0x362));try{const _0x5e8806=_0x2087e2[0x0],[_0x5505dd]=await _0x3705bf[_0x626d03(0x2e8)](_0x5e8806);_0x5505dd[_0x626d03(0x28d)]?_0x284f89(_0x5e8806+_0x626d03(0x2de)+_0x5505dd[_0x626d03(0x346)]):_0x284f89(_0x5e8806+_0x626d03(0x254));}catch(_0x8a2807){_0x284f89('❌\x20Error\x20checking\x20WhatsApp\x20number:\x20'+_0x8a2807[_0x626d03(0x293)]);}}),gmd({'pattern':'wa','desc':_0x414f07(0x2fb),'category':_0x414f07(0x2b4),'filename':__filename},async(_0xcfe701,_0x127179,_0x350ff6,{quoted:_0x350fa3,text:_0x1c80c9,args:_0x1eb4ac,isOwner:_0x208f85})=>{const _0x10aa84=_0x414f07;if(!_0x208f85)return reply(_0x10aa84(0x362));try{let _0x15ed12;if(_0x350ff6[_0x10aa84(0x293)]['extendedTextMessage']?.['contextInfo']?.[_0x10aa84(0x253)]?.[0x0])_0x15ed12=_0x350ff6[_0x10aa84(0x293)][_0x10aa84(0x232)]['contextInfo']['mentionedJid'][0x0][_0x10aa84(0x259)]('@')[0x0];else{if(_0x350fa3)_0x15ed12=_0x350fa3[_0x10aa84(0x2bd)][_0x10aa84(0x259)]('@')[0x0];else{if(_0x1c80c9)_0x15ed12=_0x1c80c9[_0x10aa84(0x31d)]('@','');else return _0xcfe701[_0x10aa84(0x266)](_0x350ff6[_0x10aa84(0x1ea)][_0x10aa84(0x309)],{'text':_0x10aa84(0x223)},{'quoted':_0x127179});}}return _0xcfe701[_0x10aa84(0x266)](_0x350ff6['key'][_0x10aa84(0x309)],{'text':_0x10aa84(0x27f)+_0x15ed12},{'quoted':_0x127179});}catch(_0x3b19f3){return console[_0x10aa84(0x1f2)](_0x3b19f3),_0xcfe701[_0x10aa84(0x266)](_0x350ff6['key']['remoteJid'],{'text':'An\x20error\x20occurred\x20while\x20processing\x20your\x20request.'},{'quoted':_0x127179});}}),gmd({'pattern':_0x414f07(0x2f8),'desc':_0x414f07(0x32b),'category':_0x414f07(0x2b4),'react':'📲','filename':__filename},async(_0x39973f,_0x4c2398,_0x348a40,{from:_0x468000,isOwner:_0x2abc88,reply:_0x3280dd,args:_0x5de4ba})=>{const _0x1a1973=_0x414f07;if(!_0x2abc88)return _0x3280dd(_0x1a1973(0x362));try{const _0x506c44=_0x5de4ba['join']('\x20');await _0x39973f[_0x1a1973(0x2d3)](_0x506c44),_0x3280dd('📲\x20Profile\x20status\x20updated\x20to:\x20'+_0x506c44);}catch(_0x399ef7){_0x3280dd(_0x1a1973(0x336)+_0x399ef7[_0x1a1973(0x293)]);}}),gmd({'pattern':_0x414f07(0x2b5),'desc':_0x414f07(0x2cc),'category':_0x414f07(0x2b4),'react':'📝','filename':__filename},async(_0x4721a8,_0x4bf536,_0x231eac,{from:_0x5b9800,isOwner:_0x2fc84b,reply:_0x4fd90f,args:_0x128c96})=>{const _0x5388b1=_0x414f07;if(!_0x2fc84b)return _0x4fd90f(_0x5388b1(0x362));try{const _0x5579e8=_0x128c96[_0x5388b1(0x28f)]('\x20');await _0x4721a8[_0x5388b1(0x30d)](_0x5579e8),_0x4fd90f(_0x5388b1(0x226)+_0x5579e8);}catch(_0x604117){_0x4fd90f(_0x5388b1(0x258)+_0x604117[_0x5388b1(0x293)]);}}),gmd({'pattern':_0x414f07(0x27b),'desc':'Enable\x20or\x20Disable\x20Chatbot','category':_0x414f07(0x2b4),'react':'🤖','filename':__filename},async(_0x528de5,_0x5221dd,_0x3f379d,{from:_0x4da146,body:_0x5709b9,isGroup:_0xc96796,isOwner:_0x4db369,q:_0x1eb9c3,isAdmins:_0x36a55c,isBotAdmins:_0x27d39c,reply:_0x2a5b16})=>{const _0x5cbb7d=_0x414f07;try{if(!_0x4db369)return _0x2a5b16('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x2f40e9={'image':{'url':config['BOT_PIC']},'caption':_0x5cbb7d(0x282)+global['footer']+_0x5cbb7d(0x350),'contextInfo':{'mentionedJid':[_0x3f379d[_0x5cbb7d(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x5cbb7d(0x20b),'newsletterName':_0x5cbb7d(0x315),'serverMessageId':0x8f}}},_0x574e13=await _0x528de5[_0x5cbb7d(0x266)](_0x4da146,_0x2f40e9),_0x5e0655=_0x574e13[_0x5cbb7d(0x1ea)]['id'];_0x528de5['ev']['on'](_0x5cbb7d(0x356),async _0x51c994=>{const _0x39601b=_0x5cbb7d,_0x1280ea=_0x51c994[_0x39601b(0x303)][0x0];if(!_0x1280ea[_0x39601b(0x293)])return;const _0x36422a=_0x1280ea['message'][_0x39601b(0x382)]||_0x1280ea['message'][_0x39601b(0x232)]?.['text'],_0xef5429=_0x1280ea[_0x39601b(0x293)][_0x39601b(0x232)]?.[_0x39601b(0x235)]?.['stanzaId']===_0x5e0655;if(_0xef5429){await _0x3f379d[_0x39601b(0x261)]('🤖');switch(_0x36422a){case'1':chatbotEnabled=!![];return _0x2a5b16(_0x39601b(0x233));break;case'2':chatbotInGroups=!![],chatbotInInbox=![];return _0x2a5b16(_0x39601b(0x331));break;case'3':chatbotInInbox=!![],chatbotInGroups=![];return _0x2a5b16('*Chatbot\x20will\x20work\x20in\x20personal\x20chats\x20(inbox)\x20Only!*');break;case'4':chatbotEnabled=![];return _0x2a5b16(_0x39601b(0x360));break;default:await _0x528de5[_0x39601b(0x266)](_0x4da146,{'text':_0x39601b(0x2b6)});}}}),await _0x3f379d[_0x5cbb7d(0x261)]('✅');}catch(_0x287d40){console[_0x5cbb7d(0x21b)](_0x287d40),_0x2a5b16(_0x5cbb7d(0x343)+_0x287d40);}}),gmd({'on':'body'},async(_0x196e6,_0x408f28,_0x4a63ae,{from:_0x329005,body:_0x45f59a,isMe:_0x488669,isOwner:_0x1e728c,isGroup:_0x5ae6ac,reply:_0x5ad0f6})=>{const _0x419fe8=_0x414f07;try{if(chatbotEnabled){if(_0x488669)return;if(chatbotInGroups&&!_0x5ae6ac||chatbotInInbox&&_0x5ae6ac)return;const _0x323641=_0x45f59a;let _0x4beb9f;try{_0x4beb9f=await fetchJson(global['api']+'/ai/gpt?apikey='+global[_0x419fe8(0x341)]+'&q='+encodeURIComponent(_0x323641));if(_0x4beb9f&&_0x4beb9f['result'])return _0x5ad0f6(_0x4beb9f[_0x419fe8(0x22d)]);}catch(_0x1cbc27){console[_0x419fe8(0x21b)](_0x419fe8(0x373),_0x1cbc27);}try{_0x4beb9f=await fetchJson(global[_0x419fe8(0x265)]+_0x419fe8(0x351)+global['myName']+_0x419fe8(0x329)+encodeURIComponent(_0x323641));if(_0x4beb9f&&_0x4beb9f['result'])return _0x5ad0f6(_0x4beb9f[_0x419fe8(0x22d)]);}catch(_0x406d99){console['log'](_0x419fe8(0x20e),_0x406d99);}try{_0x4beb9f=await fetchJson(global[_0x419fe8(0x265)]+_0x419fe8(0x326)+global[_0x419fe8(0x341)]+_0x419fe8(0x329)+encodeURIComponent(_0x323641));if(_0x4beb9f&&_0x4beb9f[_0x419fe8(0x22d)])return _0x5ad0f6(_0x4beb9f[_0x419fe8(0x22d)]);}catch(_0x18bb3f){console['log']('GPT-3\x20Turbo\x20API\x20failed\x20or\x20no\x20valid\x20response:',_0x18bb3f);}try{_0x4beb9f=await fetchJson(global[_0x419fe8(0x265)]+_0x419fe8(0x35c)+global[_0x419fe8(0x341)]+_0x419fe8(0x329)+encodeURIComponent(_0x323641));if(_0x4beb9f&&_0x4beb9f[_0x419fe8(0x22d)])return _0x5ad0f6(_0x4beb9f[_0x419fe8(0x22d)]);}catch(_0x5de7db){console[_0x419fe8(0x21b)](_0x419fe8(0x335),_0x5de7db);}return _0x5ad0f6(_0x419fe8(0x37d));}config[_0x419fe8(0x36a)]===_0x419fe8(0x310)&&(startAutoBio(_0x196e6),console[_0x419fe8(0x21b)]('👨‍💻\x20AutoBIO\x20started\x20automatically\x20as\x20per\x20config.'));if(config['AUTO_AUDIO']===_0x419fe8(0x310))try{let {data:_0x49e969}=await axios[_0x419fe8(0x2d1)](_0x419fe8(0x20d));for(let _0x50a953 in _0x49e969){let _0x3de540=_0x50a953[_0x419fe8(0x31d)](/[.*+?^=!:${}()|\[\]\/\\]/g,'\x5c$&'),_0x56a339=new RegExp('\x5cb'+_0x3de540+'\x5cb','gi');if(_0x56a339['test'](_0x45f59a)){const _0x1efc14=await getBuffer(_0x49e969[_0x50a953]);return _0x196e6[_0x419fe8(0x266)](_0x329005,{'audio':_0x1efc14,'mimetype':_0x419fe8(0x321),'ptt':!![]},{'quoted':_0x408f28});}}}catch(_0xa428df){console[_0x419fe8(0x1f2)](_0xa428df),_0x5ad0f6('An\x20error\x20occurred\x20while\x20processing\x20the\x20message.');}}catch(_0x2502ed){console['error'](_0x2502ed),_0x5ad0f6(_0x419fe8(0x20a));}}),gmd({'pattern':'autoread','alias':[_0x414f07(0x325),_0x414f07(0x34c),_0x414f07(0x2bb),_0x414f07(0x2cf),'autoreadmessages',_0x414f07(0x216)],'desc':_0x414f07(0x377),'category':_0x414f07(0x2b4),'react':'📖','filename':__filename},async(_0x1a5e21,_0x18f6da,_0x42ae79,{from:_0x4b8792,q:_0x126898,body:_0x9831aa,reply:_0x1f1722,isOwner:_0x3c19ba})=>{const _0x2c6c9a=_0x414f07;if(!_0x3c19ba)return _0x1f1722(_0x2c6c9a(0x362));const _0x2bb990={'image':{'url':config[_0x2c6c9a(0x287)]},'caption':_0x2c6c9a(0x33e)+global[_0x2c6c9a(0x23f)]+_0x2c6c9a(0x350),'contextInfo':{'mentionedJid':[_0x42ae79['sender']],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x2c6c9a(0x20b),'newsletterName':_0x2c6c9a(0x315),'serverMessageId':0x8f}}},_0x595caa=await _0x1a5e21[_0x2c6c9a(0x266)](_0x4b8792,_0x2bb990),_0x597c49=_0x595caa[_0x2c6c9a(0x1ea)]['id'];_0x1a5e21['ev']['on'](_0x2c6c9a(0x356),async _0x70dbe4=>{const _0x5105d4=_0x2c6c9a,_0x9e199d=_0x70dbe4[_0x5105d4(0x303)][0x0];if(!_0x9e199d[_0x5105d4(0x293)])return;const _0x3cb3a6=_0x9e199d[_0x5105d4(0x293)]['conversation']||_0x9e199d[_0x5105d4(0x293)][_0x5105d4(0x232)]?.['text'],_0x47f2d6=_0x9e199d[_0x5105d4(0x293)][_0x5105d4(0x232)]?.[_0x5105d4(0x235)]?.[_0x5105d4(0x230)]===_0x597c49;if(_0x47f2d6){await _0x42ae79[_0x5105d4(0x261)]('📖');switch(_0x3cb3a6){case'1':config[_0x5105d4(0x262)]=_0x5105d4(0x310),saveConfig();return _0x1f1722(_0x5105d4(0x358));break;case'2':config[_0x5105d4(0x262)]=_0x5105d4(0x29a),saveConfig();return _0x1f1722(_0x5105d4(0x2f1));break;case'3':config[_0x5105d4(0x262)]=_0x5105d4(0x2fc),saveConfig();return _0x1f1722(_0x5105d4(0x1f1));break;default:await _0x1a5e21[_0x5105d4(0x266)](_0x4b8792,{'text':_0x5105d4(0x372)});}}}),await _0x42ae79[_0x2c6c9a(0x261)]('✅');}),gmd({'pattern':_0x414f07(0x368),'alias':[_0x414f07(0x1ef),'setautoview','autoviewstatus',_0x414f07(0x344),'setautoviewstatus'],'desc':'Enable\x20or\x20disable\x20Auto\x20Read','category':_0x414f07(0x2b4),'react':'📖','filename':__filename},async(_0x905b9a,_0xfbed05,_0x5785ac,{from:_0x11b54e,q:_0x2ef91d,body:_0xfd4cc9,reply:_0x4c2ea8,isOwner:_0x489c43})=>{const _0x48847e=_0x414f07;if(!_0x489c43)return _0x4c2ea8('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x4d0712={'image':{'url':config[_0x48847e(0x287)]},'caption':'*𝐒𝐓𝐀𝐓𝐔𝐒\x20𝐕𝐈𝐄𝐖\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αυтσνιєω\x20ѕтαтυѕ*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20αυтσνιєω\x20ѕтαтυѕ*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*'+global[_0x48847e(0x23f)]+_0x48847e(0x350),'contextInfo':{'mentionedJid':[_0x5785ac[_0x48847e(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x48847e(0x20b),'newsletterName':_0x48847e(0x315),'serverMessageId':0x8f}}},_0x20dbad=await _0x905b9a[_0x48847e(0x266)](_0x11b54e,_0x4d0712),_0x31eece=_0x20dbad[_0x48847e(0x1ea)]['id'];_0x905b9a['ev']['on'](_0x48847e(0x356),async _0x507305=>{const _0x39cde=_0x48847e,_0x1fb2f2=_0x507305['messages'][0x0];if(!_0x1fb2f2[_0x39cde(0x293)])return;const _0x4d69b0=_0x1fb2f2[_0x39cde(0x293)][_0x39cde(0x382)]||_0x1fb2f2['message'][_0x39cde(0x232)]?.['text'],_0x58d2b1=_0x1fb2f2[_0x39cde(0x293)][_0x39cde(0x232)]?.[_0x39cde(0x235)]?.[_0x39cde(0x230)]===_0x31eece;if(_0x58d2b1){await _0x5785ac[_0x39cde(0x261)]('📖');switch(_0x4d69b0){case'1':config[_0x39cde(0x2af)]=_0x39cde(0x310),saveConfig();return _0x4c2ea8(_0x39cde(0x31e));break;case'2':config[_0x39cde(0x2af)]=_0x39cde(0x2fc),saveConfig();return _0x4c2ea8(_0x39cde(0x2b7));break;default:await _0x905b9a[_0x39cde(0x266)](_0x11b54e,{'text':_0x39cde(0x1f8)});}}}),await _0x5785ac[_0x48847e(0x261)]('✅');}),gmd({'pattern':_0x414f07(0x328),'alias':['setlikestatus',_0x414f07(0x385),_0x414f07(0x32d),_0x414f07(0x2b9),'setautolikestatus'],'desc':'Enable\x20or\x20disable\x20Auto\x20Like\x20Status','category':_0x414f07(0x2b4),'react':'👍','filename':__filename},async(_0xdc7d1d,_0x4c7a92,_0x1a4b0b,{from:_0x4da266,q:_0x2604d4,body:_0x419d73,reply:_0x403ecb,isOwner:_0x2d77e5})=>{const _0x1b571f=_0x414f07;if(!_0x2d77e5)return _0x403ecb('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂**📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x5b14a8={'image':{'url':config[_0x1b571f(0x287)]},'caption':_0x1b571f(0x273)+global[_0x1b571f(0x23f)]+'*\x0a╰───────────────┄┈┈','contextInfo':{'mentionedJid':[_0x1a4b0b['sender']],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x1b571f(0x20b),'newsletterName':_0x1b571f(0x315),'serverMessageId':0x8f}}},_0x449910=await _0xdc7d1d[_0x1b571f(0x266)](_0x4da266,_0x5b14a8),_0x3c8be3=_0x449910['key']['id'];_0xdc7d1d['ev']['on']('messages.upsert',async _0x446f9b=>{const _0x4aa1bd=_0x1b571f,_0x67b11e=_0x446f9b[_0x4aa1bd(0x303)][0x0];if(!_0x67b11e[_0x4aa1bd(0x293)])return;const _0x2b7962=_0x67b11e['message'][_0x4aa1bd(0x382)]||_0x67b11e[_0x4aa1bd(0x293)]['extendedTextMessage']?.['text'],_0x4cfd78=_0x67b11e[_0x4aa1bd(0x293)][_0x4aa1bd(0x232)]?.[_0x4aa1bd(0x235)]?.[_0x4aa1bd(0x230)]===_0x3c8be3;if(_0x4cfd78){await _0x1a4b0b[_0x4aa1bd(0x261)]('📖');switch(_0x2b7962){case'1':config['AUTO_LIKE_STATUS']='true',saveConfig();return _0x403ecb('Auto\x20Like\x20Status\x20is\x20enabled.');break;case'2':config['AUTO_LIKE_STATUS']=_0x4aa1bd(0x2fc),saveConfig();return _0x403ecb(_0x4aa1bd(0x2e9));break;default:await _0xdc7d1d[_0x4aa1bd(0x266)](_0x4da266,{'text':_0x4aa1bd(0x1f8)});}}}),await _0x1a4b0b['react']('✅');}),gmd({'pattern':'autoreact','alias':[_0x414f07(0x32f),_0x414f07(0x297),_0x414f07(0x1fe)],'desc':_0x414f07(0x316),'category':'owner','react':'❤️','filename':__filename},async(_0x5cdf5a,_0x5334a4,_0x594785,{from:_0x9f91a4,q:_0x2c5908,body:_0x18ca24,reply:_0x4b1e43,isOwner:_0x2a593b})=>{const _0x4f9575=_0x414f07;if(!_0x2a593b)return _0x4b1e43('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x55fc13={'image':{'url':config['BOT_PIC']},'caption':'*𝐀𝐔𝐓𝐎\x20𝐑𝐄𝐀𝐂𝐓\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αυтσʀєα¢т*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20αυтσʀєα¢т*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*'+global[_0x4f9575(0x23f)]+_0x4f9575(0x350),'contextInfo':{'mentionedJid':[_0x594785[_0x4f9575(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363318387454868@newsletter','newsletterName':_0x4f9575(0x315),'serverMessageId':0x8f}}},_0x3e99b1=await _0x5cdf5a[_0x4f9575(0x266)](_0x9f91a4,_0x55fc13),_0x2703d8=_0x3e99b1[_0x4f9575(0x1ea)]['id'];_0x5cdf5a['ev']['on'](_0x4f9575(0x356),async _0x2450e7=>{const _0x4264d9=_0x4f9575,_0x584e77=_0x2450e7[_0x4264d9(0x303)][0x0];if(!_0x584e77[_0x4264d9(0x293)])return;const _0x3e9d6b=_0x584e77[_0x4264d9(0x293)][_0x4264d9(0x382)]||_0x584e77[_0x4264d9(0x293)][_0x4264d9(0x232)]?.['text'],_0x100273=_0x584e77['message'][_0x4264d9(0x232)]?.[_0x4264d9(0x235)]?.[_0x4264d9(0x230)]===_0x2703d8;if(_0x100273){await _0x594785[_0x4264d9(0x261)]('❤️');switch(_0x3e9d6b){case'1':config['AUTO_REACT']='true',saveConfig();return _0x4b1e43(_0x4264d9(0x22b));break;case'2':config['AUTO_REACT']='false',saveConfig();return _0x4b1e43(_0x4264d9(0x30f));break;default:await _0x5cdf5a['sendMessage'](_0x9f91a4,{'text':'Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1\x20or\x202).'});}}}),await _0x594785[_0x4f9575(0x261)]('✅');}),gmd({'pattern':_0x414f07(0x1f3),'alias':[_0x414f07(0x374)],'desc':_0x414f07(0x264),'category':_0x414f07(0x2b4),'react':'📵','filename':__filename},async(_0x57ed0a,_0x18ebb4,_0x104981,{from:_0x7d306b,q:_0x3cbc0f,body:_0x3e4073,reply:_0x47da4a,isOwner:_0x1dfdf9})=>{const _0x343700=_0x414f07;if(!_0x1dfdf9)return _0x47da4a('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x320347={'image':{'url':config['BOT_PIC']},'caption':_0x343700(0x296)+global['footer']+'*\x0a╰───────────────┄┈┈','contextInfo':{'mentionedJid':[_0x104981['sender']],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x343700(0x20b),'newsletterName':_0x343700(0x315),'serverMessageId':0x8f}}},_0x2444e9=await _0x57ed0a[_0x343700(0x266)](_0x7d306b,_0x320347),_0x2e92cd=_0x2444e9[_0x343700(0x1ea)]['id'];_0x57ed0a['ev']['on'](_0x343700(0x356),async _0x3c40cc=>{const _0x1aa47a=_0x343700,_0x9488a3=_0x3c40cc[_0x1aa47a(0x303)][0x0];if(!_0x9488a3[_0x1aa47a(0x293)])return;const _0x2e45d7=_0x9488a3[_0x1aa47a(0x293)][_0x1aa47a(0x382)]||_0x9488a3[_0x1aa47a(0x293)][_0x1aa47a(0x232)]?.[_0x1aa47a(0x357)],_0xbf4970=_0x9488a3[_0x1aa47a(0x293)]['extendedTextMessage']?.[_0x1aa47a(0x235)]?.['stanzaId']===_0x2e92cd;if(_0xbf4970){await _0x104981[_0x1aa47a(0x261)](_0x1aa47a(0x2c5));switch(_0x2e45d7){case'1':config[_0x1aa47a(0x375)]=_0x1aa47a(0x310),saveConfig();return _0x47da4a(_0x1aa47a(0x241));case'2':config[_0x1aa47a(0x375)]=_0x1aa47a(0x2aa),saveConfig();return _0x47da4a('Anticall\x20has\x20been\x20set\x20to\x20decline\x20calls\x20and\x20\x20block\x20callers!');break;case'3':config[_0x1aa47a(0x375)]=_0x1aa47a(0x2fc),saveConfig();return _0x47da4a('Anticall\x20has\x20been\x20disabled!');break;default:await _0x57ed0a[_0x1aa47a(0x266)](_0x7d306b,{'text':_0x1aa47a(0x332)});}}}),await _0x104981[_0x343700(0x261)]('✅');}),gmd({'pattern':'antiword','alias':[_0x414f07(0x302)],'desc':_0x414f07(0x2c2),'category':'owner','react':'🛑','filename':__filename},async(_0x3a3f9a,_0x368fde,_0x2b758d,{from:_0x3c17ce,q:_0x46c91e,body:_0x5479ae,reply:_0x112643,isOwner:_0x4b65e6})=>{const _0x4caa7f=_0x414f07;if(!_0x4b65e6)return _0x112643('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x2b9fab={'image':{'url':config[_0x4caa7f(0x287)]},'caption':'*𝐀𝐍𝐓𝐈𝐖𝐎𝐑𝐃\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αɴтιωσʀ∂*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20αɴтιωσʀ∂*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*'+global[_0x4caa7f(0x23f)]+_0x4caa7f(0x350),'contextInfo':{'mentionedJid':[_0x2b758d['sender']],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x4caa7f(0x20b),'newsletterName':_0x4caa7f(0x315),'serverMessageId':0x8f}}},_0x4178a0=await _0x3a3f9a['sendMessage'](_0x3c17ce,_0x2b9fab),_0x5428d4=_0x4178a0[_0x4caa7f(0x1ea)]['id'];_0x3a3f9a['ev']['on'](_0x4caa7f(0x356),async _0x39d95f=>{const _0x902ed4=_0x4caa7f,_0x35f523=_0x39d95f[_0x902ed4(0x303)][0x0];if(!_0x35f523['message'])return;const _0x425436=_0x35f523['message']['conversation']||_0x35f523[_0x902ed4(0x293)]['extendedTextMessage']?.[_0x902ed4(0x357)],_0x1ed218=_0x35f523[_0x902ed4(0x293)][_0x902ed4(0x232)]?.[_0x902ed4(0x235)]?.[_0x902ed4(0x230)]===_0x5428d4;if(_0x1ed218){await _0x2b758d['react']('🛑');switch(_0x425436){case'1':config['ANTIWORD']=_0x902ed4(0x310),saveConfig();return _0x112643(_0x902ed4(0x263));break;case'2':config[_0x902ed4(0x371)]=_0x902ed4(0x2fc),saveConfig();return _0x112643(_0x902ed4(0x238));break;default:await _0x3a3f9a['sendMessage'](_0x3c17ce,{'text':_0x902ed4(0x1f8)});}}}),await _0x2b758d[_0x4caa7f(0x261)]('✅');}),gmd({'pattern':'autoaudio','alias':[_0x414f07(0x229),_0x414f07(0x25e),_0x414f07(0x23a)],'desc':_0x414f07(0x26a),'category':_0x414f07(0x2b4),'react':'💬','filename':__filename},async(_0x28c929,_0x5f22d9,_0x58f1a9,{from:_0xd67f27,q:_0x31338e,body:_0x2435bb,reply:_0x28568a,isOwner:_0x1c4db0})=>{const _0x3837a2=_0x414f07;if(!_0x1c4db0)return _0x28568a(_0x3837a2(0x362));const _0x319e04={'image':{'url':config['BOT_PIC']},'caption':'*𝐀𝐔𝐓𝐎\x20𝐀𝐔𝐃𝐈𝐎\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αυтσαυ∂ισ*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20αυтσαυ∂ισ*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20*'+global[_0x3837a2(0x23f)]+_0x3837a2(0x350),'contextInfo':{'mentionedJid':[_0x58f1a9[_0x3837a2(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x3837a2(0x20b),'newsletterName':_0x3837a2(0x315),'serverMessageId':0x8f}}},_0x2ee0dc=await _0x28c929[_0x3837a2(0x266)](_0xd67f27,_0x319e04),_0x3e4b95=_0x2ee0dc[_0x3837a2(0x1ea)]['id'];_0x28c929['ev']['on'](_0x3837a2(0x356),async _0x172075=>{const _0x20ac6f=_0x3837a2,_0x84e403=_0x172075[_0x20ac6f(0x303)][0x0];if(!_0x84e403[_0x20ac6f(0x293)])return;const _0x366df7=_0x84e403[_0x20ac6f(0x293)][_0x20ac6f(0x382)]||_0x84e403[_0x20ac6f(0x293)]['extendedTextMessage']?.[_0x20ac6f(0x357)],_0x492d62=_0x84e403[_0x20ac6f(0x293)][_0x20ac6f(0x232)]?.[_0x20ac6f(0x235)]?.[_0x20ac6f(0x230)]===_0x3e4b95;if(_0x492d62){await _0x58f1a9['react']('💬');switch(_0x366df7){case'1':config[_0x20ac6f(0x25b)]=_0x20ac6f(0x310),saveConfig();return _0x28568a('Auto\x20Audio\x20Reply\x20is\x20enabled.');break;case'2':config[_0x20ac6f(0x25b)]='false',saveConfig();return _0x28568a('Auto\x20Audio\x20Reply\x20is\x20disabled.');break;default:await _0x28c929['sendMessage'](_0xd67f27,{'text':_0x20ac6f(0x1f8)});}}}),await _0x58f1a9[_0x3837a2(0x261)]('✅');}),gmd({'pattern':_0x414f07(0x29b),'alias':['setmode',_0x414f07(0x2d5),_0x414f07(0x212)],'desc':_0x414f07(0x256),'category':'owner','react':'🔄','filename':__filename},async(_0xe17cd,_0xae57ea,_0x3b26f6,{from:_0x37d237,q:_0x5cb3f0,body:_0x1b2133,reply:_0x4a5eb,isOwner:_0x50ae8a})=>{const _0x5cb936=_0x414f07;if(!_0x50ae8a)return _0x4a5eb('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x481744={'image':{'url':config[_0x5cb936(0x287)]},'caption':_0x5cb936(0x267)+global[_0x5cb936(0x23f)]+_0x5cb936(0x350),'contextInfo':{'mentionedJid':[_0x3b26f6['sender']],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':'120363318387454868@newsletter','newsletterName':_0x5cb936(0x315),'serverMessageId':0x8f}}},_0xa66d90=await _0xe17cd[_0x5cb936(0x266)](_0x37d237,_0x481744),_0x50280=_0xa66d90[_0x5cb936(0x1ea)]['id'];_0xe17cd['ev']['on']('messages.upsert',async _0x2d1f75=>{const _0x17c0c1=_0x5cb936,_0x3d142c=_0x2d1f75['messages'][0x0];if(!_0x3d142c[_0x17c0c1(0x293)])return;const _0x46fdff=_0x3d142c[_0x17c0c1(0x293)][_0x17c0c1(0x382)]||_0x3d142c[_0x17c0c1(0x293)]['extendedTextMessage']?.['text'],_0x39ace2=_0x3d142c[_0x17c0c1(0x293)]['extendedTextMessage']?.[_0x17c0c1(0x235)]?.[_0x17c0c1(0x230)]===_0x50280;if(_0x39ace2){await _0x3b26f6[_0x17c0c1(0x261)](_0x17c0c1(0x21f));switch(_0x46fdff){case'1':config[_0x17c0c1(0x348)]=_0x17c0c1(0x1fd),saveConfig();return _0x4a5eb('Bot\x20Mode\x20Has\x20Been\x20Set\x20to\x20Public\x20(All\x20Chats).');break;case'2':config['MODE']='private',saveConfig();return _0x4a5eb('Bot\x20Mode\x20Has\x20Been\x20Set\x20to\x20Private.');break;case'3':config[_0x17c0c1(0x348)]=_0x17c0c1(0x2df),saveConfig();return _0x4a5eb(_0x17c0c1(0x2d0));break;case'4':config[_0x17c0c1(0x348)]=_0x17c0c1(0x2ac),saveConfig();return _0x4a5eb(_0x17c0c1(0x221));break;default:await _0xe17cd[_0x17c0c1(0x266)](_0x37d237,{'text':'Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1,\x202,\x203\x20or\x204).'});}}}),await _0x3b26f6[_0x5cb936(0x261)]('✅');}),gmd({'pattern':'prefix','alias':[_0x414f07(0x37a),_0x414f07(0x1f9),'changeprefix'],'desc':'Change\x20Bot\x20Prefix','category':_0x414f07(0x2b4),'react':'🔄','filename':__filename},async(_0xa02ec2,_0x56dc54,_0x379e9a,{from:_0x1d3507,q:_0x52b417,reply:_0x5aac13,isOwner:_0x128844})=>{const _0xefb5a9=_0x414f07;try{if(!_0x128844)return _0x5aac13(_0xefb5a9(0x362));const _0x5dc97d=_0x52b417[_0xefb5a9(0x2c0)]()[_0xefb5a9(0x201)]();if(!_0x5dc97d)return _0x5aac13(_0xefb5a9(0x322));return config[_0xefb5a9(0x2fa)]=_0x5dc97d,saveConfig(),_0x5aac13('Bot\x20prefix\x20has\x20been\x20changed\x20to:\x20'+_0x5dc97d);}catch(_0xfd7ed3){console[_0xefb5a9(0x1f2)](_0xfd7ed3),_0x5aac13('An\x20error\x20occurred\x20while\x20changing\x20the\x20prefix.');}}),gmd({'pattern':_0x414f07(0x25f),'alias':['statusreplymsg',_0x414f07(0x30c),_0x414f07(0x21a)],'desc':_0x414f07(0x271),'category':_0x414f07(0x2b4),'react':'🔄','filename':__filename},async(_0x4ffe65,_0x6f0b84,_0x36877b,{from:_0x5cbb65,q:_0x39ce66,reply:_0x4b3809,isOwner:_0x3a92b3})=>{const _0x48d237=_0x414f07;try{if(!_0x3a92b3)return _0x4b3809(_0x48d237(0x362));const _0x3a7cf7=_0x39ce66[_0x48d237(0x2c0)]();if(!_0x3a7cf7)return _0x4b3809(_0x48d237(0x376));return config[_0x48d237(0x228)]=_0x3a7cf7,saveConfig(),_0x4b3809(_0x48d237(0x205)+_0x3a7cf7);}catch(_0x382ef1){console['error'](_0x382ef1),_0x4b3809(_0x48d237(0x327));}}),gmd({'pattern':'statusreact','alias':[_0x414f07(0x30b),_0x414f07(0x355),'setlikeemoji','setstatuslikeemoji'],'desc':_0x414f07(0x34a),'category':_0x414f07(0x2b4),'react':'🔄','filename':__filename},async(_0x55fcc5,_0x48fcd6,_0x26ae0c,{from:_0x3e5e13,q:_0x1e36d6,reply:_0x37b406,isOwner:_0x4fe4e9})=>{const _0x3665d5=_0x414f07;try{if(!_0x4fe4e9)return _0x37b406(_0x3665d5(0x362));const _0xbc84ff=_0x1e36d6[_0x3665d5(0x2c0)]();if(!_0xbc84ff)return _0x37b406(_0x3665d5(0x35e));return config[_0x3665d5(0x2e6)]=_0xbc84ff,saveConfig(),_0x37b406(_0x3665d5(0x246)+_0xbc84ff);}catch(_0x4669e6){console[_0x3665d5(0x1f2)](_0x4669e6),_0x37b406('An\x20error\x20occurred\x20while\x20changing\x20the\x20status\x20like\x20emoji.');}}),gmd({'pattern':_0x414f07(0x295),'alias':[_0x414f07(0x2b2)],'desc':_0x414f07(0x274),'category':_0x414f07(0x2b4),'react':'🔗','filename':__filename},async(_0x108809,_0x1188ad,_0x5997e8,{from:_0x254f21,q:_0x43c803,body:_0x1f7fd4,reply:_0x44b2b9,isOwner:_0x281d91})=>{const _0x196959=_0x414f07;if(!_0x281d91)return _0x44b2b9(_0x196959(0x362));const _0x237a30={'image':{'url':config['BOT_PIC']},'caption':_0x196959(0x26d)+global[_0x196959(0x23f)]+_0x196959(0x350),'contextInfo':{'mentionedJid':[_0x5997e8[_0x196959(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x196959(0x20b),'newsletterName':'𝐀𝐋𝐈-𝐌𝐃\x20𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸','serverMessageId':0x8f}}},_0x542944=await _0x108809['sendMessage'](_0x254f21,_0x237a30),_0x10587d=_0x542944[_0x196959(0x1ea)]['id'];_0x108809['ev']['on'](_0x196959(0x356),async _0x50864f=>{const _0x3dd84b=_0x196959,_0x527be6=_0x50864f[_0x3dd84b(0x303)][0x0];if(!_0x527be6['message'])return;const _0xa315df=_0x527be6[_0x3dd84b(0x293)][_0x3dd84b(0x382)]||_0x527be6[_0x3dd84b(0x293)][_0x3dd84b(0x232)]?.[_0x3dd84b(0x357)],_0x1cc2fe=_0x527be6[_0x3dd84b(0x293)][_0x3dd84b(0x232)]?.[_0x3dd84b(0x235)]?.[_0x3dd84b(0x230)]===_0x10587d;if(_0x1cc2fe){await _0x5997e8[_0x3dd84b(0x261)]('🔗');switch(_0xa315df){case'1':config[_0x3dd84b(0x283)]='warn',saveConfig();return _0x44b2b9(_0x3dd84b(0x217));break;case'2':config[_0x3dd84b(0x283)]=_0x3dd84b(0x240),saveConfig();return _0x44b2b9(_0x3dd84b(0x202));break;case'3':config[_0x3dd84b(0x283)]=_0x3dd84b(0x310),saveConfig();return _0x44b2b9(_0x3dd84b(0x2fd));break;case'4':config[_0x3dd84b(0x283)]=_0x3dd84b(0x2fc),saveConfig();return _0x44b2b9(_0x3dd84b(0x234));break;default:await _0x108809[_0x3dd84b(0x266)](_0x254f21,{'text':_0x3dd84b(0x2b6)});}}}),await _0x5997e8[_0x196959(0x261)]('✅');}),gmd({'pattern':_0x414f07(0x324),'desc':_0x414f07(0x2ab),'category':_0x414f07(0x2b4),'react':'🍀','filename':__filename},async(_0x351aeb,_0x12c719,_0x15d950,{from:_0x1ee5c5,isOwner:_0x3de645,q:_0x48b378,reply:_0x49274d})=>{const _0x144055=_0x414f07;if(!_0x3de645)return _0x49274d(_0x144055(0x29c));const _0x51c4ba={'image':{'url':config[_0x144055(0x287)]},'caption':_0x144055(0x2ae)+global[_0x144055(0x23f)]+_0x144055(0x350),'contextInfo':{'mentionedJid':[_0x15d950['sender']],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x144055(0x20b),'newsletterName':_0x144055(0x315),'serverMessageId':0x8f}}},_0x272c3c=await _0x351aeb[_0x144055(0x266)](_0x1ee5c5,_0x51c4ba),_0x3e4c81=_0x272c3c[_0x144055(0x1ea)]['id'];_0x351aeb['ev']['on'](_0x144055(0x356),async _0x51ccab=>{const _0x473c18=_0x144055,_0x20c088=_0x51ccab[_0x473c18(0x303)][0x0];if(!_0x20c088[_0x473c18(0x293)])return;const _0x1d9c0=_0x20c088[_0x473c18(0x293)][_0x473c18(0x382)]||_0x20c088[_0x473c18(0x293)][_0x473c18(0x232)]?.['text'],_0x2ceaa6=_0x20c088[_0x473c18(0x293)][_0x473c18(0x232)]?.[_0x473c18(0x235)]?.[_0x473c18(0x230)]===_0x3e4c81;if(_0x2ceaa6){await _0x15d950[_0x473c18(0x261)]('🍀');switch(_0x1d9c0){case'1':config[_0x473c18(0x338)]=_0x473c18(0x310),saveConfig();return _0x49274d(_0x473c18(0x33b));break;case'2':config[_0x473c18(0x338)]='inboxonly',saveConfig();return _0x49274d(_0x473c18(0x2f7));break;case'3':config[_0x473c18(0x338)]='chatsonly',saveConfig();return _0x49274d(_0x473c18(0x353));break;case'4':config[_0x473c18(0x338)]=_0x473c18(0x2fc),saveConfig();return _0x49274d(_0x473c18(0x35d));break;default:await _0x351aeb['sendMessage'](_0x1ee5c5,{'text':_0x473c18(0x2b6)});}}}),await _0x15d950[_0x144055(0x261)]('✅');}),gmd({'pattern':'presence','alias':[_0x414f07(0x22a),_0x414f07(0x2f5),'setwapresence'],'desc':_0x414f07(0x320),'category':_0x414f07(0x2b4),'react':'💬','filename':__filename},async(_0x2a34d5,_0x3275c3,_0x3dc48f,{from:_0x31586d,q:_0x2a5add,body:_0x6a2e57,reply:_0x8d0f68,isOwner:_0x8da866})=>{const _0x5eca4c=_0x414f07;if(!_0x8da866)return _0x8d0f68(_0x5eca4c(0x362));const _0x562714={'image':{'url':config[_0x5eca4c(0x287)]},'caption':_0x5eca4c(0x247)+global[_0x5eca4c(0x23f)]+'**\x0a╰───────────────┄┈┈','contextInfo':{'mentionedJid':[_0x3dc48f[_0x5eca4c(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x5eca4c(0x20b),'newsletterName':_0x5eca4c(0x315),'serverMessageId':0x8f}}},_0x5666c2=await _0x2a34d5[_0x5eca4c(0x266)](_0x31586d,_0x562714),_0x34a462=_0x5666c2[_0x5eca4c(0x1ea)]['id'];_0x2a34d5['ev']['on'](_0x5eca4c(0x356),async _0x4b6c3a=>{const _0x4d30bc=_0x5eca4c,_0x11ca7f=_0x4b6c3a[_0x4d30bc(0x303)][0x0];if(!_0x11ca7f[_0x4d30bc(0x293)])return;const _0x4a44a8=_0x11ca7f[_0x4d30bc(0x293)]['conversation']||_0x11ca7f[_0x4d30bc(0x293)][_0x4d30bc(0x232)]?.[_0x4d30bc(0x357)],_0xfb103f=_0x11ca7f['message']['extendedTextMessage']?.['contextInfo']?.['stanzaId']===_0x34a462;if(_0xfb103f){await _0x3dc48f[_0x4d30bc(0x261)]('💬');switch(_0x4a44a8){case'1':config['PRESENCE']='online',saveConfig();return _0x8d0f68('Bot\x20Presence\x20Has\x20Been\x20Set\x20to\x20Always\x20Online.');break;case'2':config[_0x4d30bc(0x2ef)]=_0x4d30bc(0x2ea),saveConfig();return _0x8d0f68(_0x4d30bc(0x2b8));break;case'3':config['PRESENCE']=_0x4d30bc(0x36e),saveConfig();return _0x8d0f68(_0x4d30bc(0x2a3));break;case'4':config[_0x4d30bc(0x2ef)]=_0x4d30bc(0x311),saveConfig();return _0x8d0f68(_0x4d30bc(0x214));break;default:await _0x2a34d5[_0x4d30bc(0x266)](_0x31586d,{'text':_0x4d30bc(0x2b6)});}}}),await _0x3dc48f['react']('✅');}),gmd({'pattern':_0x414f07(0x30e),'desc':_0x414f07(0x260),'category':_0x414f07(0x2b4),'react':'🍀','filename':__filename},async(_0xcb0e95,_0x3b3ba4,_0x172d78,{from:_0x3242b6,isOwner:_0x2e045a,q:_0x341ec7,reply:_0x1b58a5})=>{const _0x3c2df0=_0x414f07;if(!_0x2e045a)return _0x1b58a5('*📛\x20тнιѕ\x20ιѕ\x20αɴ\x20σωɴєʀ\x20ᴄσммαɴ∂*');const _0x167336={'image':{'url':config['BOT_PIC']},'caption':'*𝐀𝐔𝐓𝐎𝐁𝐈𝐎\x20𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\x20\x20\x0a\x0a*ʀєρℓу\x20ωιтн\x20ɴυмвєʀ:*\x0a\x0a*1.\x20тσ\x20єɴαвℓє\x20αυтσвισ*\x0a*2.\x20тσ\x20∂ιѕαвℓє\x20αυтσвισ*\x0a\x0a╭───────────────┄┈┈\x20\x20\x0a│\x20**'+global[_0x3c2df0(0x23f)]+_0x3c2df0(0x29f),'contextInfo':{'mentionedJid':[_0x172d78[_0x3c2df0(0x2bd)]],'forwardingScore':0x5,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x3c2df0(0x20b),'newsletterName':_0x3c2df0(0x315),'serverMessageId':0x8f}}},_0x587a39=await _0xcb0e95[_0x3c2df0(0x266)](_0x3242b6,_0x167336),_0x508dbb=_0x587a39[_0x3c2df0(0x1ea)]['id'];_0xcb0e95['ev']['on']('messages.upsert',async _0x15335a=>{const _0x1c532d=_0x3c2df0,_0x5cedea=_0x15335a['messages'][0x0];if(!_0x5cedea[_0x1c532d(0x293)])return;const _0x5c5ef9=_0x5cedea[_0x1c532d(0x293)][_0x1c532d(0x382)]||_0x5cedea['message'][_0x1c532d(0x232)]?.[_0x1c532d(0x357)],_0x40a5a2=_0x5cedea[_0x1c532d(0x293)][_0x1c532d(0x232)]?.[_0x1c532d(0x235)]?.[_0x1c532d(0x230)]===_0x508dbb;if(_0x40a5a2){await _0x172d78[_0x1c532d(0x261)]('🍀');switch(_0x5c5ef9){case'1':config[_0x1c532d(0x36a)]=_0x1c532d(0x310),saveConfig();return _0x1b58a5(_0x1c532d(0x299));break;case'2':config['AUTO_BIO']=_0x1c532d(0x2fc),saveConfig();return _0x1b58a5(_0x1c532d(0x2c9));break;default:await _0xcb0e95[_0x1c532d(0x266)](_0x3242b6,{'text':'Invalid\x20option\x20selected.\x20Please\x20reply\x20with\x20a\x20valid\x20number\x20(1\x20or\x202).'});}}}),await _0x172d78[_0x3c2df0(0x261)]('✅');}),gmd({'pattern':_0x414f07(0x2cd),'alias':[_0x414f07(0x2f0)],'react':'✅','desc':_0x414f07(0x26f),'category':_0x414f07(0x2b4),'filename':__filename},async(_0x26b485,_0x439be8,_0x5ddde7,{quoted:_0x255adb,sender:_0x2e1bb0,isOwner:_0x2be34e,from:_0x1d7e29,reply:_0x2b7186})=>{const _0x230390=_0x414f07;if(!_0x2be34e)return _0x26b485[_0x230390(0x266)](_0x1d7e29,{'text':_0x230390(0x362)},{'quoted':_0x439be8});if(!_0x255adb)return _0x2b7186(_0x230390(0x367));try{const _0x2e076b=_0x255adb['sender'],_0x4a0312=_0x2e076b[_0x230390(0x259)]('@')[0x0],_0x538019=addSudo(_0x4a0312),_0x3701a0=_0x538019?'✅\x20Added\x20@'+_0x4a0312+'\x20to\x20sudo\x20list.':_0x230390(0x220)+_0x4a0312+_0x230390(0x304);console['log'](_0x230390(0x213)+_0x4a0312+_0x230390(0x290)+_0x538019),await _0x26b485['sendMessage'](_0x1d7e29,{'text':_0x3701a0,'mentions':[_0x2e076b]},{'quoted':_0x439be8});}catch(_0x58b545){console[_0x230390(0x1f2)]('[addsudo\x20ERROR]:',_0x58b545),_0x26b485[_0x230390(0x266)](_0x1d7e29,{'text':_0x230390(0x1ed)},{'quoted':_0x439be8});}}),gmd({'pattern':'delsudo','react':'❌','desc':_0x414f07(0x2a0),'category':_0x414f07(0x2b4),'filename':__filename},async(_0x37a495,_0x45ea43,_0x17ba9b,{quoted:_0x4386c7,sender:_0x54cfeb,isOwner:_0x3a4385,from:_0x5ddf91,reply:_0x59399d})=>{const _0x27cc88=_0x414f07;if(!_0x3a4385)return _0x59399d(_0x27cc88(0x362));if(!_0x4386c7)return _0x59399d('Reply\x20to\x20a\x20user\x20to\x20remove\x20from\x20sudo.');try{const _0x1cb660=_0x4386c7[_0x27cc88(0x2bd)],_0x554602=_0x1cb660[_0x27cc88(0x259)]('@')[0x0],_0x10bd17=removeSudo(_0x554602),_0x114863=_0x10bd17?'❌\x20Removed\x20@'+_0x554602+_0x27cc88(0x34e):_0x27cc88(0x220)+_0x554602+_0x27cc88(0x231);console[_0x27cc88(0x21b)](_0x27cc88(0x249)+_0x554602+_0x27cc88(0x2c6)+_0x10bd17),await _0x37a495[_0x27cc88(0x266)](_0x5ddf91,{'text':_0x114863,'mentions':[_0x1cb660]},{'quoted':_0x45ea43});}catch(_0x2cbea4){console[_0x27cc88(0x1f2)](_0x27cc88(0x2e0),_0x2cbea4),_0x37a495[_0x27cc88(0x266)](_0x5ddf91,{'text':_0x27cc88(0x1eb)},{'quoted':_0x45ea43});}}),gmd({'pattern':_0x414f07(0x37c),'react':'📃','desc':_0x414f07(0x31b),'category':'owner','filename':__filename},async(_0x4eae9c,_0x4e0c23,_0x450f52,{from:_0x272ebd})=>{const _0x492e22=_0x414f07;try{const _0x17dcf9=getSudoNumbers();if(!_0x17dcf9[_0x492e22(0x337)])return _0x4eae9c[_0x492e22(0x266)](_0x272ebd,{'text':_0x492e22(0x284)},{'quoted':_0x4e0c23});let _0x52140b=_0x492e22(0x2ca);_0x17dcf9[_0x492e22(0x2db)]((_0x586465,_0x7fe66b)=>{const _0x5cffeb=_0x492e22;_0x52140b+=_0x7fe66b+0x1+_0x5cffeb(0x21c)+_0x586465+'\x0a';}),await _0x4eae9c[_0x492e22(0x266)](_0x272ebd,{'text':_0x52140b},{'quoted':_0x4e0c23});}catch(_0x106223){console[_0x492e22(0x1f2)](_0x492e22(0x363),_0x106223),_0x4eae9c['sendMessage'](_0x272ebd,{'text':_0x492e22(0x2e1)},{'quoted':_0x4e0c23});}}),gmd({'pattern':_0x414f07(0x2dd),'desc':_0x414f07(0x28e),'category':_0x414f07(0x2b4),'react':'🍀','filename':__filename},async(_0xaf6a4e,_0x2767bf,_0x3f95cc,{from:_0x55c33f,isOwner:_0x4b9bb2,reply:_0x56d867})=>{const _0x20a131=_0x414f07;if(!_0x4b9bb2)return _0x56d867(_0x20a131(0x362));autoBioEnabled?(_0x56d867('*Auto\x20Bio\x20enabled!*\x20🔄'),startAutoBio(_0xaf6a4e)):(_0x56d867(_0x20a131(0x32a)),stopAutoBio());});function startAutoBio(_0x262a7f){if(autoBioInterval)clearInterval(autoBioInterval);autoBioInterval=setInterval(async()=>{const _0xdd1b56=_0x31c1,_0x435356='\x20'+config['BOT_NAME']+_0xdd1b56(0x1ff)+time+',\x20'+date+_0xdd1b56(0x383)+config[_0xdd1b56(0x22c)];await _0x262a7f['updateProfileStatus'](_0x435356),secondCount++,secondCount>0x3b&&(secondCount=0x1);},0x3e8);}function stopAutoBio(){autoBioInterval&&(clearInterval(autoBioInterval),autoBioInterval=null,secondCount=0x1,console['log']('👨‍💻\x20AutoBIO\x20feature\x20stopped.'));}
+const { gmd, config, commands, getBuffer, getSudoNumbers,
+  addSudo, removeSudo, fetchJson } = require('../lib'), 
+      { PREFIX, 
+       TIME_ZONE: tz } = config, 
+       fs = require('fs'), 
+       path = require('path'), 
+       axios = require('axios'), 
+       util = require('util'), 
+       moment = require('moment-timezone'), 
+      { exec } = require('child_process'), 
+      { WA_DEFAULT_EPHEMERAL, 
+       downloadContentFromMessage, 
+       makeInMemoryStore } = require('@whiskeysockets/baileys');
+//const store = makeInMemoryStore({});
+
+let chatbotEnabled = false, 
+       chatbotInGroups = false, 
+       chatbotInInbox = false, 
+       autoBioEnabled = false;
+let autoBioInterval;
+let secondCount = 1;  
+
+autoBioEnabled = config.AUTO_BIO === "true";
+chatbotEnabled = config.CHAT_BOT === "true";
+chatbotInInbox = config.CHAT_BOT === "inbox";
+chatbotInGroups = config.CHAT_BOT === "groups";
+
+
+function saveConfig() {
+    let configContent = '';
+    for (let key in config) {
+        configContent += `${key}=${config[key]}\n`;
+    }
+    const envFilePath = path.resolve(__dirname, '../.env');
+    fs.writeFileSync(envFilePath, configContent, 'utf8');
+}
+
+function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        const now = new Date();
+        const date = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+        }).format(now);
+
+        const time = new Intl.DateTimeFormat('en-GB', {
+            timeZone: tz,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        }).format(now);
+
+        const uptime = formatUptime(process.uptime());
+
+gmd({
+    pattern: "broadcast",
+    desc: "Broadcast a Message to All Groups.",
+    category: "owner",
+    react: "📢",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, args, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (args.length === 0) return reply("📢 Provide a message to breadcast after the command.");
+    const message = args.join(' ');
+    const groups = Object.keys(await Gifted.groupFetchAllParticipating());
+    for (const groupId of groups) {
+    await Gifted.sendMessage(groupId, {
+    image: { url: config.BOT_PIC },
+    caption: message 
+}, { quoted: mek });
+
+    }
+    reply("📢 Message Delivered to all your groups.");
+});
+
+
+
+    gmd({
+    pattern: "setpp",
+    desc: "Set Bot Profile Picture.",
+    category: "owner",
+    react: "🖼️",
+    filename: __filename
+},
+async (Gifted, mek, m, { isOwner, quoted, reply }) => {
+    try {
+        if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+
+        if (!quoted || quoted.mtype !== "image") {
+            return reply("❌ Please reply to an image.");
+        }
+
+        const buffer = await quoted.download(); // gets image as buffer
+
+        if (!buffer) return reply("⚠️ Could not download the image.");
+
+        await Gifted.updateProfilePicture(Gifted.user.id, buffer);
+        reply("✅ Bot profile picture updated successfully!");
+    } catch (error) {
+        console.error("❌ Error updating profile picture:", error);
+        reply(`❌ Failed to update profile picture: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "exec",
+    alias: ["$", "run", "terminal", "code", "execute", ">", "shell"],
+    desc: "Execute Terminal Commands.",
+    category: "owner",
+    react: "💻",
+    filename: __filename
+}, async (Gifted, mek, m, { reply, isOwner, isMe, botNumber2, botNumber, q }) => {
+    if (!isOwner && !isMe && !botNumber2 && !botNumber) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (!q) return reply("Provide a terminal command to execute.");
+    exec(q, (err, stdout, stderr) => {
+        if (err) return reply(`❌ Error: ${err.message}`);
+        if (stderr) return reply(`⚠️ Stderr: ${stderr}`);
+        if (stdout) reply(stdout.trim());
+    });
+});
+
+
+
+
+gmd({
+    pattern: "eval3",
+    alias: ["<", "e", "evaluate"],
+    desc: "Evaluate JavaScript Code.",
+    category: "owner",
+    react: "🧠",
+    filename: __filename
+}, async (Gifted, mek, m, { reply, isOwner, q }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (!q) return reply("Provide some code to evaluate.");
+
+    try {
+        const AsyncFunction = Object.getPrototypeOf(async function () { }).constructor;
+
+        const fn = new AsyncFunction("Gifted", "mek", "m", "reply", "console", `
+            (async () => {
+                try {
+                    ${q}
+                } catch (innerErr) {
+                    await reply("❌ Eval Error: " + (innerErr?.stack || innerErr?.message || innerErr));
+                }
+            })();
+        `);
+
+        await fn(Gifted, mek, m, reply, console);
+    } catch (err) {
+        await reply("❌ Fatal Eval Error: " + (err?.stack || err?.message || err));
+    }
+});
+
+gmd({
+    pattern: "eval",
+    alias: ["<", "e", "evaluate"],
+    desc: "Evaluate JavaScript Code.",
+    category: "owner",
+    react: "🧠",
+    filename: __filename
+}, async (Gifted, mek, m, { reply, isOwner, q }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (!q) return reply("Provide some code to evaluate.");
+    try {
+        let result = /await/i.test(q)
+            ? await eval(`(async () => { ${q} })()`)
+            : eval(q);
+        reply(util.format(result));
+    } catch (err) {
+        reply(`❌ Error: ${util.format(err)}`);
+    }
+});
+
+
+
+gmd({
+    pattern: "fetch",
+    alias: ["get", "download", "load", "axios"],
+    desc: "Get Data/Files from URLs",
+    category: "owner",
+    react: "🔎",
+    filename: __filename
+}, async (Gifted, mek, m, { from, reply, isOwner, q }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (!q) return reply("Provide a URL to get data from");
+    if (!/^https?:\/\//.test(q)) return reply('Start the *URL* with http:// or https://');
+    try {
+        const url = new URL(q).href;
+        const response = await fetch(url);
+        const contentLength = response.headers.get('content-length');
+        if (contentLength && contentLength > 50 * 1024 * 1024) {
+            return reply(`❌ Content-Length exceeds limit: ${contentLength}`);
+        }
+        const contentType = response.headers.get('content-type') || '';
+        if (/image\//.test(contentType)) {
+            const buffer = Buffer.from(await response.arrayBuffer());
+            await Gifted.sendMessage(from, { image: buffer, caption: `> ${global.footer}` });
+            return;
+        } else if (/audio\//.test(contentType)) {
+            const buffer = Buffer.from(await response.arrayBuffer());
+            await Gifted.sendMessage(from, { audio: buffer, mimetype: contentType, ptt: false }); 
+            return;
+        } else if (/video\//.test(contentType)) {
+            const buffer = Buffer.from(await response.arrayBuffer());
+            await Gifted.sendMessage(from, { video: buffer, caption: `> ${global.footer}` });
+            return;
+        }
+        let content = '';
+        if (/application\/json/.test(contentType)) {
+            content = JSON.stringify(await response.json(), null, 2);
+        } else if (/text/.test(contentType)) {
+            content = await response.text();
+        } else {
+            return reply("❌ Unsupported content type.");
+        }
+        reply(content.slice(0, 65536)); 
+    await m.react("✅"); 
+    } catch (error) {
+        console.error('Fetch Error:', error);
+        reply(`❌ Error: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "pair",
+    alias: ["getsess", "paircode", "linkphone", "getpaircodd"],
+    desc: "Generate Paircode",
+    category: "owner",
+    react: "📱",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (!q) return reply("Provide a Phone Number to Genrrate PairingCode!");
+    try {
+        const response = await fetchJson(`${global.session}/code?number=${encodeURIComponent(q)}`);
+        const getsess = response.code;
+        const answer = `Dear *_${m.pushName}_*,\nYour ALI MD PairingCode is: *${getsess}*\nUse it to Link Your WhatsApp Within 1 Minute Before it Expires\nThereafter, Obtain Your Session ID.\nHappy Bot Deployment!!!\n\n${global.caption}`;
+        const giftedMess = {
+        image: { url: config.BOT_PIC },
+        caption: answer,
+        contextInfo: {
+          mentionedJid: [m.sender],
+          forwardingScore: 5,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+            serverMessageId: 143
+          }
+        }
+      };
+      await Gifted.sendMessage(from, giftedMess, { disappearingMessagesInChat: true, ephemeralExpiration: 100 }, { quoted: mek });
+      await Gifted.sendMessage(from, { text: getsess }, { quoted: mek });
+      await m.react('✅');
+  } catch (error) {
+        reply(`❌ Error fetching paircode code: ${error.message}`);
+    }
+});
+
+
+
+gmd({
+    pattern: "welcome",
+    alias: ["setwelcome"],
+    desc: "Enable or Disable Welcome Messages in Groups",
+    category: "owner",
+    react: "👋",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+      const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє gʀσυρ ωєℓ¢σмє мєѕѕαgєѕ*
+*2. тσ ∂ιѕαвℓє gʀσυρ ωєℓ¢σмє мєѕѕαgєѕ*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("👋");
+                switch (messageContent) {
+                    case "1": 
+                        config.WELCOME = "true";
+                        saveConfig();
+                        return reply("Welcome messages are enabled.");
+                        break;
+
+                    case "2": 
+                        config.WELCOME = "false";
+                        saveConfig();
+                        return reply("Welcome messages are disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+
+
+
+gmd({
+    pattern: "goodbye",
+    alias: ["setgoodbye"],
+    desc: "Enable or Disable Goodbye Messages in Groups",
+    category: "owner",
+    react: "👋",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐆𝐎𝐎𝐃𝐁𝐘𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє gʀσυρ gσσ∂вує мєѕѕαgєѕ*
+*2. тσ ∂ιѕαвℓє gʀσυρ gσσ∂вує мєѕѕαgєѕ*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("👋");
+                switch (messageContent) {
+                    case "1": 
+                        config.GOODBYE = "true";
+                        saveConfig();
+                        return reply("Goodbye messages are enabled.");
+                        break;
+
+                    case "2": 
+                        config.GOODBYE = "false";
+                        saveConfig();
+                        return reply("Goodbye messages are disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+
+
+
+gmd({
+    pattern: "myprivacy",
+    alias: ["allprivacy", "listprivacy", "privacy", "privacy-settings", "myprivacy"],
+    desc: "Get Current Privacy Settings",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const privacySettings = await Gifted.fetchPrivacySettings(true);
+        console.log("Privacy settings: " + JSON.stringify(privacySettings));
+        reply(`*💬 Current Privacy Settings:*\n\n${JSON.stringify(privacySettings, null, 2)}`);
+    } catch (error) {
+        reply(`❌ Error fetching privacy settings: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "lastseen",
+    desc: "Update Last Seen Privacy",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const value = args[0] || 'all'; 
+        const validValues = ['all', 'contacts', 'contact_blacklist', 'none'];
+        if (!validValues.includes(value)) return reply("❌ Invalid option. Valid options are: 'all', 'contacts', 'contact_blacklist', 'none'.");
+        await Gifted.updateLastSeenPrivacy(value);
+        reply(`✅ Last seen privacy updated to: ${value}`);
+    } catch (error) {
+        reply(`❌ Error updating last seen privacy: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "online",
+    desc: "Update Online Privacy",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const value = args[0] || 'all'; 
+        const validValues = ['all', 'match_last_seen'];
+        if (!validValues.includes(value)) return reply("❌ Invalid option. Valid options are: 'all', 'match_last_seen'.");
+        await Gifted.updateOnlinePrivacy(value);
+        reply(`✅ Online privacy updated to: ${value}`);
+    } catch (error) {
+        reply(`❌ Error updating online privacy: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "myprofile-pic",
+    desc: "Update Profile Picture Privacy",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const value = args[0] || 'all'; 
+        const validValues = ['all', 'contacts', 'contact_blacklist', 'none'];  
+        if (!validValues.includes(value)) return reply("❌ Invalid option. Valid options are: 'all', 'contacts', 'contact_blacklist', 'none'.");     
+        await Gifted.updateProfilePicturePrivacy(value);
+        reply(`✅ Profile picture privacy updated to: ${value}`);
+    } catch (error) {
+        reply(`❌ Error updating profile picture privacy: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "mystatus",
+    desc: "Update Status Privacy",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const value = args[0] || 'all';
+        const validValues = ['all', 'contacts', 'contact_blacklist', 'none']; 
+        if (!validValues.includes(value)) return reply("❌ Invalid option. Valid options are: 'all', 'contacts', 'contact_blacklist', 'none'."); 
+        await Gifted.updateStatusPrivacy(value);
+        reply(`✅ Status privacy updated to: ${value}`);
+    } catch (error) {
+        reply(`❌ Error updating status privacy: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "read-receipts",
+    desc: "Update Read Receipts Privacy",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂**📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const value = args[0] || 'all'; 
+        const validValues = ['all', 'none'];    
+        if (!validValues.includes(value)) return reply("❌ Invalid option. Valid options are: 'all', 'none'.");   
+        await Gifted.updateReadReceiptsPrivacy(value);
+        reply(`✅ Read receipts privacy updated to: ${value}`);
+    } catch (error) {
+        reply(`❌ Error updating read receipts privacy: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "groups-privacy",
+    desc: "Update Group add Privacy",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const value = args[0] || 'all'; 
+        const validValues = ['all', 'contacts', 'contact_blacklist', 'none'];
+        if (!validValues.includes(value)) return reply("❌ Invalid option. Valid options are: 'all', 'contacts', 'contact_blacklist', 'none'.");
+        await Gifted.updateGroupsAddPrivacy(value);
+        reply(`✅ Group add privacy updated to: ${value}`);
+    } catch (error) {
+        reply(`❌ Error updating group add privacy: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "setdisapp",
+    alias: ["disappearing", "default-disapp", "disapp-msgs"],
+    desc: "Update Default Disappearing Messages",
+    category: "owner",
+    react: "🔐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const duration = args[0] || 86400; // Default to 86400 (1 day)
+        
+        await Gifted.updateDefaultDisappearingMode(duration);
+        reply(`✅ Default disappearing messages updated to: ${duration} seconds`);
+    } catch (error) {
+        reply(`❌ Error updating disappearing messages: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "block",
+    desc: "Block a User.",
+    category: "owner",
+    react: "🚫",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, quoted, reply }) => {
+    if (!isOwner) return reply("❌ You are not the bot owner!");
+    if (!m.quoted) return reply("❌ Please reply to the user you want to block.");
+    const user = quoted.sender;
+    try {
+        await Gifted.updateBlockStatus(user, 'block');
+        reply('🚫 User ' + user + ' blocked successfully.');
+    } catch (error) {
+        reply('❌ Error blocking user: ' + error.message);
+    }
+});
+
+gmd({
+    pattern: "unblock",
+    desc: "Unblock a User.",
+    category: "owner",
+    react: "✅",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, quoted, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (!m.quoted) return reply("❌ Please reply to the user you want to unblock.");
+    const user = quoted.sender;
+    try {
+        await Gifted.updateBlockStatus(user, 'unblock');
+        reply(`✅ User ${user} unblocked successfully.`);
+    } catch (error) {
+        reply(`❌ Error unblocking user: ${error.message}`);
+    }
+});
+
+gmd({
+pattern: "del",
+react: "🧹",
+alias: ["delete"],
+desc: "Delete Message",
+category: "owner",
+use: '.del',
+filename: __filename
+},
+async(Gifted, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,  isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+if (!isOwner) return;
+try{
+if (!m.quoted) return reply('No Message Quoted for Deletion');
+const key = {
+            remoteJid: m.chat,
+            fromMe: false,
+            id: m.quoted.id,
+            participant: m.quoted.sender
+        }
+        await Gifted.sendMessage(m.chat, { delete: key })
+await m.react("✅"); 
+} catch(e) {
+console.log(e);
+reply('success..')
+} 
+})
+
+gmd({
+    pattern: "clearchats",
+    alias: ["clear", "delchats"],
+    desc: "Clear all Chats.",
+    category: "owner",
+    react: "🧹",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const chats = Gifted.chats.all();
+        for (const chat of chats) {
+            await Gifted.modifyChat(chat.jid, 'delete');
+        }
+        reply("🧹 All Chats Successfully cleared!");
+    } catch (error) {
+        reply(`❌ Error: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "jid",
+    desc: "Get the Bot's JID.",
+    category: "owner",
+    react: "🤖",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    reply(`🤖 *Bot JID:* ${Gifted.user.id}`);
+});
+
+
+gmd({
+    pattern: "gjid",
+    alias: ["groupjids"],
+    desc: "Get the list of JIDs for all groups the bot is part of.",
+    category: "group",
+    react: "📝",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    const groups = await Gifted.groupFetchAllParticipating();
+    const groupJids = Object.keys(groups).join('\n');
+    reply(`📝 *Group JIDs:*\n\n${groupJids}`);
+});        
+
+gmd({
+    pattern: "archive",
+    desc: "Archive a Specific Chat",
+    category: "owner",
+    react: "📦",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        store.bind(Gifted.ev);
+        Gifted.store = store;
+        const chatId = from; 
+        const chatMessages = await Gifted.store.messages[chatId]?.last; 
+        if (!chatMessages) {
+            return reply("❌ No messages found in this chat!");
+        }
+        await Gifted.chatModify({ archive: true, lastMessages: [chatMessages] }, chatId);
+        reply("📦 Chat archived successfully!");
+    } catch (error) {
+        reply(`❌ Error archiving chat: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "pin",
+    desc: "Pin a Specific Chat",
+    category: "owner",
+    react: "📌",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        await Gifted.chatModify({ pin: true }, from);
+        reply("📌 Chat pinned successfully!");
+    } catch (error) {
+        reply(`❌ Error pinning chat: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "unpin",
+    desc: "Unpin a Specific Chat",
+    category: "owner",
+    react: "📌",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        await Gifted.chatModify({ pin: false }, from);
+        reply("📌 Chat unpinned successfully!");
+    } catch (error) {
+        reply(`❌ Error unpinning chat: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "star",
+    desc: "Star a Specific Message in a Chat",
+    category: "owner",
+    react: "⭐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply, args }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const messageId = args[0];
+        await Gifted.chatModify({
+            star: { messages: [{ id: messageId, fromMe: true, star: true }] }
+        }, from);
+        reply("⭐ Message starred!");
+    } catch (error) {
+        reply(`❌ Error starring message: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "unstar",
+    desc: "Unstar a Specific Message in a Chat",
+    category: "owner",
+    react: "⭐",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply, args }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const messageId = args[0];
+        await Gifted.chatModify({
+            star: { messages: [{ id: messageId, fromMe: true, star: false }] }
+        }, from);
+        reply("⭐ Message unstarred!");
+    } catch (error) {
+        reply(`❌ Error unstarring message: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "disapp-on",
+    desc: "Turn on Disappearing Messages",
+    category: "owner",
+    react: "⏳",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const jid = from; 
+        await Gifted.sendMessage(jid, { disappearingMessagesInChat: WA_DEFAULT_EPHEMERAL });
+        reply("⏳ Disappearing messages turned on!");
+    } catch (error) {
+        reply(`❌ Error enabling disappearing messages: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "disapp-off",
+    desc: "Turn off Disappearing Messages",
+    category: "owner",
+    react: "⏳",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const jid = from;
+        await Gifted.sendMessage(jid, { disappearingMessagesInChat: false });
+        reply("⏳ Disappearing messages turned off!");
+    } catch (error) {
+        reply(`❌ Error disabling disappearing messages: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "onwa",
+    desc: "Check if a Number is on WhatsApp",
+    category: "owner",
+    react: "📱",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply, args }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const id = args[0];
+        const [result] = await Gifted.onWhatsApp(id);
+        if (result.exists) {
+            reply(`${id} exists on WhatsApp, as jid: ${result.jid}`);
+        } else {
+            reply(`${id} does not exist on WhatsApp.`);
+        }
+    } catch (error) {
+        reply(`❌ Error checking WhatsApp number: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "wa",
+    desc: "Generates a wa.me link for the Mentioned/Quoted User.",
+    category: "owner",
+    filename: __filename,
+}, async (Gifted, mek, m, { quoted, text, args, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        let user;
+        if (m.message.extendedTextMessage?.contextInfo?.mentionedJid?.[0]) {
+            user = m.message.extendedTextMessage.contextInfo.mentionedJid[0].split('@')[0];
+        } else if (quoted) {
+            user = quoted.sender.split('@')[0];
+        } else if (text) {
+            user = text.replace('@', '');
+        } else {
+            return Gifted.sendMessage(m.key.remoteJid, { text: "Please mention a user, quote a message, or provide a number." }, { quoted: mek });
+        }
+        return Gifted.sendMessage(m.key.remoteJid, { text: `https://wa.me/${user}` }, { quoted: mek });
+    } catch (error) {
+        console.error(error);
+        return Gifted.sendMessage(m.key.remoteJid, { text: "An error occurred while processing your request." }, { quoted: mek });
+    }
+});
+
+
+gmd({
+    pattern: "setstatus",
+    desc: "Change Profile Status",
+    category: "owner",
+    react: "📲",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply, args }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const status = args.join(" ");
+        await Gifted.updateProfileStatus(status);
+        reply(`📲 Profile status updated to: ${status}`);
+    } catch (error) {
+        reply(`❌ Error changing profile status: ${error.message}`);
+    }
+});
+
+gmd({
+    pattern: "setmyname",
+    desc: "Change Profile Name",
+    category: "owner",
+    react: "📝",
+    filename: __filename
+},
+async (Gifted, mek, m, { from, isOwner, reply, args }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    try {
+        const name = args.join(" ");
+        await Gifted.updateProfileName(name);
+        reply(`📝 Profile name updated to: ${name}`);
+    } catch (error) {
+        reply(`❌ Error changing profile name: ${error.message}`);
+    }
+});
+
+
+gmd({
+    pattern: "chatbot",
+    desc: "Enable or Disable Chatbot",
+    category: "owner",
+    react: "🤖",
+    filename: __filename
+}, async (Gifted, mek, m, { from, body, isGroup, isOwner, q, isAdmins, isBotAdmins, reply }) => {
+    try {
+        if (!isOwner) return reply('*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*');
+          
+          const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐂𝐇𝐀𝐓𝐁𝐎𝐓 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє gℓσвαℓℓу*
+*2. тσ єɴαвℓє ιɴ gʀσυρѕ*
+*3. тσ єɴαвℓє ιɴ ιɴвσχ*
+*4. тσ ∂ιѕαвℓє gℓσвαℓℓу*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("🤖");
+                switch (messageContent) {
+                    case "1": 
+                       chatbotEnabled = true;
+                       return reply("*Chatbot has been enabled globally(all chats)!*");
+                        break;
+
+                    case "2": 
+                        chatbotInGroups = true;
+                        chatbotInInbox = false;
+                        return reply("*Chatbot will work in group chats Only!*");
+                        break;
+
+                    case "3": 
+                        chatbotInInbox = true;
+                        chatbotInGroups = false;
+                        return reply("*Chatbot will work in personal chats (inbox) Only!*");
+                        break;
+
+                    case "4": 
+                        chatbotEnabled = false;
+                        return reply("*Chatbot has been disabled globally(all chats)!*");
+                        break;
+
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1, 2, 3 or 4)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+    } catch (e) {
+        console.log(e);
+        reply(`Error: ${e}`);
+    }
+});
+
+gmd({
+    on: "body"
+}, async (Gifted, mek, m, { from, body, isMe, isOwner, isGroup, reply }) => {
+    try {
+        if (chatbotEnabled) {
+            if (isMe) {
+                return;
+            }
+            if ((chatbotInGroups && !isGroup) || (chatbotInInbox && isGroup)) {
+                return; 
+            }
+            const q = body;
+            let data;
+            try {
+                data = await fetchJson(`${global.api}/ai/gpt?apikey=${global.myName}&q=${encodeURIComponent(q)}`);
+                if (data && data.result) {
+                     return reply(data.result);
+                }
+            } catch (e) {
+                console.log('Gpt API failed or no valid response:', e);
+            }
+            try {
+                data = await fetchJson(`${global.api}/ai/geminiaipro?apikey=${global.myName}&q=${encodeURIComponent(q)}`);
+                if (data && data.result) {
+                  return reply(data.result);
+                }
+            } catch (e) {
+                console.log('Gemini API failed or no valid response:', e);
+            }
+            try {
+                data = await fetchJson(`${global.api}/ai/gpt-turbo?apikey=${global.myName}&q=${encodeURIComponent(q)}`);
+                if (data && data.result) {
+                   return reply(data.result);
+                }
+            } catch (e) {
+                console.log('GPT-3 Turbo API failed or no valid response:', e);
+            }
+            try {
+                data = await fetchJson(`${global.api}/ai/geminiai?apikey=${global.myName}&q=${encodeURIComponent(q)}`);
+                if (data && data.result) {
+                   return reply(data.result);
+                }
+            } catch (e) {
+                console.log('Gemini failed or no valid response:', e);
+            }
+            return reply("Sorry, I couldn't generate a response. Please try again later.");
+        }
+
+        if (config.AUTO_BIO === "true") {
+            startAutoBio(Gifted);
+            console.log("👨‍💻 AutoBIO started automatically as per config.");
+        }
+        // Auto audio
+        if (config.AUTO_AUDIO === 'true') {
+            try {
+                let { data } = await axios.get('https://github.com/edugifted/gifted-db/raw/refs/heads/main/autovoice/autovoice.json');
+                for (let vr in data) {
+                    let escapedVr = vr.replace(/[.*+?^=!:${}()|\[\]\/\\]/g, '\\$&');
+                    let regex = new RegExp(`\\b${escapedVr}\\b`, 'gi');
+                    if (regex.test(body)) {
+                      const buffer = await getBuffer(data[vr]);
+                        return Gifted.sendMessage(from, {
+                            audio: buffer,
+                            mimetype: 'audio/mpeg',
+                            ptt: true
+                        }, { quoted: mek });
+                    }
+                }
+            } catch (error) {
+                console.error(error);
+                reply("An error occurred while processing the message.");
+            }
+        }
+    } catch (error) {
+        console.error(error);
+        reply("An unexpected error occurred.");
+    }
+});
+
+gmd({
+    pattern: "autoread",
+    alias: ["setautoread", "setread", "readmessages", "setreadmessages", "autoreadmessages", "setautoreadmessages"],
+    desc: "Enable or Disable Auto Read Messages",
+    category: "owner",
+    react: "📖",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+      const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐔𝐓𝐎 𝐑𝐄𝐀𝐃 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αυтσʀєα∂ αℓℓ мєѕѕαgєѕ*
+*2. тσ єɴαвℓє αυтσʀєα∂ ¢σммαɴ∂ѕ σɴℓу*
+*3. тσ ∂ιѕαвℓє αυтσʀєα∂ fєαтυʀє gℓσвαℓℓу*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("📖");
+                switch (messageContent) {
+                    case "1": 
+                       config.AUTO_READ_MESSAGES = "true";
+                       saveConfig();
+                       return reply("Auto Read is enabled for all.");
+                        break;
+
+                    case "2": 
+                        config.AUTO_READ_MESSAGES = "commands";
+                        saveConfig();
+                        return reply("*Auto Read is enabled for commands only*");
+                        break;
+
+                    case "3": 
+                        config.AUTO_READ_MESSAGES = "false";
+                        saveConfig();
+                        return reply("Auto Read is disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1, 2 or 3)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+    pattern: "autoview",
+    alias: ["setviewstatus", "setautoview", "autoviewstatus", "viewstatus", "setautoviewstatus"],
+    desc: "Enable or disable Auto Read",
+    category: "owner",
+    react: "📖",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐒𝐓𝐀𝐓𝐔𝐒 𝐕𝐈𝐄𝐖 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αυтσνιєω ѕтαтυѕ*
+*2. тσ ∂ιѕαвℓє αυтσνιєω ѕтαтυѕ*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("📖");
+                switch (messageContent) {
+                    case "1": 
+                       config.AUTO_READ_STATUS = "true";
+                       saveConfig();
+                       return reply("Auto View Status is enabled.");
+                        break;
+
+                    case "2": 
+                        config.AUTO_READ_STATUS = "false";
+                        saveConfig();
+                        return reply("Auto View Status is disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+    pattern: "autolike",
+    alias: ["setlikestatus", "setautolike", "autolikestatus", "likestatus", "setautolikestatus"],
+    desc: "Enable or disable Auto Like Status",
+    category: "owner",
+    react: "👍",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂**📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐒𝐓𝐀𝐓𝐔𝐒 𝐋𝐈𝐊𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αυтσℓιкє ѕтαтυѕ*
+*2. тσ ∂ιѕαвℓє αυтσℓιкє ѕтαтυѕ*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("📖");
+                switch (messageContent) {
+                    case "1": 
+                       config.AUTO_LIKE_STATUS = "true";
+                       saveConfig();
+                       return reply("Auto Like Status is enabled.");
+                        break;
+
+                    case "2": 
+                        config.AUTO_LIKE_STATUS = "false";
+                        saveConfig();
+                        return reply("Auto Like Status is disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+    pattern: "autoreact",
+    alias: ["setautoreact", "areact", "setareact"],
+    desc: "Enable or Disable Auto React to all Messages",
+    category: "owner",
+    react: "❤️",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+      const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐔𝐓𝐎 𝐑𝐄𝐀𝐂𝐓 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αυтσʀєα¢т*
+*2. тσ ∂ιѕαвℓє αυтσʀєα¢т*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("❤️");
+                switch (messageContent) {
+                    case "1": 
+                       config.AUTO_REACT = "true";
+                       saveConfig();
+                       return reply("Auto React is enabled.");
+                        break;
+
+                    case "2": 
+                       config.AUTO_REACT = "false";
+                       saveConfig();
+                       return reply("Auto React is disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+    pattern: "anticall",
+    alias: ["setanticall"],
+    desc: "Enable or Disable Anticall",
+    category: "owner",
+    react: "📵",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+      const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐍𝐓𝐈𝐂𝐀𝐋𝐋 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ ∂є¢ℓιɴє ¢αℓℓѕ*
+*2. тσ ∂є¢ℓιɴє & вℓσ¢к ¢αℓℓєʀѕ*
+*3. тσ ∂ιѕαвℓє αɴтι¢αℓℓ*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("⬇🤖");
+                switch (messageContent) {
+                    case "1": 
+                       config.ANTICALL = "true";
+                       saveConfig();
+                        return reply("Anticall has been enabled! Calls will be declined without any action.");
+
+                    case "2": 
+                       config.ANTICALL = "block";
+                       saveConfig();
+                       return reply("Anticall has been set to decline calls and  block callers!");
+                        break;
+
+                    case "3": 
+                        config.ANTICALL = "false";
+                        saveConfig();
+                        return reply("Anticall has been disabled!");
+                        break;
+
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1, 2, or 3 )." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+
+
+
+gmd({
+    pattern: "antiword",
+    alias: ["setantiword"],
+    desc: "Enable or Disable Anti Word Feature",
+    category: "owner",
+    react: "🛑",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+      const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐍𝐓𝐈𝐖𝐎𝐑𝐃 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αɴтιωσʀ∂*
+*2. тσ ∂ιѕαвℓє αɴтιωσʀ∂*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("🛑");
+                switch (messageContent) {
+                    case "1": 
+                        config.ANTIWORD = "true";
+                        saveConfig();
+                        return reply("Anti Word is enabled.");
+                        break;
+
+                    case "2": 
+                        config.ANTIWORD = "false";
+                        saveConfig();
+                        return reply("Anti Word is disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+    pattern: "autoaudio",
+    alias: ["setautoaudio", "autovoice", "setautovoice"],
+    desc: "Enable or Disable Auto Reply Status Feature",
+    category: "owner",
+    react: "💬",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+      const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐔𝐓𝐎 𝐀𝐔𝐃𝐈𝐎 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αυтσαυ∂ισ*
+*2. тσ ∂ιѕαвℓє αυтσαυ∂ισ*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("💬");
+                switch (messageContent) {
+                    case "1": 
+                        config.AUTO_AUDIO = "true";
+                        saveConfig();
+                        return reply("Auto Audio Reply is enabled.");
+                        break;
+
+                    case "2": 
+                        config.AUTO_AUDIO = "false";
+                        saveConfig();
+                        return reply("Auto Audio Reply is disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+
+gmd({
+    pattern: "mode",
+    alias: ["setmode", "botmode", "newmode"],
+    desc: "Set Bot Mode",
+    category: "owner",
+    react: "🔄",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐌𝐎𝐃𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє ρυвℓι¢ мσ∂є
+*2. тσ єɴαвℓє ρʀιναтє мσ∂є*
+*3. тσ єɴαвℓє ιɴвσχ мσ∂є*
+*4. тσ єɴαвℓє gʀσυρ мσ∂є*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("⬇🔄");
+                switch (messageContent) {
+                    case "1": 
+                        config.MODE = "public";
+                        saveConfig();
+                        return reply("Bot Mode Has Been Set to Public (All Chats).");
+                        break;
+
+                    case "2": 
+                        config.MODE = "private";
+                        saveConfig();
+                        return reply("Bot Mode Has Been Set to Private.");
+                        break;
+
+                    case "3": 
+                        config.MODE = "inbox";
+                        saveConfig();
+                        return reply("Bot Has Been Set to Work in Inbox(pm) Only.");
+                        break;
+
+                    case "4": 
+                        config.MODE = "groups";
+                        saveConfig();
+                        return reply("Bot Has Been Set to work in Groups Only.");
+                        break;
+
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1, 2, 3 or 4)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+
+gmd({
+    pattern: "prefix",
+    alias: ["setprefix", "newprefix", "changeprefix"],
+    desc: "Change Bot Prefix",
+    category: "owner",
+    react: "🔄",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, reply, isOwner }) => {
+    try {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+        const newPrefix = q.trim().toLowerCase();
+        if (!newPrefix) {
+            return reply("Please provide a new prefix.");
+        }
+        config.PREFIX = newPrefix;
+        saveConfig(); 
+        return reply(`Bot prefix has been changed to: ${newPrefix}`);
+    } catch (error) {
+        console.error(error);
+        reply("An error occurred while changing the prefix.");
+    }
+});
+
+gmd({
+    pattern: "setstatusreplymsg",
+    alias: ["statusreplymsg", "statusreplymessage", "setstatusreplymessage"],
+    desc: "Change Status Reply Message",
+    category: "owner",
+    react: "🔄",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, reply, isOwner }) => {
+    try {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+        const newMsg = q.trim();
+        if (!newMsg) {
+            return reply("Please provide a new status reply message.");
+        }
+        config.STATUS_REPLY_MSG = newMsg;
+        saveConfig(); 
+        return reply(`Status Reply Message has been changed to: ${newMsg}`);
+    } catch (error) {
+        console.error(error);
+        reply("An error occurred while changing the status reply message.");
+    }
+});
+
+gmd({
+    pattern: "statusreact",
+    alias: ["statuslikeemoji", "autolikeeoji", "setlikeemoji", "setstatuslikeemoji"],
+    desc: "Change Status Like Emoji",
+    category: "owner",
+    react: "🔄",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, reply, isOwner }) => {
+    try {
+      if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+        const newEmoji = q.trim();
+        
+        if (!newEmoji) {
+            return reply("Please provide a new status like emoji.");
+        }
+        config.AUTO_LIKE_EMOJI = newEmoji;
+        saveConfig(); 
+        return reply(`Bot status like emoji has been changed to: ${newEmoji}`);
+    } catch (error) {
+        console.error(error);
+        reply("An error occurred while changing the status like emoji.");
+    }
+});
+
+gmd({
+    pattern: "antilink",
+    alias: ["setantilink"],
+    desc: "Enable/Disable Anti-Link Feature",
+    category: "owner",
+    react: "🔗",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+      const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αɴтιℓιɴк => ωαʀɴ*
+*2. тσ єɴαвℓє αɴтιℓιɴк => ∂єℓєтє*
+*3. тσ єɴαвℓє αɴтιℓιɴк => ʀємσνє/кι¢к*
+*4. тσ ∂ιѕαвℓє αɴтιℓιɴк fєαтυʀє*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("🔗");
+                switch (messageContent) {
+                    case "1": 
+                        config.ANTILINK = "warn";  
+                        saveConfig();
+                        return reply("Anti Link is enabled. Links will be deleted and users warned 3 times before being removed.");
+                        break;
+
+                    case "2": 
+                        config.ANTILINK = "delete";  
+                        saveConfig();
+                        return reply("Anti Link is enabled. Links will be deleted without users being removed.");
+                        break;
+
+                    case "3": 
+                        config.ANTILINK = "true";  
+                        saveConfig();
+                        return reply("Anti Link is enabled. Users who send links will be automatically removed.");
+                        break;
+
+                    case "4": 
+                        config.ANTILINK = "false";  
+                        saveConfig();
+                        return reply("Anti Link is disabled. Links will not be moderated.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1, 2, 3 or 4)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+    pattern: "antidelete",
+    desc: "Enable or Disable the Antiddelete Feature.",
+    category: "owner",
+    react: "🍀",
+    filename: __filename
+}, async (Gifted, mek, m, { from, isOwner, q, reply }) => {
+    if (!isOwner) return reply("Owner Only Command!");
+    const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐍𝐓𝐈𝐃𝐄𝐋𝐄𝐓𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє gℓσвαℓℓу*
+*2. тσ єɴαвℓє fσʀ ¢нαтѕ σɴℓу*
+*3. тσ єɴαвℓє fσʀ ¢нαтѕ & gʀσυρѕ*
+*4. тσ ∂ιѕαвℓє αɴтι∂єℓєтє*
+
+╭───────────────┄┈┈  
+│ *${global.footer}*
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("🍀");
+                switch (messageContent) {
+                    case "1": 
+                        config.ANTI_DELETE = "true";
+                        saveConfig();
+                        return reply("Antidelete Has Been Enabled Globally( Chats, Groups and Statuses).");
+                        break;
+
+                    case "2": 
+                        config.ANTI_DELETE = "inboxonly";
+                        saveConfig();
+                        return reply("Antidelete Has Been Enabled for Chats Only.");
+                        break;
+
+                    case "3": 
+                        config.ANTI_DELETE = "chatsonly";
+                        saveConfig();
+                        return reply("Antidelete Has Been Enabled for Chats & Groups.");
+                        break;
+
+                    case "4": 
+                        config.ANTI_DELETE = "false";
+                        saveConfig();
+                        return reply("Antidelete Has Been Disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1, 2, 3 or 4)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+
+gmd({
+    pattern: "presence",
+    alias: ["setpresence", "wapresence", "setwapresence"],
+    desc: "Set Bot Wapresence",
+    category: "owner",
+    react: "💬",
+    filename: __filename
+}, async (Gifted, mek, m, { from, q, body, reply, isOwner }) => {
+if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐖𝐀𝐏𝐑𝐄𝐒𝐄𝐍𝐂𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αℓωαуѕ σɴℓιɴє"
+*2. тσ єɴαвℓє νιʀтυαℓ туριɴg*
+*3. тσ єɴαвℓє νιʀтυαℓ ʀє¢σʀ∂ιɴg αυ∂ισ*
+*4. тσ ∂ιѕαвℓє ωαρʀєѕєɴ¢є (мαιɴтαιɴɴ ∂єfαυℓт)*
+
+╭───────────────┄┈┈  
+│ **${global.footer}**
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("💬");
+                switch (messageContent) {
+                    case "1": 
+                        config.PRESENCE = "online";
+                        saveConfig();
+                        return reply("Bot Presence Has Been Set to Always Online.");
+                        break;
+
+                    case "2": 
+                        config.PRESENCE = "typing";
+                        saveConfig();
+                        return reply("Bot Presence Has Been Set to Always Composing a Message.");
+                        break;
+
+                     case "3": 
+                        config.PRESENCE = "recording";
+                        saveConfig();
+                        return reply("Bot Presence Has Been Set to Always Recording Audio.");
+                        break;
+
+                     case "4": 
+                        config.PRESENCE = "unavailable";
+                        saveConfig();
+                        return reply("Bot Presence Has Been Set to Default.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1, 2, 3 or 4)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+    pattern: "autobio",
+    desc: "Enable or Disable the Autobio Feature.",
+    category: "owner",
+    react: "🍀",
+    filename: __filename
+}, async (Gifted, mek, m, { from, isOwner, q, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    const infoMess = {
+            image: { url: config.BOT_PIC },
+            caption: `*𝐀𝐔𝐓𝐎𝐁𝐈𝐎 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*  
+
+*ʀєρℓу ωιтн ɴυмвєʀ:*
+
+*1. тσ єɴαвℓє αυтσвισ*
+*2. тσ ∂ιѕαвℓє αυтσвισ*
+
+╭───────────────┄┈┈  
+│ **${global.footer}**
+╰───────────────┄┈┈`,
+            contextInfo: {
+                mentionedJid: [m.sender],
+                forwardingScore: 5,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318387454868@newsletter',
+                        newsletterName: "𝐀𝐋𝐈-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓-💸",
+                    serverMessageId: 143
+                }
+            }
+        };
+
+        const messageSent = await Gifted.sendMessage(from, infoMess);
+        const messageId = messageSent.key.id;
+        Gifted.ev.on("messages.upsert", async (event) => {
+            const messageData = event.messages[0];
+            if (!messageData.message) return;
+            const messageContent = messageData.message.conversation || messageData.message.extendedTextMessage?.text;
+            const isReplyToDownloadPrompt = messageData.message.extendedTextMessage?.contextInfo?.stanzaId === messageId;
+
+            if (isReplyToDownloadPrompt) {
+                await m.react("🍀");
+                switch (messageContent) {
+                    case "1": 
+                        config.AUTO_BIO = "true";
+                        saveConfig();
+                        return reply("Autobio Has Been Enabled.");
+                        break;
+
+                    case "2": 
+                        config.AUTO_BIO = "false";
+                        saveConfig();
+                        return reply("Autobio Has Been Disabled.");
+                        break;
+                            
+                    default:
+                  await Gifted.sendMessage(from, { text: "Invalid option selected. Please reply with a valid number (1 or 2)." });
+                }
+            }
+        }); 
+      await m.react("✅");
+});
+
+gmd({
+  pattern: "addsudo",
+  alias: ["setsudo"],
+  react: "✅",
+  desc: "Add a user to sudo list",
+  category: "owner",
+  filename: __filename
+},
+async (Gifted, mek, m, { quoted, sender, isOwner, from, reply }) => {
+  if (!isOwner)
+    return Gifted.sendMessage(from, { text: "*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*" }, { quoted: mek });
+
+  if (!quoted)
+    return reply("Reply to a user to add to sudo.");
+
+  try {
+    const userJid = quoted.sender;
+    const userNumber = userJid.split("@")[0];
+
+    const added = addSudo(userNumber);
+    const msg = added
+      ? `✅ Added @${userNumber} to sudo list.`
+      : `⚠️ @${userNumber} is already in sudo list.`;
+
+    console.log(`[SUDO] addSudo called for: ${userNumber} | Added: ${added}`);
+
+    await Gifted.sendMessage(from, {
+      text: msg,
+      mentions: [userJid]
+    }, { quoted: mek });
+
+  } catch (err) {
+    console.error("[addsudo ERROR]:", err);
+    Gifted.sendMessage(from, { text: "❌ Failed to add sudo."}, { quoted: mek });
+  }
+});
+
+gmd({
+  pattern: "delsudo",
+  react: "❌",
+  desc: "Remove a user from sudo list",
+  category: "owner",
+  filename: __filename
+},
+async (Gifted, mek, m, { quoted, sender, isOwner, from,  reply}) => {
+  if (!isOwner)
+    return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*" );
+
+  if (!quoted)
+    return reply( "Reply to a user to remove from sudo.");
+
+  try {
+    const userJid = quoted.sender;
+    const userNumber = userJid.split("@")[0];
+
+    const removed = removeSudo(userNumber);
+    const msg = removed
+      ? `❌ Removed @${userNumber} from sudo list.`
+      : `⚠️ @${userNumber} is not in the sudo list.`;
+
+    console.log(`[SUDO] removeSudo called for: ${userNumber} | Removed: ${removed}`);
+
+    await Gifted.sendMessage(from, {
+      text: msg,
+      mentions: [userJid]
+    }, { quoted: mek });
+
+  } catch (err) {
+    console.error("[delsudo ERROR]:", err);
+    Gifted.sendMessage(from, { text: "❌ Failed to remove sudo." }, { quoted: mek });
+  }
+});
+
+
+gmd({
+  pattern: "listsudo",
+  react: "📃",
+  desc: "List all sudo users",
+  category: "owner",
+  filename: __filename
+},
+async (Gifted, mek, m, { from }) => {
+  try {
+    const sudoList = getSudoNumbers();
+    if (!sudoList.length)
+      return Gifted.sendMessage(from, { text: "⚠️ No sudo users added yet." }, { quoted: mek });
+
+    let msg = "*👑 SUDO USERS:*\n\n";
+    sudoList.forEach((num, i) => {
+      msg += `${i + 1}. wa.me/${num}\n`;
+    });
+
+    await Gifted.sendMessage(from, { text: msg }, { quoted: mek });
+
+  } catch (err) {
+    console.error("[listsudo ERROR]:", err);
+    Gifted.sendMessage(from, { text: "❌ Failed to list sudo users." }, { quoted: mek });
+  }
+});
+
+
+
+ gmd({
+    pattern: "setautobio",
+    desc: "Set Autobio based on config.AUTO_BIO.",
+    category: "owner",
+    react: "🍀",
+    filename: __filename
+}, async (Gifted, mek, m, { from, isOwner, reply }) => {
+    if (!isOwner) return reply("*📛 тнιѕ ιѕ αɴ σωɴєʀ ᴄσммαɴ∂*");
+    if (autoBioEnabled) {
+        reply("*Auto Bio enabled!* 🔄");
+        startAutoBio(Gifted);
+    } else {
+        reply("*Auto Bio disabled!* 😶");
+        stopAutoBio();
+    }
+});
+
+
+function startAutoBio(Gifted) {
+    if (autoBioInterval) clearInterval(autoBioInterval); 
+    autoBioInterval = setInterval(async () => {
+        const bioText = ` ${config.BOT_NAME} 𝐈𝐒 𝐀𝐂𝐓𝐈𝐕𝐄 𝟐𝟒/𝟕 | 𝐓𝐈𝐌𝐄: [${time}, ${date}]  |  𝐐𝐔𝐎𝐓𝐄: ${config.AUTO_BIO_QUOTE}`;
+        await Gifted.updateProfileStatus(bioText);
+        secondCount++;
+        if (secondCount > 59) {
+            secondCount = 1;
+        }
+    }, 1000); 
+}
+
+function stopAutoBio() {
+    if (autoBioInterval) {
+        clearInterval(autoBioInterval);  
+        autoBioInterval = null;
+        secondCount = 1;
+        console.log("👨‍💻 AutoBIO feature stopped.");
+    }
+} 
+
+
